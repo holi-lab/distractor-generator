@@ -1,0 +1,262 @@
+﻿{
+    "80": {
+        "question": "Which keyword is used to define a block of code that may raise exceptions while actively handling those exceptions in Python?",
+        "answer": "try",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "raise": 1.0,
+            "throw": 0.0,
+            "finally": 3.0,
+            "catch": 4.0,
+            "handle": 2.0,
+            "except": 5.0
+        }
+    },
+    "81": {
+        "question": "What is the purpose of the 'break' statement in a Python loop?",
+        "answer": "To exit the loop immediately, regardless of the loop's condition.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "To skip the current iteration of the loop and move to the next iteration.": 5.0,
+            "To terminate the entire program execution.": 2.0,
+            "To reverse the order of iterations in the loop.": 0.0,
+            "To pause the loop until a condition is met.": 3.5,
+            "To restart the loop from the beginning.": 2.5,
+            "To execute the loop's condition check an additional time.": 2.0
+        }
+    },
+    "82": {
+        "question": "Which built-in Python method can be used to add all elements of an iterable to the end of a list?",
+        "answer": "extend()",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "insert()": 2.0,
+            "append()": 5.0,
+            "add()": 3.5,
+            "concat()": 1.5,
+            "merge()": 0.0,
+            "push()": 3.0
+        }
+    },
+    "83": {
+        "question": "Which of the following statements is true regarding a Python 'while' loop?",
+        "answer": "It continues to execute as long as the specified condition remains true.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "A 'while' loop always executes at least once, even if the condition is initially false.": 2.0,
+            "A 'while' loop executes a fixed number of times determined at the start of the loop.": 3.5,
+            "In Python, 'while' loops are used only for iterating over collections like lists and dictionaries.": 3.5,
+            "The 'while' loop in Python is functionally identical to a 'for' loop and can be used interchangeably.": 4.0,
+            "The condition in a 'while' loop must be a comparison between numbers.": 2.0,
+            "A 'while' loop in Python will automatically terminate when it encounters an error.": 0.0
+        }
+    },
+    "84": {
+        "question": "What is the keyword used to define a function in Python?",
+        "answer": "def",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "function": 3.0,
+            "func": 2.5,
+            "define": 5.0,
+            "create": 0.0,
+            "procedure": 1.5,
+            "lambda": 3.0
+        }
+    },
+    "85": {
+        "question": "Which of the following best describes polymorphism in object-oriented programming? (2 points)",
+        "answer": "Polymorphism allows objects to be processed differently based on their data type or class.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Polymorphism involves the use of operators to perform mathematical functions on different data types.": 0.5,
+            "Polymorphism allows a class to inherit all properties and methods from multiple parent classes.": 3.0,
+            "Polymorphism is a technique used to achieve precise memory management in programming.": 0.5,
+            "Polymorphism is the process of creating multiple classes from a single class.": 2.0,
+            "Polymorphism is a method for converting one data type into another within the same class.": 4.0,
+            "Polymorphism is the ability of an object to take on many forms by changing its class type.": 5.0
+        }
+    },
+    "86": {
+        "question": "Which Python function can be used to iterate over a sequence and apply a function to each element, returning a new list with the results?",
+        "answer": "The 'map()' function.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "The 'reduce()' function.": 1.0,
+            "The 'enumerate()' function.": 4.0,
+            "The 'filter()' function.": 4.0,
+            "The 'accumulate()' function.": 2.0,
+            "The 'sort()' function.": 0.0,
+            "The 'zip()' function.": 4.0
+        }
+    },
+    "87": {
+        "question": "What is the primary difference between a Python tuple and a Python list?",
+        "answer": "A tuple is immutable, while a list is mutable.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "A tuple allows duplicate elements, whereas a list does not.": 1.5,
+            "A tuple is mutable, while a list is immutable.": 5.0,
+            "Tuples are defined with square brackets, and lists with parentheses.": 4.0,
+            "Tuples can be extended with new elements, lists cannot.": 2.5,
+            "A list can hold only one type of data, while a tuple can hold multiple types.": 2.0,
+            "A tuple supports item assignment, but a list does not.": 0.0
+        }
+    },
+    "88": {
+        "question": "I want to shuffle a deck of cards using the Python random module. Read the problem below and choose the correct option. I wrote the following code to shuffle the list 'deck' containing tuples of card ranks and suits.\n\nHowever, when I run the code, the deck remains unchanged. What should I do to shuffle it correctly?\n\n```python\nimport random\ndeck = [(rank, suit) for rank in '23456789JQKA' for suit in '\u2660\u2665\u2666\u2663']\n\nshuffled_deck = deck\n\nprint(shuffled_deck)\n```\n- Answer: You need to use random.shuffle(deck) to shuffle the list in place.",
+        "answer": "You need to use random.shuffle(deck) to shuffle the list in place.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Replacing 'deck' with a new list using random.choice will shuffle the deck.": 1.5,
+            "Using random.sample(deck, len(deck)) will shuffle the deck.": 2.0,
+            "Applying random.permutation(deck) will shuffle the deck.": 1.0,
+            "Calling random.seed(deck) before assignment will shuffle the deck.": 1.5,
+            "Assigning shuffled_deck = random.shuffle(deck) will shuffle the deck.": 5.0,
+            "Using deck.sort(key=lambda x: random.random()) will shuffle the deck.": 4.0
+        }
+    },
+    "89": {
+        "question": "Which of the following data structures in Python provides the fastest way to iterate over elements in insertion order?",
+        "answer": "Dictionary (since Python 3.7)",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "List (not as efficient as a dictionary for insertion order iteration)": 5.0,
+            "Tuple (lack of ability to insert)": 1.5,
+            "Array (no direct support for insertion order iteration in Python)": 3.5,
+            "Set (insertion order is not preserved)": 2.0,
+            "Heap (primarily used for priority queuing, not insertion order)": 0.0,
+            "Set comprehension (does not maintain insertion order)": 3.0
+        }
+    },
+    "90": {
+        "question": "Which of the following are valid identifiers in Python? 1: `_python3` 2: `False` 3: `__init__` 4: `def` 5: `variable_name`",
+        "answer": "1, 3, 5",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Python identifiers can start with a number.": 3.5,
+            "Python identifiers must begin with an uppercase letter.": 4.5,
+            "Identifiers can include special characters like @ and #.": 1.5,
+            "Keywords like 'False' can be used as identifiers.": 2.5,
+            "The identifier 'def' is valid because it is not a keyword.": 0.0,
+            "Reserved keywords in Python can be freely used as identifiers.": 3.0
+        }
+    },
+    "91": {
+        "question": "Which of the following statements about Python dictionaries is true? (one answer, 2pt)",
+        "answer": "Dictionaries can have keys of different data types",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Dictionaries can have duplicate keys.": 1.5,
+            "Values in dictionaries must be of the same data type.": 2.5,
+            "Keys in dictionaries must be integers.": 3.0,
+            "Dictionaries are immutable and cannot be changed after creation.": 0.0,
+            "Dictionaries automatically sort keys in ascending order.": 3.0,
+            "Dictionaries use square brackets for key-value pairs.": 5.0
+        }
+    },
+    "92": {
+        "question": "Which of the following keywords is used to skip the current iteration of a loop in Python?",
+        "answer": "continue",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "halt": 0.5,
+            "skipto": 3.0,
+            "terminate": 0.5,
+            "next": 4.0,
+            "pass": 2.0,
+            "skip": 5.0
+        }
+    },
+    "93": {
+        "question": "What is the primary purpose of the `self` parameter in Python class methods?",
+        "answer": "It refers to the instance of the class that is being operated on.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "It is used to define the default value of instance variables.": 3.5,
+            "It encrypts the class methods for security purposes.": 0.0,
+            "It initializes static variables within the class.": 2.0,
+            "It is used to declare private attributes in a class.": 4.0,
+            "It automatically imports all the necessary modules for the class.": 1.0,
+            "It refers to the superclass of the current object.": 2.5
+        }
+    },
+    "94": {
+        "question": "What function in the math module returns the square root of a given number in Python?",
+        "answer": "math.sqrt()",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "math.sqrt_value()": 3.5,
+            "math.find_sqrt()": 1.0,
+            "math.sqroot()": 5.0,
+            "math.pow_root()": 1.0,
+            "math.root()": 3.5,
+            "math.square()": 1.0
+        }
+    },
+    "95": {
+        "question": "What is the primary purpose of a Python package?",
+        "answer": "To organize multiple modules within a namespace",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "To convert Python code into machine language": 3.0,
+            "To manage Python memory allocation": 0.5,
+            "To compile Python code into a binary executable": 5.0,
+            "To connect Python to web servers automatically": 2.5,
+            "To increase the execution speed of Python scripts": 3.0,
+            "To encrypt Python code for security purposes": 1.0
+        }
+    },
+    "96": {
+        "question": "What is the result of calling the method list.append() on a Python list?",
+        "answer": "The method appends an element to the end of the list, modifying the original list, and returns None.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "The method appends an element to the end of the list and returns the index of the new element.": 2.0,
+            "The method creates a new list with the element appended and returns the new list.": 4.5,
+            "The method appends an element to a copy of the list, leaving the original list unchanged and returns the new list.": 3.0,
+            "The method appends an element to the end of the list and returns the appended element.": 4.0,
+            "The method sorts the list in-place, then appends an element at the end.": 1.5,
+            "The method adds an element to the beginning of the list, modifying the original list, and returns None.": 0.0
+        }
+    },
+    "97": {
+        "question": "Which of the following data structures in Python is mutable and can store elements of different types?",
+        "answer": "list",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "tuple": 4.5,
+            "frozenset": 1.5,
+            "int": 1.5,
+            "bytes": 3.0,
+            "float": 0.0,
+            "str": 4.5
+        }
+    },
+    "98": {
+        "question": "Which of the following methods is used to join elements of a list into a single string in Python?",
+        "answer": "The ''.join(listname) method is used to concatenate elements of a list into a single string, with an empty string as the separator.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "The append() method is used to concatenate elements of a list into a string.": 2.5,
+            "The split() method is used to join elements of a list into a single string.": 5.0,
+            "The add() method is used to join elements of a list into a single string.": 1.0,
+            "The merge() method is used to join list elements into a single string.": 4.0,
+            "The union() function is used to concatenate list elements into a string.": 1.5,
+            "The push() method is used to concatenate list elements into a string.": 1.0
+        }
+    },
+    "99": {
+        "question": "Which method is used to add a new key-value pair to an existing Python dictionary without replacing any existing entries?",
+        "answer": "The `update()` method",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "The 'extend()' method": 1.0,
+            "The 'append()' method": 3.0,
+            "The 'add()' method": 4.0,
+            "The 'concat()' method": 0.0,
+            "The 'push()' method": 2.0,
+            "The 'insert()' method": 5.0
+        }
+    }
+}

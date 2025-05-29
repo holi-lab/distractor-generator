@@ -1,0 +1,1042 @@
+﻿{
+    "0": {
+        "question": "Which of the following best describes the role of a data scientist?",
+        "answer": "A data scientist is responsible for extracting insights from structured and unstructured data using analytical, statistical, and programming skills.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "A data scientist focuses solely on creating graphic designs for data visualization.": 2.5,
+            "A data scientist's main role is to perform clerical work, including filing and data entry.": 2.5,
+            "A data scientist primarily works on hardware engineering and computer assembly.": 1.0,
+            "A data scientist is mainly tasked with maintaining network security and software installation.": 4.0,
+            "A data scientist is primarily responsible for managing the daily operations of a business.": 5.0,
+            "A data scientist is responsible for cooking and serving meals at a data center cafeteria.": 0.0
+        }
+    },
+    "1": {
+        "question": "Which approach to data science is primarily focused on using data-driven algorithms to make predictions or decisions? This involves training models on large datasets to identify patterns without being explicitly programmed to perform a specific task.",
+        "answer": "Machine Learning",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Statistical Graphics": 2.5,
+            "Data Warehousing": 3.5,
+            "Spreadsheet Analysis": 3.0,
+            "Data Entry": 0.5,
+            "Manual Data Processing": 2.0,
+            "Database Management": 3.5
+        }
+    },
+    "2": {
+        "question": "Consider the challenge of customer satisfaction analysis for a hotel chain. The chain has historical data on customer feedback scores and wants to build a system that can **categorize future feedback** into predefined sentiment categories: positive, neutral, or negative. What type of machine learning problem does this represent, and what is the correct target prediction?",
+        "answer": "sentiment category - classification",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Customer satisfaction score - regression": 3.5,
+            "Sentiment category - clustering": 5.0,
+            "Sentiment analysis - unsupervised learning": 3.5,
+            "Feedback length - regression": 0.5,
+            "Review content - reinforcement learning": 2.0,
+            "Feedback type - heuristic": 0.5
+        }
+    },
+    "3": {
+        "question": "In machine learning, what term is used to describe the process of transforming raw data into an understandable format used for prediction, modeling, or analysis?",
+        "answer": "Data Preprocessing",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Model Tuning": 3.0,
+            "Data Warehousing": 2.5,
+            "Result Evaluation": 0.0,
+            "Data Archiving": 1.0,
+            "Data Postprocessing": 4.5,
+            "Data Cleanup": 4.0
+        }
+    },
+    "4": {
+        "question": "Which phase involves collecting initial data to determine the scope and requirements of a machine learning project?",
+        "answer": "Discovery phase",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Optimization phase": 2.0,
+            "Evaluation phase": 2.0,
+            "Deployment phase": 0.0,
+            "Testing phase": 2.0,
+            "Implementation phase": 4.0,
+            "Model training phase": 5.0
+        }
+    },
+    "5": {
+        "question": "In machine learning, which of the following is not considered a benefit of exploratory data analysis (EDA) before model training?",
+        "answer": "It guarantees the identification of the optimal hyperparameters for model training",
+        "d_type": "Correct knowledge",
+        "d_scores": {
+            "It aids in detecting anomalies and outliers that may affect model performance.": 2.5,
+            "It helps in identifying patterns and relationships within the data.": 2.5,
+            "It allows for the assessment of data completeness and quality.": 4.5,
+            "It improves data visualization for better understanding and communication.": 2.0,
+            "It provides insights into data distributions and feature importance.": 3.0,
+            "It assists in formulating hypotheses for further analysis.": 0.5
+        }
+    },
+    "6": {
+        "question": "In machine learning, which of the following is a common example of unstructured data?",
+        "answer": "Social media posts containing text, emojis, and images.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "An XML document with a clear hierarchical structure": 3.5,
+            "JSON data with key-value pair formats": 4.0,
+            "An SQL database with defined schema and constraints": 0.0,
+            "A relational database table with structured entries": 2.0,
+            "A CSV file with well-defined headers and values": 3.0,
+            "A spreadsheet with columns and rows organized by categories": 2.5
+        }
+    },
+    "7": {
+        "question": "Which of the following is not a typical benefit associated with effective data visualization techniques? Data visualization often involves using visual elements to interpret complex data sets more intuitively. Consider the advantages it offers in terms of trend identification and data comparison. Which of the following does not represent a common benefit of effective data visualization?",
+        "answer": "Increasing the amount of raw data analyzed at once",
+        "d_type": "Correct knowledge",
+        "d_scores": {
+            "Facilitating better data-driven decision making": 1.5,
+            "Improving communication of insights and findings": 1.0,
+            "Identifying trends and patterns effectively": 2.5,
+            "Making complex data more accessible to various audiences": 1.5,
+            "Aiding in the quick comparison of different data sets": 4.5,
+            "Enhancing understanding through intuitive visuals": 4.0
+        }
+    },
+    "8": {
+        "question": "In the context of data preprocessing for machine learning, which technique is least appropriate for handling missing categorical data?",
+        "answer": "Random value imputation: Filling missing entries with random category values",
+        "d_type": "Correct knowledge",
+        "d_scores": {
+            "Mode imputation: Filling missing entries using the most frequent category value": 3.0,
+            "Most frequent value imputation: Filling missing entries with the most common category value": 4.0,
+            "Frequent category imputation: Replacing missing entries with the most common category value": 3.5,
+            "Mode imputation: Replacing missing values with the most frequent category": 2.5,
+            "Using a special category: Assigning a separate category for missing data": 1.0,
+            "Using a separate 'missing' category: Treating missing data as its own category": 1.0
+        }
+    },
+    "9": {
+        "question": "What is one disadvantage of using imputation to handle missing data during preprocessing?",
+        "answer": "It can reduce the variance and obscure data trends.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "It always improves model performance.": 2.5,
+            "It ensures all missing data is accurately represented.": 4.5,
+            "It enhances the interpretability of the dataset.": 2.5,
+            "It improves the accuracy of outlier detection.": 0.0,
+            "It reduces computational complexity during data processing.": 1.0,
+            "It increases the amount of available data for analysis.": 4.5
+        }
+    },
+    "10": {
+        "question": "Which of the following algorithms works by finding hyperplanes that best separate data points of different classes in the feature space?",
+        "answer": "Support Vector Machine (SVM)",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Random Forest": 1.5,
+            "Decision Tree": 4.0,
+            "K-means Clustering": 3.5,
+            "Naive Bayes": 1.5,
+            "Linear Regression": 2.5,
+            "K-Nearest Neighbors": 2.0
+        }
+    },
+    "11": {
+        "question": "In the context of machine learning model evaluation, which of the following metrics is specifically designed for classification models rather than regression models? Consider this when assessing how well the model differentiates between classes.",
+        "answer": "Precision",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Adjusted R-squared": 3.0,
+            "R-squared": 3.5,
+            "Mean Absolute Percentage Error": 5.0,
+            "Mean Absolute Error": 0.5,
+            "Root Mean Squared Error": 2.0,
+            "Mean Squared Error": 1.0
+        }
+    },
+    "12": {
+        "question": "In the context of a binary classification model evaluation, which of the following metrics represents the proportion of actual positive cases that are correctly identified by the model?",
+        "answer": "Recall (True Positive Rate)",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "F1 Score": 2.5,
+            "Accuracy": 4.0,
+            "False Positive Rate": 2.5,
+            "Negative Predictive Value": 0.0,
+            "Specificity": 1.0,
+            "Precision": 5.0
+        }
+    },
+    "13": {
+        "question": "What is one primary disadvantage of using deep neural networks for solving machine learning tasks?",
+        "answer": "They require large amounts of labeled data to perform effectively.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "They do not require any hyperparameter tuning for optimal performance.": 1.0,
+            "They outperform all other machine learning models in every scenario.": 0.5,
+            "They inherently require no feature engineering due to their simplicity.": 3.5,
+            "They are always computationally inexpensive to train and deploy.": 2.5,
+            "They can learn efficiently from small datasets without overfitting.": 4.0,
+            "They are particularly suited for tasks with small datasets due to their simplicity.": 3.5
+        }
+    },
+    "14": {
+        "question": "Which concept in neural networks is inspired by the brain's neuronal structure, involving interconnected nodes that simulate the way biological neurons process information?",
+        "answer": "Artificial Neural Network",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Cloud Computing": 0.5,
+            "Relational Database": 1.0,
+            "Quantum Computing": 3.5,
+            "Linear Regression": 3.5,
+            "Genetic Algorithm": 5.0,
+            "Blockchain Technology": 1.5
+        }
+    },
+    "15": {
+        "question": "What is the role of the activation function in a Multi-Layer Perceptron (MLP)?",
+        "answer": "The activation function introduces non-linearity, allowing the network to learn complex patterns.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "The activation function determines the number of layers in the MLP.": 3.5,
+            "The activation function guarantees that all neurons in the network will be activated simultaneously.": 0.0,
+            "The activation function is responsible for normalizing the output of each layer to the range [0, 1].": 4.5,
+            "The activation function is used solely to reduce the dimensionality of the input data.": 2.0,
+            "The activation function is only used to speed up the computation in neural networks.": 1.0,
+            "The activation function controls the weight adjustment process during backpropagation.": 4.0
+        }
+    },
+    "16": {
+        "question": "What is the primary advantage of using PyTorch over TensorFlow for certain machine learning tasks?",
+        "answer": "PyTorch offers dynamic computation graphs, which provide greater flexibility during model development and debugging.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "PyTorch provides faster training speeds than TensorFlow on all hardware configurations.": 2.5,
+            "PyTorch comes with native support for mobile deployment, unlike TensorFlow.": 0.0,
+            "PyTorch uses less memory compared to TensorFlow for all types of models.": 4.0,
+            "PyTorch has a built-in feature for automatically optimizing hyperparameters better than TensorFlow.": 3.5,
+            "PyTorch exclusively supports distributed training out of the box, whereas TensorFlow does not.": 3.5,
+            "PyTorch models do not require any data preprocessing compared to TensorFlow models.": 1.5
+        }
+    },
+    "17": {
+        "question": "Which of the following is not a characteristic that differentiates deep learning from traditional machine learning models?",
+        "answer": "Deep learning models always require less data compared to traditional machine learning models.",
+        "d_type": "Correct knowledge",
+        "d_scores": {
+            "Deep learning models are often capable of handling unstructured data better than traditional models.": 2.5,
+            "Deep learning models typically require high computational power for training.": 3.5,
+            "Deep learning models can automatically extract features from raw data.": 3.5,
+            "Deep learning models can potentially model complex functions and patterns due to their multi-layered architecture.": 1.0,
+            "Traditional machine learning models often require manual feature engineering.": 1.5,
+            "Deep learning models are generally more flexible in terms of architecture than traditional models.": 3.0
+        }
+    },
+    "18": {
+        "question": "In the context of preprocessing for machine learning models, which of the following best describes the technique known as 'Normalization'?",
+        "answer": "Normalization is the process of scaling individual samples to have unit norm, ensuring that each feature contributes equally to the distance measures used by models such as KNN.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Normalization is the process of converting categorical features into numerical values so that they can be used in machine learning models.": 4.0,
+            "Normalization refers to reducing the dimensionality of the dataset by selecting only the most relevant features.": 2.5,
+            "Normalization ensures that the data is distributed according to a normal distribution, which is crucial for algorithms that assume Gaussian distribution.": 2.5,
+            "Normalization adjusts data to fit within a standard normal distribution with a mean of 0 and a standard deviation of 1.": 5.0,
+            "Normalization involves eliminating correlated features to reduce redundancy and improve the efficiency of the model.": 0.0,
+            "Normalization involves filling missing values in the dataset to prevent bias during model training.": 1.0
+        }
+    },
+    "19": {
+        "question": "Which metric is most appropriate for assessing the impact of poorly fitting high-variance outliers on the performance of a regression model?",
+        "answer": "Mean Absolute Error (MAE) - It provides insight into the average magnitude of errors without disproportionately magnifying large errors.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Adjusted R-squared - Adjusted for the number of predictors, but similarly doesn't address error size specifically.": 2.5,
+            "Mean Squared Error (MSE) - Similar to RMSE, it emphasizes larger errors due to squaring, not ideal for handling outliers.": 4.5,
+            "R-squared - This metric is more concerned with how well the model explains the variance, rather than directly measuring prediction error magnitude.": 3.5,
+            "R-squared - It measures the proportion of variance explained by the model, but does not focus on error magnitudes.": 2.5,
+            "Adjusted R-squared - It accounts for the number of predictors in the model, but like R-squared, it doesn\u2019t directly address error magnitude or outliers.": 2.0,
+            "F1 Score - Used primarily in classification models, and not directly applicable to regression error analysis.": 0.0
+        }
+    },
+    "20": {
+        "question": "Which of the following is a common technique used to prevent overfitting in deep learning models?",
+        "answer": "Dropout",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Batch Normalization": 4.5,
+            "Recurrent Neural Networks": 3.5,
+            "Gradient Clipping": 3.0,
+            "Increasing the learning rate": 0.0,
+            "Learning Rate Annealing": 1.0,
+            "Convolutional Layer": 3.0
+        }
+    },
+    "21": {
+        "question": "In the context of Support Vector Machine (SVM), what role does the kernel trick play?",
+        "answer": "The kernel trick allows SVMs to find a linear separation in higher-dimensional space without explicitly performing the transformation, enabling them to handle non-linearly separable data.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "The kernel trick allows SVMs to automatically adjust parameters like C and gamma for optimal performance.": 2.0,
+            "The kernel trick assists in finding the optimal hyperplane in the original input space without any transformation.": 3.5,
+            "The kernel trick ensures that SVMs can only handle linearly separable data.": 4.5,
+            "The kernel trick is used to reduce the dimensionality of the input space to make calculations faster.": 4.0,
+            "The kernel trick is primarily used to speed up the training process of SVMs on large datasets.": 1.0,
+            "The kernel trick enables SVMs to handle only datasets with missing values by filling them with default values.": 0.0
+        }
+    },
+    "22": {
+        "question": "Which of the following is a primary application of unsupervised learning?",
+        "answer": "Clustering data to discover underlying patterns or groupings without predefined labels.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Utilizing supervised learning algorithms to identify relationships between variables.": 5.0,
+            "Training a model to make predictions based on labeled data.": 3.0,
+            "Applying reinforcement learning to train agents by rewarding desired behaviors.": 2.0,
+            "Utilizing regression techniques to forecast future values in a labeled dataset.": 0.5,
+            "Using labeled data to improve the performance of a classification algorithm.": 4.0,
+            "Optimizing a model's accuracy using backpropagation with labeled datasets.": 0.5
+        }
+    },
+    "23": {
+        "question": "Which of the following is a characteristic of decision trees used in a Random Forest?",
+        "answer": "They are built using random subsets of data and features to enhance model diversity.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "They do not require any parameter tuning during the learning process.": 1.5,
+            "They remain unchanged in all iterations to maintain consistency.": 0.5,
+            "They are built using only one feature to ensure simplicity.": 3.0,
+            "They always use the entire dataset for each tree without any randomization.": 5.0,
+            "They prioritize short trees to minimize computational complexity.": 4.0,
+            "They rely solely on linear relationships between variables.": 1.0
+        }
+    },
+    "24": {
+        "question": "Why is feature selection an important step in machine learning model development?",
+        "answer": "Because feature selection reduces the complexity of the model and improves its performance.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Because feature selection expands the feature space unnecessarily.": 3.0,
+            "Because feature selection increases data processing requirements.": 1.0,
+            "Because feature selection ignores the correlation between features.": 0.0,
+            "Because feature selection guarantees overfitting of the model.": 4.5,
+            "Because feature selection increases the likelihood of model bias.": 4.0,
+            "Because feature selection decreases model interpretability.": 2.5
+        }
+    },
+    "25": {
+        "question": "Which of the following is not a typical application of machine learning in healthcare? Machine learning is widely used in healthcare for tasks like disease prediction, personalized treatment plans, patient monitoring, and medical imaging analysis.",
+        "answer": "Conducting financial audits of healthcare institutions",
+        "d_type": "Correct knowledge",
+        "d_scores": {
+            "Assisting in drug discovery": 4.5,
+            "Predicting patient outcomes": 1.5,
+            "Medical imaging analysis": 1.5,
+            "Disease prediction": 2.5,
+            "Personalized treatment plans": 2.5,
+            "Patient monitoring": 2.5
+        }
+    },
+    "26": {
+        "question": "In the context of machine learning, which of the following tasks is least associated with data pre-processing? Data pre-processing involves transforming raw data into a format that is suitable for modeling and analysis. This includes tasks like handling missing values, normalization, and feature encoding. Which of these tasks is the least relevant during data pre-processing?",
+        "answer": "Model training",
+        "d_type": "Correct knowledge",
+        "d_scores": {
+            "Data cleaning": 2.0,
+            "Feature encoding": 4.0,
+            "Outlier detection": 1.0,
+            "Handling missing values": 1.5,
+            "Normalization": 3.5,
+            "Data transformation": 3.0
+        }
+    },
+    "27": {
+        "question": "What is a common benefit of using data visualization techniques in data analysis?",
+        "answer": "They enable quicker comprehension of complex data sets through graphical representations.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "They only work for small datasets and are ineffective for handling large data sets.": 3.5,
+            "They eliminate the need for any further data analysis or statistical computation.": 1.0,
+            "They guarantee completely accurate data analysis results without any errors.": 0.0,
+            "They make data less understandable by adding unnecessary complexity through graphics.": 3.0,
+            "They replace the need for data scientists by fully automating data interpretation.": 2.5,
+            "They are only useful for numeric data and cannot represent categorical or temporal data.": 5.0
+        }
+    },
+    "28": {
+        "question": "Which of the following is a primary benefit of utilizing dimensionality reduction techniques in machine learning?",
+        "answer": "Reducing computational cost and improving model performance.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Directly increasing the training dataset size": 2.5,
+            "Guaranteeing a 100% model accuracy": 0.0,
+            "Automatically choosing the best algorithm for a dataset": 1.0,
+            "Eliminating the need for data preprocessing": 2.5,
+            "Increasing the number of features to improve accuracy": 5.0,
+            "Ensuring that the model never overfits": 4.0
+        }
+    },
+    "29": {
+        "question": "Which technology enables systems to improve performance by learning from past experiences and data without being explicitly programmed?",
+        "answer": "Machine Learning",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "3D Printing": 0.5,
+            "Virtual Reality": 1.5,
+            "Quantum Computing": 4.5,
+            "Optical Character Recognition": 1.5,
+            "Static Analysis": 2.5,
+            "Blockchain Technology": 4.5
+        }
+    },
+    "30": {
+        "question": "Which machine learning technique is most suitable for making predictions based on both text data and numerical data?",
+        "answer": "Ensemble methods",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "K-Means Clustering": 2.0,
+            "Naive Bayes with multinomial distribution": 4.0,
+            "Association Rule Mining": 1.0,
+            "Principal Component Analysis": 5.0,
+            "Anomaly Detection with Isolation Forests": 0.0,
+            "Support Vector Machines with linear kernel": 3.0
+        }
+    },
+    "31": {
+        "question": "What is the process in natural language processing that involves breaking down text into its structural components, like sentences and words?",
+        "answer": "Tokenization",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Sentiment Analysis": 3.0,
+            "Semantic Analysis": 3.5,
+            "Summarization": 0.5,
+            "Information Retrieval": 1.5,
+            "Parsing": 5.0,
+            "Translation": 1.5
+        }
+    },
+    "32": {
+        "question": "Which of the following technologies is primarily used for data transmission rather than data analysis?",
+        "answer": "Fiber Optic Cable",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Big Data Analytics Platform": 4.5,
+            "Business Intelligence Software": 3.5,
+            "Machine Learning Algorithm": 0.0,
+            "Data Mining Software": 3.0,
+            "Predictive Analytics Tools": 2.0,
+            "Data Warehouse": 2.0
+        }
+    },
+    "33": {
+        "question": "What is the process called when an AI model outputs a probability distribution over different classes for a given input?",
+        "answer": "Softmax",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Dropout": 1.0,
+            "Batch Normalization": 3.0,
+            "Backpropagation": 3.5,
+            "Argmax": 5.0,
+            "Data Augmentation": 0.0,
+            "ReLU Activation": 2.5
+        }
+    },
+    "34": {
+        "question": "Which component in a reinforcement learning algorithm is responsible for deciding the next action based on the current policy?",
+        "answer": "Policy",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Learning rate": 0.5,
+            "Discount factor": 0.5,
+            "Transition model": 2.5,
+            "Value function": 5.0,
+            "Environment": 2.5,
+            "Reward function": 4.0
+        }
+    },
+    "35": {
+        "question": "Which of the following scenarios is best suited for a classification algorithm?",
+        "answer": "Diagnosing medical conditions based on patient symptoms",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Predicting stock prices based on historical data": 4.0,
+            "Generating artwork based on user preferences": 0.0,
+            "Identifying the optimal route for delivery trucks": 2.5,
+            "Optimizing a website layout for better user engagement": 0.5,
+            "Forecasting next month's electricity usage": 1.0,
+            "Predicting customer lifetime value based on purchase history": 1.5
+        }
+    },
+    "36": {
+        "question": "In the context of machine learning, classification is primarily concerned with which of the following tasks?",
+        "answer": "Assigning data points to discrete categories",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Optimizing a function through trial and error": 1.0,
+            "Analyzing the causal relationship between variables": 0.0,
+            "Predicting continuous numerical values based on input data": 4.5,
+            "Training a model to generate new data samples": 4.0,
+            "Performing data reduction to simplify datasets": 2.0,
+            "Finding patterns and groups in unlabeled data": 3.5
+        }
+    },
+    "37": {
+        "question": "Which of the following is not a common use case for deep learning in image processing?",
+        "answer": "Manual annotation of images: Deep learning models typically automate this process.",
+        "d_type": "Correct knowledge",
+        "d_scores": {
+            "Image generation: Creating new images from learned patterns in existing data.": 4.0,
+            "Object detection: Locating objects in an image and drawing bounding boxes around them.": 2.0,
+            "Image enhancement: Improving the quality and clarity of images.": 3.0,
+            "Semantic segmentation: Classifying each pixel in an image according to the object it belongs to.": 5.0,
+            "Facial recognition: Identifying or verifying a person based on their facial features.": 0.0,
+            "Image classification: Identifying objects within images.": 1.0
+        }
+    },
+    "38": {
+        "question": "In machine learning, feature scaling is essential for certain algorithms to perform optimally. Which of the following algorithms does not typically require feature scaling?",
+        "answer": "Decision Trees",
+        "d_type": "Correct knowledge",
+        "d_scores": {
+            "K-Nearest Neighbors": 2.0,
+            "Logistic Regression": 1.5,
+            "Neural Networks": 3.0,
+            "Principal Component Analysis": 3.5,
+            "Linear Regression": 3.5,
+            "Support Vector Machines": 1.5
+        }
+    },
+    "39": {
+        "question": "What is the primary benefit of using dimensionality reduction techniques such as PCA in machine learning models?",
+        "answer": "They help reduce the complexity of the model by decreasing the number of input features while preserving essential information.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "They facilitate the automatic labeling of datasets.": 0.0,
+            "They guarantee a higher model accuracy irrespective of data quality.": 1.0,
+            "They ensure that data is always standardized before processing.": 4.5,
+            "They convert all numerical data into categorical data for better model interpretation.": 3.5,
+            "They increase the number of input features to improve model accuracy.": 3.5,
+            "They eliminate the need for any feature selection in the model.": 2.5
+        }
+    },
+    "40": {
+        "question": "In preparing a dataset of text samples for training a natural language processing model, you notice that certain words are repeated numerous times across different samples, leading to an overrepresentation in the data. What preprocessing technique can help mitigate this issue by reducing the weight of frequently occurring words?",
+        "answer": "Term Frequency-Inverse Document Frequency (TF-IDF)",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Bag-of-Words (BoW)": 4.0,
+            "Tokenization": 1.0,
+            "Bag of Words": 5.0,
+            "Data Augmentation": 0.0,
+            "Lemmatization": 2.0,
+            "Stemming": 3.0
+        }
+    },
+    "41": {
+        "question": "Consider a machine learning model used for a recruitment process. The training data included candidates' educational background, previous job roles, and skills but excluded any racial information. After deployment, it was observed that the model preferred candidates from certain schools predominantly associated with a specific race. Which of the following is NOT a plausible reason for this unintentional bias?",
+        "answer": "The algorithm randomly assigns higher chances to certain schools irrespective of the racial association.",
+        "d_type": "Correct knowledge",
+        "d_scores": {
+            "The model might have overfitted to patterns that were not intended to be there, reinforcing existing biases.": 3.0,
+            "The model might have learned proxies for racial data, such as school names that correlate with racial demographics.": 4.5,
+            "There could be historical bias in the data used to train the model, reflecting prior inequalities.": 1.0,
+            "The feature selection process might have inadvertently included variables closely related to race.": 4.0,
+            "Human intervention during data preparation could have led to unconscious biases being embedded in the model.": 1.0,
+            "The dataset might have imbalanced representation, with more data from candidates of certain schools.": 1.5
+        }
+    },
+    "42": {
+        "question": "Which type of bias in machine learning occurs when a model reflects the unintended biases of the developers or organizations that created the model?",
+        "answer": "Algorithmic Bias",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Confirmation Bias": 4.0,
+            "Attrition Bias": 1.0,
+            "Publication Bias": 0.5,
+            "Overfitting Bias": 1.5,
+            "Selection Bias": 3.5,
+            "Sampling Bias": 4.5
+        }
+    },
+    "43": {
+        "question": "In the context of machine learning and deep learning, which of the following is a method specifically used for unsupervised learning?",
+        "answer": "Clustering",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Supervised Learning": 5.0,
+            "Feature Selection": 2.0,
+            "Backpropagation": 0.5,
+            "Cross-validation": 4.0,
+            "Gradient Descent": 1.0,
+            "Reinforcement Learning": 2.5
+        }
+    },
+    "44": {
+        "question": "Which of the following tasks is least likely to benefit from advancements in natural language processing?",
+        "answer": "Analyzing facial expressions",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Text summarization": 4.0,
+            "Machine translation": 1.5,
+            "Chatbot interactions": 1.0,
+            "Sentiment analysis in text": 3.5,
+            "Named entity recognition": 0.5,
+            "Speech recognition": 4.5
+        }
+    },
+    "45": {
+        "question": "Which technique is best suited for detecting object boundaries in an image during preprocessing?",
+        "answer": "Edge detection",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Noise reduction": 2.0,
+            "Histogram equalization": 4.5,
+            "Color correction": 0.5,
+            "Image sharpening": 4.0,
+            "Image scaling": 0.5,
+            "Contrast stretching": 3.5
+        }
+    },
+    "46": {
+        "question": "Which of the following is a primary consideration when implementing fairness in AI systems?",
+        "answer": "Ensuring that AI decisions do not result in biased outcomes against any particular group.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Maximizing the speed of AI responses without regard to bias.": 2.0,
+            "Maximizing data collection to improve AI learning, regardless of privacy concerns.": 3.5,
+            "Prioritizing cost reduction over ethical considerations in AI deployment.": 2.0,
+            "Focusing solely on improving the accuracy of predictions without considering fairness.": 4.5,
+            "Designing the user interface of AI systems to be more appealing.": 0.0,
+            "Ensuring AI systems can operate with minimum human oversight.": 3.0
+        }
+    },
+    "47": {
+        "question": "A group of data science enthusiasts is debating the roles of supervised and unsupervised learning techniques. Which statement shows a misunderstanding?",
+        "answer": "Unsupervised learning requires labeled data to function effectively.",
+        "d_type": "Correct knowledge",
+        "d_scores": {
+            "Supervised learning uses labeled datasets to train models.": 3.5,
+            "Unsupervised learning is useful for dimensionality reduction.": 3.5,
+            "Unsupervised learning finds patterns and relationships in data without labels.": 4.5,
+            "In supervised learning, the model is trained using input-output pairs.": 1.0,
+            "Supervised learning can be used for classification tasks.": 1.0,
+            "Clustering is a common technique used in unsupervised learning.": 1.5
+        }
+    },
+    "48": {
+        "question": "Which of the following is a limitation of deep learning models compared to traditional machine learning algorithms?",
+        "answer": "Deep learning models require a large amount of labeled data to perform effectively.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Deep learning models universally have lower deployment costs compared to traditional machine learning algorithms.": 0.5,
+            "Deep learning models are faster to train than traditional machine learning algorithms on small datasets.": 3.5,
+            "Deep learning models are always faster to train than traditional machine learning algorithms.": 1.5,
+            "Deep learning models require less data preprocessing than traditional machine learning algorithms.": 4.5,
+            "Deep learning models do not require any computational resources beyond what is needed for traditional machine learning algorithms.": 4.0,
+            "Deep learning models are always more interpretable than traditional machine learning algorithms.": 1.0
+        }
+    },
+    "49": {
+        "question": "Which of the following is a challenge faced by machine learning models in understanding natural language semantics?",
+        "answer": "Difficulty in capturing nuances such as idioms and sarcasm.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Inability to process large datasets efficiently.": 3.5,
+            "Misinterpretation of numerical data due to semantic errors.": 5.0,
+            "Unlimited data availability for training purposes.": 0.0,
+            "Challenges in understanding structured data formats.": 1.5,
+            "Inability to process text in structured formats.": 3.5,
+            "Trouble with numerical computations and arithmetic operations.": 1.5
+        }
+    },
+    "50": {
+        "question": "Which technology uses machine learning to analyze visual data, enabling the identification and classification of images?",
+        "answer": "Image recognition technology",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Data encryption technology": 0.5,
+            "Blockchain technology": 2.0,
+            "Image compression technology": 4.0,
+            "Natural language processing technology": 5.0,
+            "Quantum computing technology": 2.5,
+            "Network routing technology": 1.0
+        }
+    },
+    "51": {
+        "question": "Which technique is primarily used for sentiment analysis in text data?",
+        "answer": "Natural Language Processing (NLP)",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Electromagnetic Spectrum Analysis": 2.5,
+            "Game Theory": 1.0,
+            "Thermodynamics": 0.0,
+            "Quantum Computing": 3.0,
+            "Digital Signal Processing": 3.5,
+            "Linear Regression": 5.0
+        }
+    },
+    "52": {
+        "question": "Which type of neural network is primarily used for processing sequential data like speech signals?",
+        "answer": "Recurrent Neural Network (RNN)",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Generative Adversarial Network (GAN)": 1.0,
+            "Radial Basis Function Network (RBFN)": 0.5,
+            "Convolutional Neural Network (CNN)": 3.5,
+            "Self-Organizing Map (SOM)": 2.0,
+            "Transformer Network": 5.0,
+            "Feedforward Neural Network": 3.0
+        }
+    },
+    "53": {
+        "question": "Which physical law explains the behavior of a pendulum swinging in the absence of air resistance and friction?",
+        "answer": "Conservation of energy",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Snell's law of refraction": 0.0,
+            "Bernoulli's principle": 3.0,
+            "Newton's law of universal gravitation": 4.0,
+            "Ohm's law": 1.5,
+            "Boyle's law": 1.5,
+            "Hooke's law": 5.0
+        }
+    },
+    "54": {
+        "question": "Which aspect of AI ethics focuses on ensuring AI systems make decisions that can be understood and traced by humans, promoting accountability?",
+        "answer": "Transparency",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Security": 2.0,
+            "Autonomy": 1.5,
+            "Bias": 3.5,
+            "Privacy": 3.0,
+            "Efficiency": 0.0,
+            "Fairness": 5.0
+        }
+    },
+    "55": {
+        "question": "Which of the following ethical concerns have arisen with the deployment of autonomous vehicles in urban environments?",
+        "answer": "The potential for bias in decision-making algorithms that could favor certain demographics during unavoidable accidents.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "The enhancement of environmentally friendly city planning with fewer emissions.": 4.0,
+            "The increase in public trust in technology due to autonomous vehicles' reliability.": 2.0,
+            "The reduction in traffic congestion due to efficient navigation systems.": 2.5,
+            "The strengthening of urban infrastructure to support additional autonomous vehicle deployment.": 1.5,
+            "The creation of new job opportunities in vehicle maintenance and software development.": 0.5,
+            "The decrease in pedestrian accidents due to improved sensor technology.": 4.5
+        }
+    },
+    "56": {
+        "question": "Which of the following is an ethical concern related to the development and deployment of artificial intelligence systems?",
+        "answer": "Bias and Fairness",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Advancements in virtual reality graphics": 0.5,
+            "Increased automation capabilities": 5.0,
+            "Faster data processing speeds": 3.0,
+            "Enhanced data storage technology": 3.0,
+            "Extended battery life in devices": 0.5,
+            "Improved computational efficiency": 3.0
+        }
+    },
+    "57": {
+        "question": "Which of the following techniques is not commonly used for text preprocessing in natural language processing?",
+        "answer": "Principal Component Analysis",
+        "d_type": "Correct knowledge",
+        "d_scores": {
+            "Tokenization": 2.5,
+            "Part-of-speech tagging": 0.0,
+            "Stop word removal": 2.0,
+            "Lowercasing": 2.0,
+            "Lemmatization": 4.0,
+            "Stemming": 4.5
+        }
+    },
+    "58": {
+        "question": "Which of the following techniques is specifically designed for classifying non-linear data?",
+        "answer": "Support Vector Machine with a kernel trick",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "K-Means Clustering": 4.0,
+            "Linear Discriminant Analysis": 3.0,
+            "Naive Bayes": 0.5,
+            "Principal Component Analysis": 4.5,
+            "Linear Regression": 2.0,
+            "Decision Trees without any modifications": 1.0
+        }
+    },
+    "59": {
+        "question": "What term is used to describe a model that independently improves its performance by continuously iterating over data without explicit programming?",
+        "answer": "Machine Learning",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Data Analysis": 2.5,
+            "Big Data Processing": 2.0,
+            "Predictive Analytics": 5.0,
+            "Information Retrieval": 0.0,
+            "Statistical Modeling": 2.0,
+            "Data Mining": 3.5
+        }
+    },
+    "60": {
+        "question": "Which machine learning technique is most suitable for predicting the future values of a time series dataset?",
+        "answer": "Time series forecasting",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Principal component analysis": 3.5,
+            "Convolutional neural networks": 5.0,
+            "Natural language processing": 0.0,
+            "Clustering algorithms": 2.0,
+            "Dimensionality reduction": 3.0,
+            "Reinforcement learning": 1.5
+        }
+    },
+    "61": {
+        "question": "In the context of neural networks, which of the following is a key difference between supervised and unsupervised learning?",
+        "answer": "Supervised learning involves labeled data, whereas unsupervised learning works with unlabeled data to find patterns.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Supervised learning is used for language processing, while unsupervised learning is only applicable to image recognition.": 2.5,
+            "The key distinction is that supervised learning works with ordinal data, whereas unsupervised learning is limited to nominal data.": 1.5,
+            "Supervised learning involves the use of reinforcement signals to guide learning, while unsupervised learning relies on labeled data.": 1.5,
+            "Supervised learning does not require a predefined target variable, whereas unsupervised learning needs a target variable.": 3.5,
+            "Supervised learning is primarily used for clustering analysis, while unsupervised learning is mainly for regression tasks.": 4.0,
+            "In supervised learning, the system predicts the labels of new data without needing any past examples, unlike unsupervised learning.": 2.0
+        }
+    },
+    "62": {
+        "question": "What is the primary purpose of using activation functions in neural networks?",
+        "answer": "To introduce non-linearity into the model",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "To store the data during forward propagation": 2.5,
+            "To decrease the network's dimensionality": 0.5,
+            "To increase the learning rate during training": 4.0,
+            "To initialize the weights of the neural network": 1.5,
+            "To perform regularization and prevent overfitting": 5.0,
+            "To enhance the architecture's memory capacity": 1.5
+        }
+    },
+    "63": {
+        "question": "Which machine learning technique is most effective for reducing the dimensionality of data while preserving variance?",
+        "answer": "Principal Component Analysis (PCA)",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "K-means clustering": 2.5,
+            "Logistic Regression": 1.0,
+            "Support Vector Machines (SVM)": 4.5,
+            "Naive Bayes": 0.0,
+            "Linear Regression": 4.0,
+            "Random Forests": 3.0
+        }
+    },
+    "64": {
+        "question": "Which of the following techniques helps in managing the bias-variance trade-off in machine learning models?",
+        "answer": "Using ensemble methods like bagging or boosting can help manage the bias-variance trade-off by combining multiple models to improve prediction accuracy.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Increasing model complexity by adding more hyperparameters ensures better handling of the bias-variance trade-off by providing greater flexibility.": 4.0,
+            "Reducing the size of the training dataset is a key technique for handling the bias-variance trade-off, as it makes the model less complex.": 4.5,
+            "Using only a single simple model approach is the best strategy to address the bias-variance trade-off by focusing on simplicity.": 1.0,
+            "Regularly changing the data distribution during training aids in managing the bias-variance trade-off by adapting the model dynamically.": 0.5,
+            "Ignoring feature selection processes helps in balancing the bias-variance trade-off since all features contribute equally to the model.": 3.5,
+            "Increasing the learning rate of the model can effectively manage the bias-variance trade-off by speeding up the convergence.": 1.5
+        }
+    },
+    "65": {
+        "question": "What is a primary disadvantage of using Mean Squared Error (MSE) as a metric for evaluating regression models?",
+        "answer": "MSE is not robust to outliers, as it heavily penalizes larger errors by squaring them.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "MSE can handle non-linear relationships without any adjustments.": 1.0,
+            "MSE does not change when scaling the data.": 2.5,
+            "MSE is not suitable for linear regression models.": 5.0,
+            "MSE increases the complexity of the model output calculation.": 3.0,
+            "MSE always results in a negative score for poor models.": 3.5,
+            "MSE does not provide any insights about model performance.": 0.0
+        }
+    },
+    "66": {
+        "question": "In the context of machine learning, what is the main purpose of clustering algorithms?",
+        "answer": "To group similar data points into clusters based on feature similarity without using labeled outcomes.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "To generate new examples by learning the distribution of a dataset.": 2.0,
+            "To predict future outcomes based on historical data patterns.": 4.0,
+            "To test system stability under stress conditions to identify potential points of failure.": 0.0,
+            "To sequence data points based on time to identify trends.": 1.5,
+            "To optimize a function by minimizing or maximizing an objective.": 2.5,
+            "To classify data into predefined categories using labeled examples.": 5.0
+        }
+    },
+    "67": {
+        "question": "In the context of kernel methods in machine learning, which of the following describes the 'kernel trick'?",
+        "answer": "It allows the algorithm to operate in a high-dimensional space without explicitly computing the coordinates of the data in that space, by using a kernel function.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "It allows an algorithm to bypass the need for labeled data by converting all inputs into zero vectors.": 3.0,
+            "It involves using a neural network to preprocess data before applying traditional algorithms.": 3.0,
+            "It requires manually transforming data into higher dimensions before processing to improve accuracy.": 5.0,
+            "It automatically selects the best hyperparameters for any given machine learning model without user intervention.": 1.5,
+            "It provides a way to increase the training data size exponentially without incurring any additional computational cost.": 2.0,
+            "It enables unsupervised learning methods to outperform supervised methods by focusing solely on data clustering.": 0.5
+        }
+    },
+    "68": {
+        "question": "Which of the following describes a common use case for the Support Vector Machine (SVM) algorithm?",
+        "answer": "Classification tasks where margin maximization for separating classes is crucial.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Solving differential equations in physics simulations.": 1.0,
+            "Finding the shortest path in a graph.": 3.0,
+            "Generating random samples from a normal distribution.": 1.0,
+            "Forecasting future financial stock prices using time series analysis.": 5.0,
+            "Compressing files to reduce storage space.": 3.0,
+            "Performing data encryption and decryption.": 2.0
+        }
+    },
+    "69": {
+        "question": "What is the key difference between precision and recall in the context of a binary classification problem?",
+        "answer": "Precision measures the accuracy of positive predictions, focusing on how many of the predicted positive instances are actually positive, while recall measures how many of the actual positive instances were correctly predicted.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Recall measures how many predictions are correctly labeled regardless of class.": 5.0,
+            "Precision focuses on the total number of false positive predictions.": 1.5,
+            "Recall calculates the total number of instances, both positive and negative, that were correctly predicted.": 3.5,
+            "Precision and recall are used interchangeably as they measure the same aspect of predictions.": 3.0,
+            "Precision measures how many of the actual negative instances were correctly predicted.": 2.0,
+            "Recall is only concerned with the accuracy of negative predictions.": 0.0
+        }
+    },
+    "70": {
+        "question": "Which of the following techniques is used to prevent overfitting in a neural network model during training?",
+        "answer": "Dropout regularization",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Reducing the size of the training set": 2.5,
+            "Maximizing the model's parameters": 2.5,
+            "Increasing the learning rate": 0.0,
+            "Removing regularization layers": 4.0,
+            "Using an extremely small batch size": 3.5,
+            "Disabling data augmentation": 2.5
+        }
+    },
+    "71": {
+        "question": "Which of the following is a limitation of the DBSCAN clustering algorithm?",
+        "answer": "DBSCAN struggles with data containing varying densities, as it relies on a fixed radius value for neighborhood definition.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "DBSCAN performs poorly on low-dimensional data due to overfitting.": 3.0,
+            "DBSCAN requires the number of clusters to be specified in advance.": 4.0,
+            "DBSCAN is significantly faster than K-means for large datasets.": 0.5,
+            "DBSCAN requires the number of clusters to be specified beforehand.": 3.5,
+            "DBSCAN is incapable of identifying clusters with non-convex shapes.": 3.0,
+            "DBSCAN can efficiently cluster high-dimensional data without preprocessing.": 1.0
+        }
+    },
+    "72": {
+        "question": "In the field of machine learning, which of the following is a technique primarily used for unsupervised learning?",
+        "answer": "K-means clustering",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Decision trees": 3.0,
+            "Gradient boosting": 2.5,
+            "Support vector machines": 1.0,
+            "Random forest": 3.5,
+            "Logistic regression": 3.0,
+            "Linear regression": 2.0
+        }
+    },
+    "73": {
+        "question": "Which of the following techniques is commonly used for feature extraction in dimensionality reduction?",
+        "answer": "Principal Component Analysis (PCA)",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Gradient Boosting": 0.0,
+            "Naive Bayes": 1.0,
+            "Support Vector Machines (SVM)": 5.0,
+            "K-Nearest Neighbors (KNN)": 4.0,
+            "Random Forests": 2.5,
+            "Decision Trees": 2.5
+        }
+    },
+    "74": {
+        "question": "Which of the following is a characteristic of heuristic search algorithms in artificial intelligence?",
+        "answer": "Heuristic search algorithms use domain-specific knowledge to guide the search process and find solutions more efficiently than blind search methods.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Heuristic search algorithms only work for problems without numerical values.": 0.0,
+            "Heuristic search algorithms do not use any domain-specific knowledge.": 3.5,
+            "Heuristic search algorithms always guarantee finding the optimal solution.": 1.5,
+            "Heuristic search algorithms are the same as brute force algorithms.": 4.0,
+            "Heuristic search algorithms require more computational resources than blind search methods.": 3.0,
+            "Heuristic search algorithms cannot be applied to problems with incomplete information.": 3.0
+        }
+    },
+    "75": {
+        "question": "What is the primary objective of the PCA (Principal Component Analysis) algorithm in machine learning?",
+        "answer": "The primary objective of PCA is to reduce the dimensionality of a dataset while preserving as much variance as possible.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "The primary objective of PCA is to cluster data points into distinct groups based on their distance from each other.": 3.5,
+            "The primary objective of PCA is to increase the accuracy of machine learning models by adding noise to the dataset.": 0.0,
+            "The primary objective of PCA is to standardize the dataset by scaling features to a mean of zero and a standard deviation of one.": 4.5,
+            "The primary objective of PCA is to improve the interpretability of data by converting categorical variables into numerical ones.": 1.5,
+            "The primary objective of PCA is to build decision trees by identifying important features in the dataset.": 2.0,
+            "The primary objective of PCA is to increase the dimensionality of a dataset to enhance feature extraction.": 3.5
+        }
+    },
+    "76": {
+        "question": "Which of the following is not a common technique used to improve the generalization of ensemble models in machine learning?",
+        "answer": "Gradient descent optimization.",
+        "d_type": "Correct knowledge",
+        "d_scores": {
+            "Bagging (Bootstrap Aggregating)": 1.5,
+            "Stacking": 3.0,
+            "Bagging": 2.0,
+            "Boosting": 3.0,
+            "Random forest": 2.5,
+            "Feature subsampling": 3.0
+        }
+    },
+    "77": {
+        "question": "Which one of the following students has misunderstood the process of encoding categorical variables in machine learning? The students are discussing different strategies to convert categorical data into a form usable by machine learning models. Identify the student who is incorrect in their explanation.",
+        "answer": "Zara: \"Using one-hot encoding allows us to ordinally rank categorical variables based on their importance.\"",
+        "d_type": "Correct knowledge",
+        "d_scores": {
+            "Ethan: \"Target encoding involves replacing a categorical value with the mean of the target variable for that category.\"": 3.5,
+            "Olivia: \"One-hot encoding creates a binary column for each category, which is especially useful for nominal data.\"": 0.0,
+            "James: \"One-hot encoding increases the feature space by adding binary columns for each category.\"": 2.5,
+            "Fatima: \"Binary encoding converts categories into binary numbers and splits them into separate columns.\"": 4.0,
+            "Mia: \"Ordinal encoding is useful when the categorical variable has a natural order but no assumed distance between categories.\"": 2.5,
+            "Raj: \"Using dummy variables is quite similar to one-hot encoding but drops one category to avoid multicollinearity.\"": 2.5
+        }
+    },
+    "78": {
+        "question": "In the context of machine learning, what is a feature scaling technique that rescales the data to have a mean of 0 and a standard deviation of 1?",
+        "answer": "Standardization",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Binarization": 0.0,
+            "Logarithmic scaling": 2.5,
+            "Min-max scaling": 4.0,
+            "Equilibration": 2.5,
+            "Normalization": 5.0,
+            "Vectorization": 1.0
+        }
+    },
+    "79": {
+        "question": "Which of the following statements about the use of one-hot encoding in data preprocessing is correct?",
+        "answer": "One-hot encoding transforms categorical data into a binary vector for each category, allowing the model to understand categorical inputs numerically.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "One-hot encoding is primarily used to reduce the dimensionality of data.": 2.5,
+            "One-hot encoding is the best method for handling all types of categorical data, regardless of the situation.": 1.0,
+            "One-hot encoding combines multiple categorical variables into a single feature.": 3.5,
+            "One-hot encoding assigns a unique binary code to each continuous variable in the dataset.": 3.0,
+            "One-hot encoding allows for modeling sequential dependencies in categorical data.": 0.0,
+            "One-hot encoding converts numerical data into categorical data.": 5.0
+        }
+    }
+}

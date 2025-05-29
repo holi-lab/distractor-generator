@@ -1,0 +1,262 @@
+﻿{
+    "80": {
+        "question": "In the context of machine learning algorithms, which of the following is a primary method for handling overfitting?",
+        "answer": "Implementing regularization techniques such as L1 or L2 regularization.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Increasing the complexity of the model": 5.0,
+            "Removing dropout layers in neural networks": 3.5,
+            "Using a smaller dataset to train the model": 2.5,
+            "Switching to a simpler model without considering bias-variance tradeoff": 0.0,
+            "Increasing the number of hidden layers without constraints": 2.0,
+            "Removing the validation dataset": 2.0
+        }
+    },
+    "81": {
+        "question": "In the context of machine learning, which of the following describes the term 'generalization'?",
+        "answer": "The ability of a machine learning model to perform well on new, unseen data after being trained on a limited sample.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "The ability of a machine learning model to reduce its feature set to improve computational efficiency.": 0.0,
+            "The process of reducing the complexity of a model to improve computation time.": 1.0,
+            "The use of a machine learning model to tune hyperparameters for optimizing training accuracy.": 2.5,
+            "The technique of using transfer learning to improve the performance of a pre-trained model.": 2.5,
+            "The ability of a machine learning model to memorize training data and perform perfectly on that data.": 4.5,
+            "The process of increasing the complexity of a machine learning model to enhance its performance on the training set.": 4.5
+        }
+    },
+    "82": {
+        "question": "In the context of evaluating machine learning models, which of the following metrics is generally not suitable for imbalanced datasets?",
+        "answer": "Accuracy: It doesn't consider the imbalance in class distribution and may give a misleading sense of model performance.",
+        "d_type": "Correct knowledge",
+        "d_scores": {
+            "Precision: It focuses on the proportion of correctly predicted positive observations.": 3.0,
+            "G-Mean: Used to evaluate the balance between classification performance on majority and minority classes.": 3.0,
+            "F1 Score: Considered for imbalanced datasets because it balances precision and recall.": 1.5,
+            "ROC AUC: It evaluates the model's ability to distinguish between classes, useful for imbalanced datasets.": 2.0,
+            "Recall: Suitable for imbalanced datasets as it looks at the ability to find all positive instances.": 1.5,
+            "Precision: This metric focuses on the accuracy of positive predictions, making it suitable for imbalanced datasets.": 4.0
+        }
+    },
+    "83": {
+        "question": "In the realm of machine learning, which term describes the problem of a model being too simple to capture the underlying trend of the data?",
+        "answer": "Underfitting",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Neural network pruning": 3.0,
+            "Overfitting": 5.0,
+            "Regularization": 3.5,
+            "Feature scaling": 1.5,
+            "Gradient descent": 0.0,
+            "Hyperparameter tuning": 2.0
+        }
+    },
+    "84": {
+        "question": "Which type of machine learning involves the model learning directly from raw input data without human-labeled outputs, such as predicting underlying structures or patterns within the data?",
+        "answer": "Unsupervised Learning",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Supervised Learning": 4.0,
+            "Semi-supervised Learning": 2.5,
+            "Transfer Learning": 1.0,
+            "Deep Learning": 5.0,
+            "Federated Learning": 0.0,
+            "Reinforcement Learning": 1.5
+        }
+    },
+    "85": {
+        "question": "Which evaluation metric is known for being sensitive to outliers and is suitable for regression models where capturing large errors is crucial?",
+        "answer": "Root Mean Squared Error (RMSE) is sensitive to outliers because it squares the error terms, giving larger errors more weight.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Mean Absolute Error (MAE) provides equal weight to all errors regardless of size.": 1.0,
+            "Mean Squared Logarithmic Error (MSLE) is sensitive to outliers because it heavily penalizes large differences due to logarithmic scaling.": 2.0,
+            "Mean Bias Error (MBE) is sensitive to outliers because it indicates the average bias or error direction.": 0.0,
+            "Mean Absolute Error (MAE) is sensitive to outliers because it uses the absolute value of errors.": 2.5,
+            "R-squared is sensitive to outliers because it measures the proportion of variance explained by the model, being affected by extreme values.": 2.0,
+            "Adjusted R-squared is sensitive to outliers as it adjusts the R-squared for the number of predictors in the model.": 0.5
+        }
+    },
+    "86": {
+        "question": "In the context of machine learning, what is the importance of feature engineering, and how does it impact model performance?",
+        "answer": "Feature engineering is the process of transforming raw data into meaningful features that improve the predictive performance of machine learning models by enabling them to better capture the underlying patterns in the data.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Model performance is unaffected by feature engineering, as models automatically adjust to accommodate raw data.": 2.5,
+            "The importance of feature engineering is diminishing as raw data alone can accurately predict outcomes.": 3.0,
+            "Feature engineering is primarily about increasing the quantity of data rather than improving its quality.": 2.0,
+            "The process of feature engineering involves selecting random features without considering their impact on the model.": 1.0,
+            "Feature engineering is only necessary for supervised learning tasks, not for unsupervised learning.": 3.0,
+            "Feature engineering produces features that do not contribute to model performance and therefore can be ignored.": 3.5
+        }
+    },
+    "87": {
+        "question": "Which component of a neural network is responsible for adjusting the parameters based on the error between predicted and actual outcomes?",
+        "answer": "Optimizer",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Bias term": 2.5,
+            "Input layer": 2.0,
+            "Dropout layer": 0.5,
+            "Activation function": 5.0,
+            "Output layer": 4.0,
+            "Pooling layer": 1.0
+        }
+    },
+    "88": {
+        "question": "What is the purpose of a loss function in machine learning models?",
+        "answer": "To quantify the difference between the predicted values and the actual values, guiding the optimization of the model.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "To increase the dataset size by generating synthetic data.": 1.0,
+            "To determine the architecture of the neural network.": 3.5,
+            "To encrypt the data for better security during processing.": 3.0,
+            "To store the output data after model training is complete.": 4.5,
+            "To establish communication between different models in an ensemble.": 2.5,
+            "To visualize the distribution of data features before training.": 0.5
+        }
+    },
+    "89": {
+        "question": "What is a key difference between L1 and L2 regularization techniques in machine learning?",
+        "answer": "L1 regularization can lead to sparse models by driving some coefficients to zero, while L2 regularization tends to shrink coefficients evenly but does not eliminate them.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "L1 regularization involves adjusting coefficients exponentially, whereas L2 regularization adjusts them logarithmically.": 0.0,
+            "L1 regularization is used exclusively for linear models, while L2 can only be applied to non-linear models.": 1.5,
+            "L1 regularization is only effective for small datasets, while L2 regularization works best on large datasets.": 2.5,
+            "L2 regularization can lead to feature selection, eliminating irrelevant features, while L1 regularization maintains all features.": 3.5,
+            "In L1 regularization, the penalty term is the sum of absolute values of the errors, while in L2, it is the sum of squared errors.": 3.5,
+            "L2 regularization can lead to sparse models by driving some coefficients to zero, while L1 regularization tends to shrink coefficients evenly.": 4.0
+        }
+    },
+    "90": {
+        "question": "Which of the following is the least likely to improve the performance of a neural network model during training?",
+        "answer": "Using a larger batch size without considering memory constraints.",
+        "d_type": "Correct knowledge",
+        "d_scores": {
+            "Implementing early stopping to avoid unnecessary computations.": 3.0,
+            "Normalizing input data to enhance training stability.": 1.5,
+            "Adding more layers to the network for better feature extraction.": 2.0,
+            "Using data augmentation techniques to increase dataset diversity.": 3.5,
+            "Adjusting the learning rate dynamically using a learning rate schedule.": 2.5,
+            "Using dropout to prevent overfitting during training.": 2.5
+        }
+    },
+    "91": {
+        "question": "Which machine learning approach aims to optimize the cumulative reward by interacting with an environment and learns through trial and error?",
+        "answer": "Reinforcement Learning",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Supervised Learning": 4.5,
+            "Unsupervised Learning": 3.0,
+            "Semi-supervised Learning": 2.0,
+            "Transfer Learning": 1.0,
+            "Deep Learning": 4.5,
+            "Federated Learning": 0.0
+        }
+    },
+    "92": {
+        "question": "Which of the following techniques is primarily used for increasing model interpretability by reducing the number of features?",
+        "answer": "Feature selection methods like Recursive Feature Elimination (RFE) are used to identify and select the most relevant features for a model.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Data scaling techniques like Min-Max Scaling are utilized for reducing features and improving model interpretability.": 3.0,
+            "Hyperparameter tuning enhances model interpretability by selecting the most relevant features.": 3.0,
+            "Data augmentation techniques are primarily used for increasing model interpretability by reducing the number of features.": 1.0,
+            "Ensemble methods like Random Forest inherently reduce features to increase model interpretability.": 2.0,
+            "Data cleaning processes aim to reduce the number of features for enhanced interpretability in models.": 1.0,
+            "Principal Component Analysis (PCA) reduces the number of features by selecting only the most important ones for interpretability.": 5.0
+        }
+    },
+    "93": {
+        "question": "What is the primary goal of implementing fairness in machine learning algorithms?",
+        "answer": "To ensure the outcomes of the algorithm do not disproportionately benefit or harm any particular group.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "To reduce development costs by decreasing the complexity of the algorithm.": 0.0,
+            "To ensure that the algorithm can handle as much data as possible without restricting input sources.": 3.0,
+            "To ensure that the algorithm is always faster and more efficient in computations.": 2.0,
+            "To maximize the accuracy of the algorithm regardless of group impact.": 5.0,
+            "To increase user engagement by personalizing the algorithm results for individual users.": 4.0,
+            "To eliminate the need for data preprocessing by the developers.": 1.0
+        }
+    },
+    "94": {
+        "question": "Which of the following practices helps ensure the security of your data when using public Wi-Fi networks?",
+        "answer": "Use a Virtual Private Network (VPN).",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Access sensitive information using unsecured websites.": 4.0,
+            "Disable all security software on your device.": 1.0,
+            "Share your Wi-Fi password with strangers.": 2.5,
+            "Leave your device unattended while connected to public Wi-Fi.": 0.0,
+            "Turn off your firewall for unrestricted access.": 2.5,
+            "Connect to any available network without verifying its legitimacy.": 5.0
+        }
+    },
+    "95": {
+        "question": "Which of the following is a characteristic of a discriminative model in machine learning?",
+        "answer": "It models the decision boundary between different classes rather than modeling the distribution of each class.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "It is used to optimize the reconstruction of data rather than classification accuracy.": 1.0,
+            "It models the distribution of each class rather than the boundaries between classes.": 5.0,
+            "It requires labeling of data after training is complete.": 4.0,
+            "It always provides probabilistic outputs of the class membership.": 3.0,
+            "It requires the distribution of input data to be Gaussian.": 2.0,
+            "It is primarily used for generating new data samples.": 0.0
+        }
+    },
+    "96": {
+        "question": "Which technique is used in deep learning to prevent models from overfitting by randomly setting a portion of the neurons to zero during training?",
+        "answer": "Dropout",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Batch Normalization": 2.0,
+            "Cross Entropy Loss": 0.5,
+            "Data Augmentation": 2.5,
+            "ReLU Activation": 3.5,
+            "Max Pooling": 4.0,
+            "Gradient Descent": 2.5
+        }
+    },
+    "97": {
+        "question": "Which machine learning technique involves training a model to generate new samples that are indistinguishable from real data, often used in creating realistic images?",
+        "answer": "Generative Adversarial Networks (GANs)",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "K-Means Clustering": 3.0,
+            "Supervised Learning": 4.5,
+            "Support Vector Machines (SVM)": 2.5,
+            "Linear Regression": 0.5,
+            "Decision Trees": 0.5,
+            "Reinforcement Learning": 4.0
+        }
+    },
+    "98": {
+        "question": "Which milestone in the field of machine learning was achieved in the 2010s?",
+        "answer": "The rise of transfer learning, allowing pre-trained models to be adapted for new tasks.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "The invention of the backpropagation algorithm, which didn't exist until the 2010s.": 4.0,
+            "The introduction of support vector machines as a novel approach in the 2010s.": 3.0,
+            "The first implementation of the Monte Carlo method to solve problems involving random sampling in machine learning.": 1.0,
+            "The introduction of linear regression analysis as a key machine learning technique in the 2010s.": 3.0,
+            "The development of convolutional neural networks (CNNs) for image recognition, first explored in the 2010s.": 4.0,
+            "The creation of the Turing Award, establishing an annual recognition for computer science achievements.": 0.0
+        }
+    },
+    "99": {
+        "question": "In machine learning, which algorithm calculates the probability of measuring one class over another by taking the natural logarithm of the odds ratio?",
+        "answer": "Logistic Regression",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "K-Means Clustering": 0.0,
+            "Random Forest": 1.5,
+            "Decision Tree": 3.0,
+            "Naive Bayes": 4.5,
+            "Support Vector Machine": 1.5,
+            "Linear Regression": 4.5
+        }
+    }
+}

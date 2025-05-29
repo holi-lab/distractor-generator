@@ -1,0 +1,1042 @@
+﻿{
+    "0": {
+        "question": "Which of the following methods will add the elements of the list `b` to the end of list `a`?\n```\na = [1, 2, 3]\nb = [4, 5, 6]\n```\n",
+        "answer": "a.extend(b)",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "a.append(b)": 5.0,
+            "a.add(b)": 3.0,
+            "a.remove(b)": 0.5,
+            "a.join(b)": 1.0,
+            "a.concat(b)": 1.5,
+            "a.insert(0, b)": 4.0
+        }
+    },
+    "1": {
+        "question": "Which of the following statements about Python lists is incorrect?",
+        "answer": "Lists in Python are immutable.",
+        "d_type": "Correct knowledge",
+        "d_scores": {
+            "Lists in Python can contain elements of different data types.": 2.0,
+            "Lists in Python are dynamic; they can grow and shrink as needed.": 5.0,
+            "Lists in Python can be nested within other lists.": 0.5,
+            "Lists in Python are ordered collections.": 1.0,
+            "Lists support indexing and slicing operations.": 4.0,
+            "Elements in a Python list can be accessed using an index.": 2.5
+        }
+    },
+    "2": {
+        "question": "What is the correct syntax to use a list comprehension to create a new list containing the squares of each number from the list [1, 2, 3]?",
+        "answer": "squared_list = [x**2 for x in [1, 2, 3]]",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "squared_list = (x*x for x in [1, 2, 3])": 1.5,
+            "squared_list = [x*2 for x in [1, 2, 3]]": 3.0,
+            "squared_list = (x**2 for x in [1, 2, 3])": 4.0,
+            "squared_list = [for x in [1, 2, 3] if x**2]": 1.0,
+            "squared_list = [x^2 for x in [1, 2, 3]]": 5.0,
+            "squared_list = [x**2 in [1, 2, 3]]": 0.5
+        }
+    },
+    "3": {
+        "question": "Which of the following operators cannot be used with strings in Python?",
+        "answer": "Division operator (/).",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Comparison operator (==)": 3.0,
+            "Slice operator (:)": 2.5,
+            "Membership operator (in)": 1.0,
+            "Concatenation operator (+)": 2.0,
+            "Multiplication operator (*)": 2.5,
+            "Repetition operator (*)": 4.0
+        }
+    },
+    "4": {
+        "question": "How can you initialize a NumPy array with ten zeros in Python?",
+        "answer": "np.zeros(10)",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "np.arange(10)": 2.0,
+            "np.identity(10)": 0.0,
+            "np.full(10)": 2.5,
+            "np.ones(10)": 3.0,
+            "np.array(10)": 3.0,
+            "np.empty(10)": 4.5
+        }
+    },
+    "5": {
+        "question": "What code will convert the following list of lists into a flat list? Original list: \n```\n[[10, 11, 12], [13, 14, 15], [16, 17, 18]]\n```\nDesired flat list: \n```\n[10, 11, 12, 13, 14, 15, 16, 17, 18]\n```\n",
+        "answer": "flat_list = [item for sublist in original_list for item in sublist]",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "flat_list = original_list.flat()": 3.5,
+            "flat_list = original_list.flatten()": 5.0,
+            "flat_list = sum(original_list)": 1.5,
+            "flat_list = map(lambda x: x, original_list)": 0.0,
+            "flat_list = [item for item in original_list]": 3.0,
+            "flat_list = [sublist for sublist in original_list]": 2.0
+        }
+    },
+    "6": {
+        "question": "Which of the following numpy functions will return a new array with elements greater than a specified value from the given array?",
+        "answer": "numpy.where(condition)",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "numpy.resize()": 4.5,
+            "numpy.flatten()": 3.5,
+            "numpy.tile()": 0.0,
+            "numpy.concatenate()": 2.0,
+            "numpy.expand_dims()": 2.5,
+            "numpy.append()": 2.5
+        }
+    },
+    "7": {
+        "question": "Which of the following functions in NumPy can be used to create an array filled with zeros of specified shape and dtype?",
+        "answer": "numpy.zeros",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "numpy.arange": 2.5,
+            "numpy.linspace": 2.5,
+            "numpy.empty": 5.0,
+            "numpy.random.rand": 1.0,
+            "numpy.identity": 0.0,
+            "numpy.ones": 4.0
+        }
+    },
+    "8": {
+        "question": "What does the following code output when executed using NumPy in Python?\n```\nimport numpy as np\nC = np.array([[1, 2, 3], [4, 5, 6]])\nD = np.array([[10], [20]])\nresult = C * D\nprint(result)\n```",
+        "answer": "The output will be:\n[[10, 20, 30]\n [80, 100, 120]]",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "[[1, 2, 3], [4, 5, 6]]": 0.5,
+            "[[10, 20, 30], [10, 20, 30]]": 3.5,
+            "[[10, 20, 30], [40, 50, 60]]": 4.0,
+            "[[10, 20], [60, 80], [30, 40]]": 2.5,
+            "[[30, 60, 90], [120, 150, 180]]": 2.0,
+            "[[10, 10, 10], [80, 100, 120]]": 2.5
+        }
+    },
+    "9": {
+        "question": "What is the correct code to add a new column 'Passed' based on the 'Score' column where values greater than 80 are marked as 'Yes' and others as 'No' in the following DataFrame? Assume the DataFrame `df` is as follows:\n\n|          | Class | Score |\n| -------- | ----- | ----- |\n| Dodo     | 1     | 75    |\n| Hatter   | 1     | 90    |\n| Caterpillar | 2  | 85    |",
+        "answer": "df['Passed'] = df['Score'].apply(lambda x: 'Yes' if x > 80 else 'No')",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "df['Passed'] = df['Score'].apply(lambda x: 'Yes' if x < 80 else 'No')": 4.5,
+            "df['Passed'] = df['Score'].replace({range(81, 101): 'Yes', range(0, 81): 'No'})": 3.0,
+            "df['Passed'] = ['No' if score > 80 else 'Yes' for score in df['Score']]": 2.5,
+            "df['Passed'] = df.applymap(lambda x: 'Yes' if x['Score'] > 80 else 'No')": 1.5,
+            "df.insert('Passed', df['Score'].map(lambda x: 'Yes' if x > 80 else 'No'))": 1.0,
+            "df['Passed'] = df.apply(lambda x: 'Yes' if x['Score'] > 80 else 'No', axis=0)": 2.5
+        }
+    },
+    "10": {
+        "question": "In a pandas DataFrame, how do you drop rows with missing values in the 'salary' column?",
+        "answer": "df.dropna(subset=['salary'])",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "df.delete(subset=['salary'])": 0.5,
+            "df.remove(subset=['salary'])": 0.5,
+            "df.dropnan(subset=['salary'])": 5.0,
+            "df.fillna(subset=['salary'])": 3.0,
+            "df.nulls(subset=['salary'])": 2.0,
+            "df.drop(columns=['salary'])": 4.0
+        }
+    },
+    "11": {
+        "question": "In pandas, what does the method `DataFrame.dropna()` accomplish when applied to a DataFrame?",
+        "answer": "It removes any rows or columns containing missing values.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "It groups the DataFrame by a specified column.": 1.5,
+            "It sorts the DataFrame based on a particular column.": 1.5,
+            "It fills missing values with a specified value.": 5.0,
+            "It removes duplicate entries from the DataFrame.": 4.0,
+            "It converts the DataFrame into a NumPy array.": 3.0,
+            "It calculates the mean of all numerical columns.": 0.0
+        }
+    },
+    "12": {
+        "question": "Which programming paradigm focuses on classes and objects to model real-world entities?",
+        "answer": "Object-oriented programming",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Procedural programming": 4.0,
+            "Event-driven programming": 2.0,
+            "Declarative programming": 2.5,
+            "Imperative programming": 4.5,
+            "Logical programming": 0.0,
+            "Functional programming": 2.0
+        }
+    },
+    "13": {
+        "question": "Given a numpy array 'arr' initialized as follows, choose the code that will create a new array, 'result', where every element of 'arr' is squared:\n```python\nimport numpy as np\n\narr = np.array([1, 2, 3, 4, 5])\n```\nWhat code should you write?",
+        "answer": "result = arr ** 2",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "result = np.power(arr, 3)": 3.5,
+            "result = arr * arr[:, np.newaxis]": 2.0,
+            "result = np.sqrt(arr)": 0.0,
+            "result = arr * 2": 1.0,
+            "result = np.square(arr, result)": 4.0,
+            "result = arr ** 3": 4.5
+        }
+    },
+    "14": {
+        "question": "Which of the following methods is used to randomly sample rows from a DataFrame?",
+        "answer": "sample()",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "gather()": 3.0,
+            "extract()": 2.0,
+            "select()": 5.0,
+            "fetch()": 1.5,
+            "collect()": 3.0,
+            "retrieve()": 0.5
+        }
+    },
+    "15": {
+        "question": "Which of the following methods is used to add an element to the end of a list in Python?",
+        "answer": "The append() method is used to add an element to the end of a list.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "The add() method is used to append an element to the end of a list.": 5.0,
+            "The join() method is used to append an element to the end of a list.": 1.5,
+            "The concat() method is used to add an element to the end of a list.": 0.0,
+            "The insert() method is used to add an element to the end of a list.": 3.5,
+            "The extend() method is used to add an element to the end of a list.": 1.5,
+            "The push() method is used to add an element to the end of a list.": 3.5
+        }
+    },
+    "16": {
+        "question": "What is the correct method to calculate the square root of a number using the math module in Python?",
+        "answer": "Use the 'sqrt' function like this: 'math.sqrt(x)' where x is the number you want the square root of.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Use the 'sqr_root' function like this: 'math.sqr_root(x)' where x is the number you want the square root of.": 3.5,
+            "Use the 'square' function like this: 'math.square(x)' where x is the number you want the square root of.": 0.5,
+            "Use the 'math.sqrt()' function without any argument to get the square root.": 1.0,
+            "Use the 'pow' function like this: 'math.pow(x, 1/2)' where x is the number you want the square root of.": 2.5,
+            "Use the 'root' function like this: 'math.root(x)' where x is the number you want the square root of.": 4.0,
+            "Use the 'sqroot' function like this: 'math.sqroot(x)' where x is the number you want the square root of.": 3.5
+        }
+    },
+    "17": {
+        "question": "What is the primary function of a docstring in a Python function or module?",
+        "answer": "It provides a description of the function or module's purpose and usage.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "It enforces types on the function's arguments and return value.": 5.0,
+            "It optimizes the function or module for performance.": 1.5,
+            "It provides a graphical user interface for the function or module.": 2.5,
+            "It encrypts the code within the function or module.": 0.5,
+            "It compiles the function or module into bytecode.": 1.5,
+            "It executes the function or module automatically upon import.": 4.0
+        }
+    },
+    "18": {
+        "question": "Which of the following is not a type of operator in Python?",
+        "answer": "Indexing operator",
+        "d_type": "Correct knowledge",
+        "d_scores": {
+            "Arithmetic operator": 1.0,
+            "Comparison operator": 0.5,
+            "Membership operator": 3.0,
+            "Bitwise operator": 5.0,
+            "Assignment operator": 2.5,
+            "Logical operator": 3.0
+        }
+    },
+    "19": {
+        "question": "Which of the following is a characteristic of a pure function in Python?",
+        "answer": "A pure function does not modify any external variables or state.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "A pure function must have side effects to complete its task.": 3.5,
+            "A pure function can only be used once due to its specificity.": 0.5,
+            "A pure function frequently changes global variables.": 2.0,
+            "A pure function relies on external data sources to function correctly.": 3.5,
+            "A pure function requires interaction with external systems.": 0.5,
+            "A pure function is dependent on mutable data structures.": 5.0
+        }
+    },
+    "20": {
+        "question": "Which of the following is a characteristic of standard deviation as a measure of dispersion?",
+        "answer": "It provides insight into the average distance of each data point from the mean.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "It measures the central tendency of the data set.": 3.5,
+            "It is calculated as the absolute difference between the maximum and minimum values.": 1.5,
+            "It provides a qualitative analysis, rather than a quantitative measure, of dispersion.": 3.5,
+            "It is unaffected by outliers in the data set.": 1.5,
+            "It only applies to data sets with normal distributions.": 2.5,
+            "It is always a positive number greater than the range of the data set.": 2.5
+        }
+    },
+    "21": {
+        "question": "Which of the following statements is true about Python sets?",
+        "answer": "Sets do not allow duplicate elements.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Sets allow duplicate elements.": 5.0,
+            "Sets require elements to be of the same data type.": 3.0,
+            "Elements in a set are accessed using an index.": 2.0,
+            "Sets maintain the order of elements.": 2.0,
+            "Sets can contain mutable elements like lists.": 0.0,
+            "Sets are a type of list in Python.": 3.0
+        }
+    },
+    "22": {
+        "question": "Which of the following statements about Python's set data structure is correct?",
+        "answer": "Sets do not allow duplicate elements and can contain elements of different data types.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Python sets can be modified to become immutable.": 1.0,
+            "Sets are accessed through numerical indices like lists.": 2.0,
+            "Sets in Python allow duplicate elements.": 3.0,
+            "Elements in a Python set must all be of the same data type.": 4.5,
+            "Python sets provide faster access to elements compared to dictionaries.": 1.0,
+            "Sets in Python are ordered collections of elements.": 3.5
+        }
+    },
+    "23": {
+        "question": "Which of the following best describes the purpose of an algorithm in computer programming?",
+        "answer": "An algorithm is a step-by-step procedure or formula for solving a problem.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "An algorithm is an integrated development environment (IDE) used for coding.": 3.0,
+            "An algorithm is a graphic representation of data through charts and diagrams.": 0.5,
+            "An algorithm is a static data storage structure for storing variables.": 4.5,
+            "An algorithm is a hardware device that increases processing speed.": 1.0,
+            "An algorithm is a random sequence of numbers used for encryption.": 2.0,
+            "An algorithm is a programming language used for software development.": 4.0
+        }
+    },
+    "24": {
+        "question": "Which of the following is a mutable data structure in Python?",
+        "answer": "List",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Tuple": 4.0,
+            "Float": 1.0,
+            "Integer": 2.0,
+            "Boolean": 0.0,
+            "String": 5.0,
+            "FrozenSet": 3.0
+        }
+    },
+    "25": {
+        "question": "Which of the following data structures in Python is immutable?",
+        "answer": "Tuple",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Dictionary": 4.5,
+            "Bytearray": 1.5,
+            "List": 3.5,
+            "Array": 3.5,
+            "Deque": 0.0,
+            "Set": 2.0
+        }
+    },
+    "26": {
+        "question": "Which of the following statements is incorrect about the output of the given Python code?\n\n```\nb = [2, 4, 6, 8, 10]\n\nresult = list(filter(lambda x: x > 5, list(map(lambda x: x // 2, b))))\nprint(result)\n```\n\nDifferent students gave the following outputs:\nA: The code halves each number in the list and filters only those greater than 5. It prints [6, 8, 10].\nB: The code divides each element by 2 and returns only those greater than 5, but no numbers meet the criteria, so it prints [].\nC: First, it halves each element, resulting in [1, 2, 3, 4, 5], and then filters numbers greater than 5, so it prints [].\nD: It reduces each number by half and keeps only those greater than 5, but there's none, so it prints [].",
+        "answer": "A: The code halves each number in the list and filters only those greater than 5. It prints [6, 8, 10].",
+        "d_type": "Correct knowledge",
+        "d_scores": {
+            "The code uses map to divide each number by 2, resulting in [1, 2, 3, 4, 5]. It then filters numbers greater than 5, which results in an empty list.": 4.5,
+            "The code first applies a division to each element, making them [1, 2, 3, 4, 5], and filters numbers greater than 2, resulting in [3, 4, 5].": 1.5,
+            "The filter function checks which halved numbers are more than 5, but since [1, 2, 3, 4, 5] are not, it results in an empty list.": 3.0,
+            "The map function halves each item in the list to [1, 2, 3, 4, 5], and the filter keeps only items greater than 4, resulting in [5].": 0.0,
+            "All numbers are halved to [1, 2, 3, 4, 5], but none are above 5, making the filtered list empty.": 2.0,
+            "The map function first processes the elements to become [1, 2, 3, 4, 5], which are then filtered to retain only those greater than 5, resulting in an empty list.": 4.0
+        }
+    },
+    "27": {
+        "question": "Which of the following options correctly accesses the first character of the string variable `animal` with the value 'Kangaroo'?",
+        "answer": "animal[0]",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "animal.substring(1, 2)": 2.0,
+            "animal[1]": 5.0,
+            "animal = 'K'": 0.0,
+            "animal.first()": 4.0,
+            "animal(0)": 3.0,
+            "animal[-1]": 1.0
+        }
+    },
+    "28": {
+        "question": "Which method would you use to remove rows with any missing values from a DataFrame? Consider that the DataFrame `df` has several NaN values distributed across different columns.",
+        "answer": "df.dropna()",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "df.purge_nans()": 1.5,
+            "df.remove_missing()": 4.5,
+            "df.delete_na()": 3.5,
+            "df.fillna()": 2.0,
+            "df.clearna()": 0.5,
+            "df.clean_nulls()": 3.0
+        }
+    },
+    "29": {
+        "question": "Which code snippet would you use to create a numpy array containing even numbers from 10 to 20 inclusive?",
+        "answer": "np.arange(10, 21, 2)",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "np.linspace(10, 20, 6)": 1.5,
+            "np.arange(10, 20, 2)": 5.0,
+            "np.arange(10, 21, 1)": 3.5,
+            "np.array([10, 12, 14, 16, 18, 20, 22])": 0.5,
+            "np.linspace(10, 20, 5)": 1.0,
+            "np.arange(11, 21, 2)": 3.5
+        }
+    },
+    "30": {
+        "question": "Which of the following functions would you use in NumPy to create a 3x4 array of floating-point numbers sampled from a uniform distribution between 0 (inclusive) and 5 (exclusive)?",
+        "answer": "np.random.uniform(0, 5, (3, 4))",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "np.random.gamma(2, 2, (3, 4))": 0.0,
+            "np.linspace(0, 5, num=12).reshape(3, 4)": 5.0,
+            "np.random.choice(5, (3, 4))": 1.5,
+            "np.random.normal(0, 5, (3, 4))": 3.5,
+            "np.random.randn(3, 4) * 5": 1.5,
+            "np.random.randint(0, 5, (3, 4))": 3.5
+        }
+    },
+    "31": {
+        "question": "What function in NumPy can be used to find the unique elements of an array and their corresponding counts? Which function should be used to fill in the blank?\n\n```python\nimport numpy as np\n\narr = np.array([1, 2, 2, 3, 4, 4, 4])\n\nunique_elements, counts = np._____arr)\nprint(unique_elements)\nprint(counts)\n```\n\nExpected output:\n```\n[1 2 3 4]\n[1 2 1 3]\n```\n- Answer: 1. unique(arr, return_counts=True)",
+        "answer": "np.unique",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "np.array_unique(arr)": 4.0,
+            "np.find_unique(arr)": 3.0,
+            "np.count(arr)": 0.0,
+            "np.unique_elements(arr)": 5.0,
+            "np.get_counts(arr)": 1.5,
+            "np.distinct(arr)": 1.5
+        }
+    },
+    "32": {
+        "question": "What does the `shift` parameter do in the `numpy.random.laplace` function?",
+        "answer": "It specifies the mean (location) of the distribution from which samples are drawn.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "It defines the skewness of the distribution to control asymmetry.": 0.0,
+            "It specifies the variance of the distribution from which samples are drawn.": 3.5,
+            "It sets the minimum and maximum bounds for the samples drawn.": 2.5,
+            "It defines the scale (spread) of the distribution from which samples are drawn.": 5.0,
+            "It determines the number of samples to be returned in an array.": 1.5,
+            "It is used to adjust the bias of the distribution towards positive or negative values.": 2.5
+        }
+    },
+    "33": {
+        "question": "What is the primary function of the 'range()' function in Python?",
+        "answer": "To generate a sequence of numbers.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "To generate random numbers": 5.0,
+            "To reverse a list of numbers": 2.5,
+            "To create a list of strings": 2.0,
+            "To concatenate multiple strings": 0.0,
+            "To find the maximum value in a list": 1.5,
+            "To sort a list of numbers": 4.0
+        }
+    },
+    "34": {
+        "question": "Which of the following expressions evaluates to False? The results of comparison and logical operations are represented as True and False.",
+        "answer": "not (7 > 5) or (3 != 3 and 8 < 10)",
+        "d_type": "Correct knowledge",
+        "d_scores": {
+            "not (6 < 4) and (2 == 2)": 1.5,
+            "(9 > 7) and (3 == 3) or (8 != 2)": 2.0,
+            "(4 == 4 and 2 > 1) or (5 <= 5)": 0.0,
+            "not (10 != 10) and (1 < 2 or 3 > 0)": 4.0,
+            "(3 != 4 and not 5 > 6) or (7 >= 7)": 4.0,
+            "(2 <= 3) and (not 4 != 4 or 5 == 5)": 3.5
+        }
+    },
+    "35": {
+        "question": "What will be the output of the following Python code snippet?\n\nx = 0\nwhile x < 5:\n    print(x)\n    x += 2\nelse:\n    print('Loop ended')",
+        "answer": "0\n2\n4\nLoop ended",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "1\n2\n3\n4\nLoop ended": 5.0,
+            "1\n3\nLoop ended": 0.5,
+            "0\n1\n2\n3\nLoop ended": 4.0,
+            "0\n1\n3\nLoop ended": 2.0,
+            "0\n3\nLoop ended": 1.0,
+            "0\n1\n2\nLoop terminated": 2.5
+        }
+    },
+    "36": {
+        "question": "What is a key advantage of using pandas DataFrames over Series?",
+        "answer": "DataFrames can store and manipulate multiple columns of data simultaneously, while Series only handle a single column.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "DataFrames are only useful for unstructured data, while Series are designed for structured data.": 3.5,
+            "DataFrames can only store numerical data, while Series can store any data type.": 3.0,
+            "DataFrames cannot handle missing data, whereas Series can handle missing values efficiently.": 0.5,
+            "Series provide better data manipulation capabilities for multiple columns compared to DataFrames.": 2.5,
+            "Series have built-in methods for handling time-series data, while DataFrames do not.": 1.0,
+            "Series are more memory efficient than DataFrames for handling multiple columns.": 4.5
+        }
+    },
+    "37": {
+        "question": "Which of the following is the result of calling the built-in Python function 'len()' with a string argument?",
+        "answer": "The number of characters in the string",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "The number of vowels in the string": 2.0,
+            "The number of words in the string": 4.5,
+            "The length of the longest word in the string": 4.5,
+            "The number of whitespace characters in the string": 1.5,
+            "The sum of the ASCII values of all characters in the string": 1.5,
+            "The number of sentences in the string": 1.0
+        }
+    },
+    "38": {
+        "question": "What is the keyword used to define a function in Python?",
+        "answer": "def",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "function": 3.5,
+            "func": 1.5,
+            "proc": 0.0,
+            "define": 5.0,
+            "declare": 3.5,
+            "lambda": 1.5
+        }
+    },
+    "39": {
+        "question": "What will be the output of the following code if you attempt to print a variable that has not been initialized?\n\n```python\nprint(myVariable)\n```\n",
+        "answer": "NameError: name 'myVariable' is not defined",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "IndentationError: unexpected indent": 2.0,
+            "SyntaxError: invalid syntax": 4.0,
+            "TypeError: unsupported operand type(s)": 1.5,
+            "ModuleNotFoundError: No module named 'myVariable'": 5.0,
+            "ZeroDivisionError: division by zero": 0.0,
+            "ValueError: invalid literal for int()": 2.5
+        }
+    },
+    "40": {
+        "question": "Which of the following code snippets correctly opens a file named 'data.txt' for both reading and writing in Python?",
+        "answer": "file = open('data.txt', 'r+')",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "file = open('data.txt', 'rw')": 2.0,
+            "file = open('data.txt', 'r')": 0.0,
+            "file = open('data.txt', 'rw+')": 5.0,
+            "file = open('data.txt', 'r/w')": 1.5,
+            "file = open('data.txt', 'w')": 0.5,
+            "file = open('data.txt', 'readwrite')": 1.5
+        }
+    },
+    "41": {
+        "question": "Which of the following numpy functions will create a 3x3 identity matrix?",
+        "answer": "np.eye(3)",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "np.identity(2)": 3.5,
+            "np.zeros((3, 3))": 1.5,
+            "np.full((3, 3), 1)": 2.5,
+            "np.empty((3, 3))": 1.0,
+            "np.arange(9).reshape(3, 3)": 1.5,
+            "np.ones((3, 3))": 5.0
+        }
+    },
+    "42": {
+        "question": "Which of the following is a correct syntax for using a range() function to start from 5, go up to (but not including) 15, and increment by 2 in Python?",
+        "answer": "range(5, 15, 2)",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "range(5, 16, 2)": 5.0,
+            "range(6, 15, 2)": 1.5,
+            "range(15, 5, 2)": 0.5,
+            "range(5, 14, 2)": 2.5,
+            "range(5, 15, 5)": 4.0,
+            "range(5, 15, 1)": 1.5
+        }
+    },
+    "43": {
+        "question": "What will be the output when the following Python code is executed?\n\n```python\nx = 15\nif x < 20 and x > 10:\n    print('Between 10 and 20')\nelse:\n    print('Outside range')\n```\n",
+        "answer": "Between 10 and 20",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Greater than 20": 3.0,
+            "Not within the specified range": 4.0,
+            "Exactly 20": 2.0,
+            "Error in code": 0.0,
+            "Less than 10": 1.0,
+            "Outside range": 5.0
+        }
+    },
+    "44": {
+        "question": "Which of the following data types in Python is immutable?",
+        "answer": "Tuple",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Dictionary": 4.0,
+            "Bytearray": 2.0,
+            "List": 2.5,
+            "Array": 3.0,
+            "Set": 3.5,
+            "User-defined class": 0.0
+        }
+    },
+    "45": {
+        "question": "Which Python string method would you use to check if the string 'batman' starts with the substring 'bat'?",
+        "answer": "startswith",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "startswithsub": 3.0,
+            "initialmatch": 2.0,
+            "hasprefix": 2.0,
+            "contains": 4.0,
+            "endswith": 2.0,
+            "beginwith": 2.0
+        }
+    },
+    "46": {
+        "question": "Which of the following Python functions allows you to iterate over two lists simultaneously, pairing values with the same index from each list? (Single choice)",
+        "answer": "zip",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "append": 1.5,
+            "map": 5.0,
+            "split": 2.5,
+            "filter": 2.0,
+            "len": 0.0,
+            "reduce": 4.0
+        }
+    },
+    "47": {
+        "question": "What is the correct code to remove all odd numbers from the given list? (Single choice)\n```python\nnumbers = [10, 21, 32, 43, 54, 65]\neven_numbers = None\nprint(even_numbers)\n\"\"\"\nResult: [10, 32, 54]\n\"\"\"\n```",
+        "answer": "list(filter(lambda x: x % 2 == 0, numbers))",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "[x for x in numbers if x % 2 == 1]": 4.0,
+            "[x for x in numbers if x % 2 != 0]": 3.0,
+            "list(filter(lambda x: x % 2 != 0, numbers))": 2.0,
+            "list(map(lambda x: x % 2 == 0, numbers))": 1.0,
+            "list(filter(lambda x: x % 2 == 1, numbers))": 5.0,
+            "even_numbers = list(numbers)": 0.0
+        }
+    },
+    "48": {
+        "question": "Which of the following is a characteristic of JSON that differs from traditional XML?",
+        "answer": "JSON uses a key-value pair representation while XML uses a tree structure with opening and closing tags.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "JSON requires closing tags similar to XML.": 5.0,
+            "JSON is designed to be human-unreadable, contrary to XML.": 0.0,
+            "JSON is primarily used for document markup like XML.": 3.0,
+            "JSON allows comments within the data similar to XML.": 3.0,
+            "JSON supports namespaces just like XML does.": 1.0,
+            "JSON is inherently hierarchical and cannot represent arrays.": 3.0
+        }
+    },
+    "49": {
+        "question": "Which of the following file modes is used to open a file for reading and writing without truncating the file? ",
+        "answer": "r+",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "w+": 3.5,
+            "x+": 0.5,
+            "a": 4.0,
+            "x": 0.5,
+            "w": 2.0,
+            "r": 4.5
+        }
+    },
+    "50": {
+        "question": "What method would you use to combine a list of strings into a single string with a specified delimiter in Python?",
+        "answer": "join()",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "combine()": 3.5,
+            "sum()": 0.0,
+            "append()": 2.5,
+            "add()": 1.0,
+            "concat()": 5.0,
+            "merge()": 3.0
+        }
+    },
+    "51": {
+        "question": "What Python function is used to find the length of a set?",
+        "answer": "len()",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "measure()": 0.5,
+            "count()": 3.0,
+            "length()": 5.0,
+            "size()": 4.0,
+            "dimension()": 2.0,
+            "range()": 0.5
+        }
+    },
+    "52": {
+        "question": "What is a common library used in Python to handle and manipulate CSV files?",
+        "answer": "Pandas",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Matplotlib": 3.5,
+            "Requests": 2.0,
+            "NumPy": 5.0,
+            "SciPy": 1.5,
+            "TensorFlow": 2.5,
+            "Seaborn": 0.5
+        }
+    },
+    "53": {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\nmy_list = ['apple', 'banana', 'cherry']\nprint(my_list[-1])\n```\n",
+        "answer": "cherry",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "None": 1.5,
+            "IndexError": 3.0,
+            "apple": 3.5,
+            "TypeError": 2.0,
+            "banana": 5.0,
+            "SyntaxError": 0.0
+        }
+    },
+    "54": {
+        "question": "Which of the following statements correctly assigns a value to a variable in Python?",
+        "answer": "x = 42",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "x => 42": 0.0,
+            "x <- 42": 1.5,
+            "42 = x": 3.0,
+            "int x = 42": 5.0,
+            "x := 42": 3.5,
+            "x == 42": 2.0
+        }
+    },
+    "55": {
+        "question": "Which of the following methods can be used to convert a string representation of a number '52' into an integer in Python?",
+        "answer": "int('52')",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "bool('52')": 0.0,
+            "decimal('52')": 3.0,
+            "char('52')": 1.0,
+            "float('52')": 4.0,
+            "str('52')": 5.0,
+            "list('52')": 2.0
+        }
+    },
+    "56": {
+        "question": "What is the function used to convert a string representation of a number into an integer in Python?",
+        "answer": "int()",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "convert()": 4.0,
+            "float()": 3.0,
+            "str()": 5.0,
+            "char()": 0.0,
+            "string()": 2.0,
+            "decimal()": 1.0
+        }
+    },
+    "57": {
+        "question": "Which of the following statements best describes the immutability of tuples in Python?",
+        "answer": "Once created, elements of a tuple cannot be altered. Operations that try to modify a tuple will result in an error.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Tuples can have their elements altered after converting them to a list.": 4.5,
+            "Changing a tuple element requires using a built-in Python function.": 0.5,
+            "The immutability of tuples can be overridden with specific methods.": 1.5,
+            "Python tuples are immutable in only the latest versions post-3.0.": 1.5,
+            "Tuples are immutable only if they contain immutable elements.": 2.5,
+            "Tuple elements can be changed if they are of a mutable data type.": 4.5
+        }
+    },
+    "58": {
+        "question": "What is a key difference between lists and tuples in Python?",
+        "answer": "Lists are mutable, whereas tuples are immutable.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Lists and tuples use the same syntax but have different functionalities.": 2.5,
+            "Lists can only store integers, whereas tuples can store any data type.": 1.5,
+            "Tuples are mutable, whereas lists are immutable.": 5.0,
+            "Tuples are designed for high-performance operations, while lists are not.": 0.0,
+            "Tuples and lists are both mutable.": 4.0,
+            "Lists use less memory compared to tuples due to their mutable nature.": 2.0
+        }
+    },
+    "59": {
+        "question": "Which of the following scenarios would be best handled using the 'join' method in Python?",
+        "answer": "When you need to concatenate a list of words into a single sentence with spaces separating them",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "When you need to split a sentence into individual words": 4.0,
+            "When you need to reverse the order of a list of numbers": 1.0,
+            "When you need to remove white spaces from the start and end of a string": 5.0,
+            "When you need to sort a list of strings alphabetically": 2.0,
+            "When you need to replace characters in a string": 3.0,
+            "When you need to find the length of a list": 0.0
+        }
+    },
+    "60": {
+        "question": "Which of the following best describes a 'while' loop in Python?",
+        "answer": "A 'while' loop continues to execute a block of code as long as a given condition remains true.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "A 'while' loop executes a block of code a specific number of times.": 4.5,
+            "A 'while' loop only runs if all prior conditions in the program have been satisfied.": 2.0,
+            "A 'while' loop executes if the loop condition is false.": 2.5,
+            "A 'while' loop executes code based on a set interval, ignoring any conditions.": 1.5,
+            "A 'while' loop executes a block of code and then evaluates the condition.": 4.5,
+            "A 'while' loop always executes once regardless of the condition.": 0.0
+        }
+    },
+    "61": {
+        "question": "Which of the following is not a mutable data type in Python?",
+        "answer": "Tuple",
+        "d_type": "Correct knowledge",
+        "d_scores": {
+            "Dictionary": 2.0,
+            "Bytearray": 3.5,
+            "List": 0.0,
+            "Set": 1.5,
+            "Numpy array": 4.0,
+            "Numpy arrays": 4.0
+        }
+    },
+    "62": {
+        "question": "Which of the following statements is true regarding the immutability of Python's data structures?",
+        "answer": "Tuples are immutable, meaning once they are created, their elements cannot be changed.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Sets in Python are immutable, meaning their elements cannot be altered once defined.": 2.5,
+            "Dictionaries in Python are immutable, meaning their key-value pairs are frozen once created.": 4.0,
+            "Lists are immutable, meaning once they are created, their elements cannot be changed.": 4.5,
+            "Strings in Python are mutable, allowing their characters to be modified after creation.": 3.0,
+            "Integers in Python are mutable, allowing their values to be changed directly.": 1.0,
+            "Floats in Python are mutable, allowing modifications to their values after creation.": 0.0
+        }
+    },
+    "63": {
+        "question": "Which statement best describes what happens when the following Python code is executed? ```python\ndef multiply_by_two(x):\n    return x * 2 if x % 2 == 0 else x + 1\nresult = multiply_by_two(3)\n```",
+        "answer": "The function `multiply_by_two` takes an integer and returns the number multiplied by two if it is even; otherwise, it adds one to the number. In this case, the return value is 4 because 3 is odd, so 1 is added to it.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "The function `multiply_by_two` returns the number multiplied by two regardless of whether it is even or odd.": 5.0,
+            "The function `multiply_by_two` returns the square of the number if it's odd; otherwise, it returns the same number.": 3.5,
+            "The function `multiply_by_two` operates only on floating-point numbers, converting integers to floats first.": 2.0,
+            "The function `multiply_by_two` generates an error when called with an odd number.": 1.0,
+            "The function `multiply_by_two` removes one from the number if it's odd, leading to a return value of 2.": 3.5,
+            "The function `multiply_by_two` uses recursion to arrive at the final answer.": 0.0
+        }
+    },
+    "64": {
+        "question": "Which of the following statements about Python loops is incorrect?",
+        "answer": "Python only supports 'for' and 'while' loops and does not have an equivalent of the 'do-while' loop.",
+        "d_type": "Correct knowledge",
+        "d_scores": {
+            "Python 'while' loops continue executing until the loop condition evaluates as false.": 3.0,
+            "Python loops can be controlled by 'else' clauses that execute when the loop ends without encountering a 'break'.": 2.5,
+            "Python 'for' loops can iterate over items of any sequence, such as a list or a string.": 3.5,
+            "The 'break' statement can be used to exit a loop prematurely in Python.": 1.5,
+            "The 'continue' statement allows you to skip the rest of the code inside a loop for the current iteration.": 4.5,
+            "Python supports nested loops, allowing one loop to be placed inside another.": 0.0
+        }
+    },
+    "65": {
+        "question": "Which of the following is a valid way to handle a FileNotFoundError in Python?",
+        "answer": "Using a try-except block around file operations.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Declaring the exception in the function signature to handle it.": 2.5,
+            "Closing the file before the error occurs to prevent the exception.": 3.5,
+            "Using a finally block without an except clause.": 1.5,
+            "Ignoring the error and continuing the program execution.": 2.5,
+            "Handling the error using a try-catch block instead.": 5.0,
+            "Restarting the program to resolve the error automatically.": 0.0
+        }
+    },
+    "66": {
+        "question": "Which of the following statements about logical operators in Python is correct?",
+        "answer": "The 'and' operator returns True if both operands are True, otherwise it returns False.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "The 'or' operator returns True only if both operands are True.": 3.0,
+            "The 'or' operator returns False if at least one operand is True.": 2.0,
+            "Logical operators in Python return strings as output.": 1.0,
+            "The 'not' operator can be used only with numbers, not with boolean values.": 2.5,
+            "The 'and' operator can only be applied to strings and dictionaries.": 3.5,
+            "Python does not have built-in logical operators like 'and', 'or', and 'not'.": 3.0
+        }
+    },
+    "67": {
+        "question": "Which of the following options will reverse the elements of the list `b = ['apple', 'banana', 'cherry', 'date']` in Python?",
+        "answer": "b.reverse()",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "b.reverse_list()": 4.5,
+            "b.sort(reverse=True)": 4.0,
+            "b.reverse(b)": 3.0,
+            "list.reversed(b)": 1.5,
+            "b.flip()": 0.5,
+            "b[::-2]": 1.5
+        }
+    },
+    "68": {
+        "question": "Which method would you use to iterate over the elements of a list in reverse order in Python?",
+        "answer": "for element in reversed(my_list):",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "for element in enumerate(my_list):": 0.5,
+            "for element in reversed(range(len(my_list))):": 3.0,
+            "for element in reverse(my_list):": 5.0,
+            "while my_list: my_list.pop(-1)": 0.5,
+            "for element in my_list downward:": 2.0,
+            "for element in my_list.backwards():": 4.0
+        }
+    },
+    "69": {
+        "question": "Which of the following methods can be used to convert a string to uppercase in Python?",
+        "answer": "The upper() method.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "The replace() method.": 1.5,
+            "The swapcase() method.": 2.0,
+            "The capitalize() method.": 5.0,
+            "The lower() method.": 3.0,
+            "The substring() method.": 0.0,
+            "The title() method.": 3.5
+        }
+    },
+    "70": {
+        "question": "Which of the following methods can be used to insert a new element at a specific index in a Python list?",
+        "answer": "list.insert(index, element)",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "list.extend(index, element)": 2.0,
+            "list.append(index, element)": 5.0,
+            "list.place(index, element)": 2.0,
+            "list.push(index, element)": 0.5,
+            "list.insert(element, index)": 3.5,
+            "list.add(index, element)": 2.0
+        }
+    },
+    "71": {
+        "question": "Which of the following code snippets will correctly extract the month value from the date string '2023-12-25'?",
+        "answer": "date_string[5:7]",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "date_string.split('-')[2]": 4.5,
+            "date_string[3:5]": 4.0,
+            "date_string.split('-')[0]": 0.5,
+            "date_string[:4]": 0.5,
+            "date_string.slice(6, 8)": 2.0,
+            "date_string[8:10]": 3.5
+        }
+    },
+    "72": {
+        "question": "Which of the following statements is NOT true regarding Python sets?",
+        "answer": "Sets do not allow duplicate elements.",
+        "d_type": "Correct knowledge",
+        "d_scores": {
+            "Sets are generally used to eliminate duplicate values from a list.": 5.0,
+            "Sets are mutable and elements can be added or removed.": 2.0,
+            "Sets can contain elements of different data types.": 1.5,
+            "Sets are unordered collections of unique elements.": 3.5,
+            "Sets can be used to perform mathematical set operations like union and intersection.": 2.5,
+            "Sets are defined using curly braces or the set() function.": 0.5
+        }
+    },
+    "73": {
+        "question": "What is the primary purpose of the 'collections' module in Python?",
+        "answer": "To provide specialized container datatypes",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "To handle low-level memory management tasks": 1.5,
+            "To provide built-in support for network protocols": 2.0,
+            "To manage Python's file input/output operations": 5.0,
+            "To enhance Python's mathematical computation capabilities": 2.0,
+            "To offer graphical user interface components": 3.0,
+            "To optimize Python's bytecode execution process": 1.5
+        }
+    },
+    "74": {
+        "question": "In Python, which data type is mutable and unordered, commonly used to store unique elements?",
+        "answer": "set",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "tuple": 2.0,
+            "float": 0.0,
+            "list": 5.0,
+            "string": 3.0,
+            "integer": 1.0,
+            "dictionary": 4.0
+        }
+    },
+    "75": {
+        "question": "In Python, which method is used to read all lines of a file into a list of strings, where each string represents a line with the newline character still present?",
+        "answer": "readlines()",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "read()": 2.0,
+            "readalllines()": 5.0,
+            "readline()": 3.0,
+            "readfile()": 0.0,
+            "getlines()": 4.0,
+            "readinto()": 1.0
+        }
+    },
+    "76": {
+        "question": "Which of the following is the main purpose of using *args as a parameter in a Python function?",
+        "answer": "To allow the function to accept a variable number of positional arguments.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "To restrict the function to a fixed number of arguments.": 3.0,
+            "To automatically sort the positional arguments before passing them to the function.": 5.0,
+            "To ensure that the function only accepts keyword arguments.": 2.5,
+            "To enforce type checking for arguments passed to the function.": 1.0,
+            "To convert all arguments into a single string within the function.": 0.5,
+            "To prevent the function from accepting more than two arguments.": 3.0
+        }
+    },
+    "77": {
+        "question": "Which Python function would you use to read a line of text including the newline character from a file object?",
+        "answer": "readline()",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "readtext()": 2.0,
+            "get_line()": 5.0,
+            "input()": 1.5,
+            "readall()": 0.5,
+            "getline()": 4.0,
+            "fetchline()": 2.0
+        }
+    },
+    "78": {
+        "question": "Which of the following methods is used to convert a string to all lowercase characters in Python?",
+        "answer": "str.lower",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "str.capitalize": 4.0,
+            "str.title": 3.5,
+            "str.swapcase": 2.0,
+            "str.reversed": 1.5,
+            "str.trim": 0.0,
+            "str.upper": 4.0
+        }
+    },
+    "79": {
+        "question": "What is the default behavior of the print function in Python regarding multiple arguments in terms of separation?",
+        "answer": "The print function separates multiple arguments by a space by default.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "The print function automatically converts all arguments to strings and concatenates them.": 2.0,
+            "The print function combines multiple arguments without any separator by default.": 2.5,
+            "The print function requires a custom separator to process multiple arguments.": 0.5,
+            "The print function inserts a newline character between multiple arguments by default.": 4.5,
+            "The print function separates multiple arguments by a tab character by default.": 1.0,
+            "The print function separates multiple arguments by a comma by default.": 4.5
+        }
+    }
+}

@@ -1,0 +1,1042 @@
+﻿{
+    "0": {
+        "question": "What is a key characteristic of RDBMS systems when compared to NoSQL databases?",
+        "answer": "RDBMS provides ACID compliance for transaction processing.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "RDBMS systems automatically scale horizontally without any configuration.": 1.0,
+            "RDBMS systems primarily use document-based storage models.": 3.0,
+            "RDBMS systems are designed to handle unstructured data efficiently.": 4.0,
+            "RDBMS systems inherently support eventual consistency instead of strong consistency.": 0.0,
+            "RDBMS systems do not support complex queries.": 2.0,
+            "RDBMS systems are schema-less.": 5.0
+        }
+    },
+    "1": {
+        "question": "What is a primary feature of MongoDB that differentiates it from traditional relational databases?",
+        "answer": "MongoDB uses a flexible schema model that allows for dynamic, adaptive structures for data storage.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "MongoDB enforces a strict relationship between data tables, similar to relational databases.": 2.0,
+            "MongoDB is designed primarily for handling only structured query language (SQL) databases.": 1.0,
+            "MongoDB is designed to work only with relational data models, requiring normalization.": 0.0,
+            "Data in MongoDB must conform to predefined table relationships like in traditional databases.": 4.0,
+            "In MongoDB, tables and rows are used in the same manner as in traditional databases.": 3.0,
+            "MongoDB requires a fixed schema that dictates the structure of the stored data.": 5.0
+        }
+    },
+    "2": {
+        "question": "What is the primary function of the SQL SELECT statement?",
+        "answer": "Retrieving specific data from one or more tables in a database.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Performing data encryption on database entries.": 0.0,
+            "Inserting new records into a table.": 3.0,
+            "Updating existing records in a table.": 5.0,
+            "Creating a new database schema.": 2.0,
+            "Deleting records from a table.": 1.0,
+            "Altering the structure of database tables.": 4.0
+        }
+    },
+    "3": {
+        "question": "Which of the following clauses is used to filter records in a SQL query?",
+        "answer": "WHERE",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "UPDATE": 2.0,
+            "JOIN": 4.0,
+            "INSERT": 0.0,
+            "SELECT": 5.0,
+            "FROM": 3.0,
+            "DELETE": 1.0
+        }
+    },
+    "4": {
+        "question": "What is the primary purpose of the following SQL statement?\n```sql\nTRUNCATE TABLE author;\n```",
+        "answer": "Removes all rows from the author table and resets any auto-increment counters.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Creates a backup of the author table, preserving all data and structure.": 2.0,
+            "Deletes a specific row from the author table based on a condition.": 2.0,
+            "Drops the author table from the database, removing the table structure completely.": 5.0,
+            "Selects all rows from the author table to display them for review.": 2.0,
+            "Inserts a new row into the author table with default values.": 0.0,
+            "Alters the structure of the author table by adding a new column.": 4.0
+        }
+    },
+    "5": {
+        "question": "Which SQL query would you use to retrieve the names of all employees earning more than 50,000 from the 'employees' table?",
+        "answer": "SELECT name FROM employees WHERE salary > 50000",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "SELECT employee_names FROM employee_list WHERE income > 50000": 4.0,
+            "SELECT name FROM employees WHERE salary = 50000": 1.0,
+            "SELECT salary FROM employees WHERE name > 50000": 1.0,
+            "SELECT * FROM employees WHERE salary > 50000": 5.0,
+            "SELECT name FROM employees WHERE salary < 50000": 1.0,
+            "SELECT name FROM employees WHERE salary <= 50000": 3.0
+        }
+    },
+    "6": {
+        "question": "Which SQL function would you use to determine the total number of entries in a database column?",
+        "answer": "COUNT() function",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "FORMAT() function": 2.0,
+            "AVG() function": 3.0,
+            "MIN() function": 1.0,
+            "SUM() function": 5.0,
+            "UPPER() function": 0.0,
+            "MAX() function": 4.0
+        }
+    },
+    "7": {
+        "question": "Which database model organizes data into tables, where relations between data entities are represented as rows and columns?",
+        "answer": "Relational Model",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Network Model": 3.0,
+            "Graph Model": 2.0,
+            "Object-Oriented Model": 4.0,
+            "Document-Oriented Model": 2.0,
+            "Key-Value Model": 2.0,
+            "Hierarchical Model": 2.0
+        }
+    },
+    "8": {
+        "question": "Which type of database is structured to store data in a hierarchical tree model, where each record has a single parent and possibly many children, often used for representing data with a clear one-to-many relationship?",
+        "answer": "Hierarchical database",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Object-oriented database": 2.0,
+            "Document database": 2.0,
+            "Graph database": 4.0,
+            "Relational database": 5.0,
+            "NoSQL database": 2.0,
+            "Key-value database": 0.0
+        }
+    },
+    "9": {
+        "question": "In SQL, which command allows you to combine rows from two or more tables based on a related column between them?",
+        "answer": "JOIN",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "ORDER BY": 2.0,
+            "INSERT": 1.0,
+            "GROUP BY": 5.0,
+            "SELECT": 3.0,
+            "PIVOT": 4.0,
+            "DELETE": 0.0
+        }
+    },
+    "10": {
+        "question": "Which of the following SQL clauses is commonly used to filter records in a query based on a specified condition?",
+        "answer": "WHERE",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "ORDER BY": 3.0,
+            "JOIN": 2.0,
+            "GROUP BY": 4.0,
+            "SELECT": 5.0,
+            "FROM": 1.0,
+            "INSERT INTO": 0.0
+        }
+    },
+    "11": {
+        "question": "Which SQL clause is used to sort the result set of a query in ascending or descending order?",
+        "answer": "ORDER BY",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "UPDATE SET": 0.0,
+            "GROUP BY": 5.0,
+            "JOIN ON": 3.0,
+            "HAVING": 1.0,
+            "SELECT *": 3.0,
+            "FILTER BY": 3.0
+        }
+    },
+    "12": {
+        "question": "What SQL clause would you use to combine rows from two tables based on a related column between them, returning only the rows with matching keys?",
+        "answer": "INNER JOIN",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "OUTER JOIN": 3.0,
+            "UNION": 2.0,
+            "CROSS JOIN": 0.0,
+            "LEFT JOIN": 5.0,
+            "RIGHT JOIN": 3.0,
+            "FULL JOIN": 2.0
+        }
+    },
+    "13": {
+        "question": "Which SQL command is used to combine rows from two or more tables based on a related column between them? Suppose you have a `departments` table with information about each department and a `managers` table with details about department managers. To obtain a list of departments and their respective managers, which SQL keyword would you use?",
+        "answer": "JOIN",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "UPDATE": 1.0,
+            "UNION": 4.0,
+            "INSERT": 2.0,
+            "GROUP BY": 5.0,
+            "SELECT": 3.0,
+            "DELETE": 0.0
+        }
+    },
+    "14": {
+        "question": "Which SQL keyword is used to aggregate data after grouping it and often works with GROUP BY to perform calculations like SUM or AVG?",
+        "answer": "HAVING",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "ORDER BY": 3.0,
+            "UPDATE": 2.0,
+            "INSERT": 0.0,
+            "SELECT": 4.0,
+            "WHERE": 5.0,
+            "DELETE": 1.0
+        }
+    },
+    "15": {
+        "question": "Consider a database with a table named *products* and a column called *price* that stores the prices of different products. Which SQL command can you use to determine the highest price from the products table?",
+        "answer": "SELECT MAX(price) FROM products;",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "SELECT COUNT(price) FROM products;": 0.0,
+            "SELECT DISTINCT(price) FROM products;": 4.0,
+            "SELECT price ORDER BY price DESC LIMIT 1;": 5.0,
+            "SELECT MIN(price) FROM products;": 2.0,
+            "SELECT SUM(price) FROM products;": 3.0,
+            "SELECT AVG(price) FROM products;": 1.0
+        }
+    },
+    "16": {
+        "question": "Which SQL clause is used to filter records in a database query, ensuring that only the entries meeting the specified condition are retrieved from the table? Consider a scenario where you want to retrieve records of students who scored more than 75 in their math exam from a *grade* table.",
+        "answer": "WHERE math > 75",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "ORDER BY math > 75": 3.0,
+            "DISTINCT math > 75": 3.0,
+            "JOIN math > 75": 1.0,
+            "GROUP BY math > 75": 3.0,
+            "SELECT math > 75": 5.0,
+            "INSERT INTO grade(more_than, 75)": 0.0
+        }
+    },
+    "17": {
+        "question": "How can you utilize the OFFSET clause to skip the first 10 records when retrieving data from the 'orders' table?",
+        "answer": "SELECT * FROM orders LIMIT 10 OFFSET 10;",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "SELECT * FROM orders EXCLUDE FIRST 10 LIMIT 10;": 2.0,
+            "SELECT * FROM orders LIMIT 10, 10;": 0.0,
+            "SELECT * FROM orders SKIP 10 LIMIT 10;": 5.0,
+            "SELECT * FROM orders WHERE OFFSET 10;": 1.0,
+            "SELECT * FROM orders OFFSET = 10 LIMIT 10;": 4.0,
+            "SELECT * FROM orders START 10 LIMIT 10;": 3.0
+        }
+    },
+    "18": {
+        "question": "Which SQL command is used to create a new table in a relational database?",
+        "answer": "CREATE TABLE",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "INSERT TABLE": 4.0,
+            "NEW TABLE": 4.0,
+            "ADD TABLE": 1.0,
+            "MAKE TABLE": 3.0,
+            "START TABLE": 0.0,
+            "GENERATE TABLE": 3.0
+        }
+    },
+    "19": {
+        "question": "Which statement is incorrect about 'joins' in SQL databases?",
+        "answer": "A cross join only matches rows with identical values in both tables",
+        "d_type": "Correct knowledge",
+        "d_scores": {
+            "An inner join returns rows when there is at least one match in both tables.": 1.0,
+            "A self join is a regular join, but the table is joined with itself": 1.0,
+            "An inner join returns rows when there is at least one match in both tables": 3.0,
+            "Joins in SQL are used to combine rows from two or more tables based on a related column between them": 1.0,
+            "A right join returns all rows from the right table and matched rows from the left table": 4.0,
+            "A left join returns all rows from the left table and matched rows from the right table": 5.0
+        }
+    },
+    "20": {
+        "question": "Which SQL clause allows you to filter the results of a query to eliminate duplicates, ensuring that only unique entries are displayed in the final output?",
+        "answer": "DISTINCT",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "ORDER BY": 3.0,
+            "JOIN": 0.0,
+            "GROUP BY": 5.0,
+            "WHERE": 4.0,
+            "LIMIT": 1.0,
+            "HAVING": 2.0
+        }
+    },
+    "21": {
+        "question": "In Oracle SQL, which keyword is used to return rows in the order in which they are connected in the hierarchy, starting from the root?",
+        "answer": "CONNECT BY PRIOR",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "ORDER BY": 4.0,
+            "JOIN": 0.0,
+            "PARTITION BY": 1.0,
+            "GROUP BY": 2.0,
+            "SORT BY": 3.0,
+            "RANK": 5.0
+        }
+    },
+    "22": {
+        "question": "Which type of SQL JOIN includes the results from one table only when there is a match on the specified criteria, and otherwise returns NULL for columns from the other table?",
+        "answer": "LEFT OUTER JOIN",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "FULL OUTER JOIN": 2.0,
+            "SELF JOIN": 0.0,
+            "RIGHT OUTER JOIN": 4.0,
+            "CROSS JOIN": 1.0,
+            "NATURAL JOIN": 3.0,
+            "INNER JOIN": 5.0
+        }
+    },
+    "23": {
+        "question": "What is the primary function of an INNER JOIN in SQL?",
+        "answer": "It returns records that have matching values in both tables.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "It returns all records from both tables, regardless of matches.": 4.0,
+            "It eliminates duplicate records from the result set.": 3.0,
+            "It deletes records from both tables that do not have matching values.": 1.0,
+            "It combines all rows from both tables, creating a Cartesian product.": 5.0,
+            "It updates records in both tables to ensure they match.": 1.0,
+            "It returns only the first record from each table.": 1.0
+        }
+    },
+    "24": {
+        "question": "Which SQL clause is used to filter records that meet a specified condition and can use aggregate functions, such as COUNT or SUM, to apply conditions on groups of rows in a result set?",
+        "answer": "HAVING",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "ORDER BY": 3.0,
+            "JOIN": 1.0,
+            "GROUP BY": 5.0,
+            "SELECT": 2.0,
+            "WHERE": 4.0,
+            "LIMIT": 0.0
+        }
+    },
+    "25": {
+        "question": "Which SQL keyword is used to return a result from a table that matches all values provided by a subquery?",
+        "answer": "ALL",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "ORDER BY": 0.0,
+            "JOIN": 1.0,
+            "GROUP BY": 2.0,
+            "SELECT": 3.0,
+            "WHERE": 5.0,
+            "HAVING": 4.0
+        }
+    },
+    "26": {
+        "question": "Which of the following clauses in SQL is used to filter groups of rows based on a specified condition?",
+        "answer": "HAVING",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "ORDER BY": 3.0,
+            "JOIN": 0.0,
+            "GROUP BY": 4.0,
+            "SELECT": 2.0,
+            "WHERE": 5.0,
+            "FROM": 1.0
+        }
+    },
+    "27": {
+        "question": "Which of the following is one of the primary purposes of using an index in a database?",
+        "answer": "To improve the speed of data retrieval operations on a database table.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "To organize data in a hierarchical structure.": 3.0,
+            "To automatically back up the database at regular intervals.": 2.0,
+            "To increase the storage space required by the database.": 3.0,
+            "To serve as a primary key for the database table.": 5.0,
+            "To encrypt the data to enhance security.": 1.0,
+            "To convert all data entries into a standard format.": 1.0
+        }
+    },
+    "28": {
+        "question": "Which SQL clause is used to temporarily rename a table or column for the duration of a single query, and is commonly used in conjunction with window functions to enhance readability?",
+        "answer": "AS",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "ORDER BY": 2.0,
+            "JOIN": 0.0,
+            "SELECT INTO": 5.0,
+            "GROUP BY": 4.0,
+            "WHERE": 2.0,
+            "HAVING": 2.0
+        }
+    },
+    "29": {
+        "question": "Which of the following is not a valid use case for window functions in SQL databases? Select the incorrect option.",
+        "answer": "Convert aggregate functions to scalar functions",
+        "d_type": "Correct knowledge",
+        "d_scores": {
+            "Determine row numbers within partitions": 1.0,
+            "Calculate percentiles": 5.0,
+            "Calculate running totals": 3.0,
+            "Perform cumulative sums": 3.0,
+            "Rank data within groups": 1.0,
+            "Perform moving averages": 2.0
+        }
+    },
+    "30": {
+        "question": "Which of the following SQL operations is used to remove all records from a table without removing the table itself?",
+        "answer": "TRUNCATE TABLE table_name",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "CLEAR TABLE table_name": 2.0,
+            "REMOVE ALL FROM table_name": 1.0,
+            "DROP TABLE table_name": 4.0,
+            "ALTER TABLE table_name": 0.0,
+            "DELETE TABLE table_name": 4.0,
+            "DELETE * FROM table_name": 4.0
+        }
+    },
+    "31": {
+        "question": "Which SQL statement is used to convert a string to a date format in the form 'YYYY-MM-DD'?",
+        "answer": "STR_TO_DATE('string', '%Y-%m-%d')",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "CONVERT_TO_DATE('string', 'YYYY-MM-DD')": 4.0,
+            "DATE_CONVERT('string', 'YYYY-MM-DD')": 1.0,
+            "CONVERT_TO_DATE('string', '%Y-%m-%d')": 5.0,
+            "FORMAT_DATE('string', 'YYYY-MM-DD')": 2.0,
+            "DATE_FORMAT('string', 'YYYY-MM-DD')": 3.0,
+            "DATETIME('string', 'YYYY-MM-DD')": 0.0
+        }
+    },
+    "32": {
+        "question": "Which of the following statements about database ACID properties is correct?",
+        "answer": "Durability ensures that once a transaction is committed, it will remain so, even in the event of a power loss.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Consistency allows transactions to see only committed transactions instantly.": 3.0,
+            "Atomicity ensures that all parts of a transaction are visible after it is committed.": 4.0,
+            "Isolation guarantees that the execution of transactions will occur in parallel.": 3.0,
+            "Durability ensures transactions can be reverted after they are committed in case of failure.": 4.0,
+            "Atomicity allows partial transactions to be partially committed.": 0.0,
+            "Isolation guarantees that transactions can read each other's changes automatically.": 1.0
+        }
+    },
+    "33": {
+        "question": "What is the primary role of a database transaction management system?",
+        "answer": "To ensure the ACID properties are maintained during database transactions.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "To provide a backup of all database files automatically.": 3.0,
+            "To manage user access permissions and authentication.": 2.0,
+            "To compress database data for storage efficiency.": 0.0,
+            "To convert relational data into a non-relational format.": 4.0,
+            "To speed up the execution of SQL queries without error.": 4.0,
+            "To generate real-time analytical reports from the data.": 2.0
+        }
+    },
+    "34": {
+        "question": "Which of the following SQL statements is used to remove all records from a database table without affecting the table structure?",
+        "answer": "TRUNCATE is used to delete all records from a table while preserving the table structure.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "DROP is used to delete all records from a table while preserving the table structure.": 5.0,
+            "CLEANSE is used to remove all entries from a database table but leave the schema intact.": 1.0,
+            "ERASE can be used to remove all records in a table without affecting its structure.": 1.0,
+            "REMOVE is the SQL statement that deletes all records while keeping the table structure intact.": 2.0,
+            "DELETE ALL is the command used to clear a table of its records, leaving the structure unchanged.": 4.0,
+            "WIPE is the SQL command used to delete all data from a table while maintaining its design.": 2.0
+        }
+    },
+    "35": {
+        "question": "What term is used to describe the organization of data into tables, fields, and records within a database system?",
+        "answer": "schema",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "syntax": 5.0,
+            "query": 3.0,
+            "protocol": 1.0,
+            "algorithm": 2.0,
+            "interface": 4.0,
+            "script": 0.0
+        }
+    },
+    "36": {
+        "question": "Which of the following is a characteristic of an index in a database?",
+        "answer": "An index improves the speed of data retrieval operations on a database table at the cost of additional storage space.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "An index automatically resolves data entry errors in a database.": 1.0,
+            "An index slows down data retrieval operations on a database table.": 3.0,
+            "An index is used only for managing user permissions in a database.": 0.0,
+            "An index reduces the storage space required by a database.": 5.0,
+            "An index is a mandatory requirement for every table in a database.": 4.0,
+            "An index is primarily used for encrypting data in a database table.": 2.0
+        }
+    },
+    "37": {
+        "question": "Which of the following best describes the role of a schema in a NoSQL database like MongoDB when using Mongoose?",
+        "answer": "A schema defines the structure of documents within a collection, including fields and data types.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "A schema automatically creates indexes for every field in a document.": 4.0,
+            "A schema enforces database constraints and foreign key relationships.": 4.0,
+            "A schema manages network connections and query optimization for the database.": 2.0,
+            "A schema allows dynamic data storage without specifying any field structure.": 4.0,
+            "A schema provides real-time data analytics and reporting tools.": 0.0,
+            "A schema is responsible for handling authentication and authorization processes.": 1.0
+        }
+    },
+    "38": {
+        "question": "Which SQL command is used by Alice the Rabbit to enforce a rule that ensures every value in the `user_email` column is unique across the table?",
+        "answer": "UNIQUE (`user_email`)",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "CHECK (`user_email`)": 4.0,
+            "DEFAULT ('user_email')": 0.0,
+            "PRIMARY KEY (`user_email`)": 5.0,
+            "INDEX (`user_email`)": 3.0,
+            "TRIGGER (`user_email`)": 1.0,
+            "FOREIGN KEY (`user_email`)": 2.0
+        }
+    },
+    "39": {
+        "question": "Which of the following constraints ensures that all values in a column are unique across the entire table?",
+        "answer": "UNIQUE constraint",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "FOREIGN KEY constraint": 1.0,
+            "COLUMN constraint": 5.0,
+            "DEFAULT constraint": 0.0,
+            "NOT NULL constraint": 3.0,
+            "INDEX constraint": 3.0,
+            "CHECK constraint": 3.0
+        }
+    },
+    "40": {
+        "question": "Which of the following is a primary goal of database indexing?",
+        "answer": "To improve the speed of data retrieval operations.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "To automatically back up the database at regular intervals.": 2.0,
+            "To guarantee real-time data replication across different servers.": 5.0,
+            "To transform data into multiple formats for redundancy.": 3.0,
+            "To ensure data is always encrypted at rest.": 3.0,
+            "To increase the amount of storage space used by the database.": 1.0,
+            "To improve the design of the user interface for database management.": 1.0
+        }
+    },
+    "41": {
+        "question": "Which statement is false about the characteristics of a database View?",
+        "answer": "Cheshire Cat: Views can directly store data.",
+        "d_type": "Correct knowledge",
+        "d_scores": {
+            "Views can improve security by limiting exposure to underlying tables.": 1.0,
+            "Views can be used to simplify complex queries.": 1.0,
+            "Views are virtual tables derived from base tables.": 1.0,
+            "Views do not store data directly; they present data.": 4.0,
+            "Views can be updated if they are created from updateable queries.": 5.0,
+            "Views can restrict access to sensitive data.": 3.0
+        }
+    },
+    "42": {
+        "question": "Which SQL query retrieves only the names of students who scored more than 90 in English and less than 50 in Math?",
+        "answer": "SELECT name FROM score WHERE english > 90 AND math < 50;",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "SELECT student_name FROM scores WHERE english > 50 OR math < 40;": 1.0,
+            "SELECT name FROM scores WHERE english > 90 AND math > 50;": 4.0,
+            "SELECT name FROM score WHERE english < 90 AND math > 50;": 2.0,
+            "SELECT * FROM scores WHERE english > 90 AND math < 50;": 5.0,
+            "SELECT english, math FROM students WHERE name = 'John' AND math < 50;": 0.0,
+            "SELECT name FROM scores WHERE english < 50 AND math > 90;": 3.0
+        }
+    },
+    "43": {
+        "question": "Consider the tables 'artist' and 'concert'. Determine how many rows will the following query yield.\n\n```\nSELECT * FROM artist LEFT JOIN concert ON artist.artist_id = concert.artist_id;\n```\n\n**artist table**\n|artist_id|artist_name|\n| -------- | -------- |\n|501|BTS|\n|502|Blackpink|\n|503|EXO|\n\n**concert table**\n|concert_id|concert_name|artist_id|\n| -------- | -------- | -------- |\n|1|Love Yourself Tour|501|\n|2|The Show|502|\n|3|EXO Planet #4|503|\n|4|Blackpink World Tour|502|\n",
+        "answer": 4,
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "2": 1.0,
+            "5": 3.0,
+            "1": 0.0,
+            "3": 2.0,
+            "6": 4.0,
+            "7": 5.0
+        }
+    },
+    "44": {
+        "question": "Which of the following is true about indexing in a database?",
+        "answer": "Indexes can improve the speed of data retrieval operations.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Indexes are solely used for sorting data and have no other function.": 3.0,
+            "Indexes are used to encrypt data for enhanced security.": 2.0,
+            "Indexes ensure that all database transactions are immediately consistent.": 0.0,
+            "Indexes have no impact on the performance of data retrieval.": 1.0,
+            "Indexes can slow down data retrieval operations.": 5.0,
+            "Indexes automatically prevent data duplication in databases.": 4.0
+        }
+    },
+    "45": {
+        "question": "Which of the following SQL clauses is used to remove duplicate records from the result set?",
+        "answer": "DISTINCT",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "ERASE": 0.0,
+            "TRUNCATE": 1.0,
+            "FILTER": 2.0,
+            "REMOVE": 3.0,
+            "UNIQUE": 5.0,
+            "DELETE": 4.0
+        }
+    },
+    "46": {
+        "question": "Which of the following SQL statements is used to remove an entire database?",
+        "answer": "DROP DATABASE",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "UNINSTALL DATABASE": 2.0,
+            "DELETE DATABASE": 5.0,
+            "ERASE DATABASE": 1.0,
+            "CLEAR DATABASE": 0.0,
+            "REMOVE DATABASE": 3.0,
+            "TRUNCATE DATABASE": 4.0
+        }
+    },
+    "47": {
+        "question": "Which SQL clause would you use to find rows in 'ORDERS' table that have no corresponding entries in the 'CUSTOMERS' table?",
+        "answer": "LEFT JOIN with a WHERE clause checking for NULL on the 'CUSTOMERS' side",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "CROSS JOIN to find records without a match": 3.0,
+            "HAVING clause to check for NULL values in 'CUSTOMERS'": 3.0,
+            "GROUP BY clause to filter unmatched records": 0.0,
+            "RIGHT JOIN with a WHERE clause checking for NULL": 4.0,
+            "FULL JOIN without any WHERE clause": 3.0,
+            "INNER JOIN with a WHERE clause": 2.0
+        }
+    },
+    "48": {
+        "question": "Which of the following statements about database indices is incorrect?",
+        "answer": "An index can only be created on a single column of a table.",
+        "d_type": "Correct knowledge",
+        "d_scores": {
+            "A table can have multiple indices.": 4.0,
+            "Indexes can be created on columns that will be frequently queried.": 3.0,
+            "Some databases support the creation of unique indices to enforce uniqueness on a column.": 0.0,
+            "Indices can improve the performance of query operations.": 2.0,
+            "An index helps speed up the retrieval of rows from a table.": 1.0,
+            "Indexes consume additional disk space to store the index entries and structures.": 5.0
+        }
+    },
+    "49": {
+        "question": "Which of the following is a unique characteristic of a primary key in a database?",
+        "answer": "It must contain unique values and cannot contain NULL values.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Primary keys are optional and not required in every table.": 3.0,
+            "It can contain duplicate values and still be valid.": 0.0,
+            "A table can have multiple primary keys at the same time.": 4.0,
+            "Primary keys must contain NULL values in certain cases.": 1.0,
+            "A primary key automatically updates when a foreign key changes.": 2.0,
+            "It is always composed of multiple columns to ensure uniqueness.": 5.0
+        }
+    },
+    "50": {
+        "question": "Which of the following is a primary benefit of using a relational database management system (RDBMS)?",
+        "answer": "Data integrity and elimination of data redundancy.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Complex and inefficient data retrieval": 1.0,
+            "Higher risk of data inconsistency": 5.0,
+            "Reduced security and vulnerability to breaches": 0.0,
+            "Increased data corruption and redundancy": 3.5,
+            "Inability to enforce data constraints": 2.5,
+            "Limited data accessibility and sharing": 3.0
+        }
+    },
+    "51": {
+        "question": "Which of the following is NOT a type of database relationship?",
+        "answer": "Circular relationship",
+        "d_type": "Correct knowledge",
+        "d_scores": {
+            "Hierarchical relationship": 2.5,
+            "Self-referencing relationship": 4.0,
+            "One-to-Many relationship": 0.5,
+            "One-to-One relationship": 1.0,
+            "Recursive relationship": 4.5,
+            "Many-to-Many relationship": 2.5
+        }
+    },
+    "52": {
+        "question": "What is one of the primary reasons to choose a NoSQL database over a traditional relational database?",
+        "answer": "Ability to handle large volumes of unstructured or semi-structured data.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "High dependency on SQL for querying data": 4.5,
+            "Complex setup process compared to relational databases": 2.5,
+            "Mandatory support for ACID transactions": 2.5,
+            "Limited scalability options": 2.0,
+            "Inability to handle high transaction rates": 0.0,
+            "Enforced strict schema adherence": 3.5
+        }
+    },
+    "53": {
+        "question": "In MongoDB, which of the following features is used to process data and return computed results?",
+        "answer": "Aggregation framework",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Indexing service": 3.5,
+            "Replication protocol": 0.5,
+            "GridFS storage": 2.0,
+            "Sharding framework": 3.5,
+            "Document versioning": 0.5,
+            "Query optimizer": 5.0
+        }
+    },
+    "54": {
+        "question": "What is the primary purpose of the SQL GROUP BY clause in a query?",
+        "answer": "To aggregate data based on one or more columns.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "To sort data in ascending or descending order.": 5.0,
+            "To insert new rows into a table.": 1.0,
+            "To filter data based on a specific condition.": 4.0,
+            "To update values in a column for all rows.": 2.0,
+            "To join tables together based on a common column.": 3.0,
+            "To delete rows from a table based on a condition.": 0.0
+        }
+    },
+    "55": {
+        "question": "Which SQL keyword is used to sort the result-set in ascending order?",
+        "answer": "ORDER BY",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "ALIGN BY": 1.0,
+            "GROUP BY": 3.5,
+            "ARRANGE BY": 3.5,
+            "SORT BY": 5.0,
+            "FORMAT BY": 0.0,
+            "FILTER BY": 2.0
+        }
+    },
+    "56": {
+        "question": "Which SQL command is used to remove a table from a database entirely?",
+        "answer": "DROP TABLE table_name;",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "DESTROY TABLE table_name;": 2.5,
+            "ERASE TABLE table_name;": 0.5,
+            "CLEAR TABLE table_name;": 3.0,
+            "DELETE TABLE table_name;": 4.5,
+            "TRUNCATE TABLE table_name;": 3.5,
+            "REMOVE TABLE table_name;": 1.0
+        }
+    },
+    "57": {
+        "question": "What SQL command would you use to retrieve all unique job titles from an 'employees' table?",
+        "answer": "SELECT DISTINCT job_title FROM employees",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "SELECT job_title, DISTINCT FROM employees": 4.5,
+            "SELECT UNIQUE job_title FROM employees": 4.5,
+            "SELECT ALL job_title FROM employees": 1.0,
+            "SELECT job_title FROM employees WHERE UNIQUE": 0.5,
+            "SELECT job_title, COUNT(*) AS count FROM employees": 1.5,
+            "SELECT UNIQUE(job_title) FROM employees": 3.0
+        }
+    },
+    "58": {
+        "question": "Which SQL clause is used to filter records based on a specified condition?",
+        "answer": "The WHERE clause is used to filter records based on a specified condition in SQL.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "The ORDER BY clause is used to filter records based on a specified condition in SQL.": 2.5,
+            "The SELECT clause is used to filter records based on a specified condition in SQL.": 5.0,
+            "The INSERT clause is used to filter records based on a specified condition in SQL.": 0.0,
+            "The JOIN clause is used to filter records based on a specified condition in SQL.": 3.0,
+            "The GROUP BY clause is used to filter records based on a specified condition in SQL.": 3.0,
+            "The DELETE clause is used to filter records based on a specified condition in SQL.": 1.5
+        }
+    },
+    "59": {
+        "question": "Consider the orders table below. Which city has received the most orders?\n\n**Orders Table Structure**\n| order_id | product_id | city |\n| -------- | ---------- | ---- |\n| 2000     | 10         | NY   |\n| 2001     | 11         | LA   |\n| 2002     | 12         | NY   |\n| 2003     | 13         | NY   |\n| 2004     | 14         | SF   |\n| 2005     | 15         | LA   |\n| 2006     | 16         | NY   |\n\n- Execution: Determine the city with the highest number of entries (orders).",
+        "answer": "NY: 4",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "LA: 6": 5.0,
+            "SF: 3": 0.0,
+            "NY: 2": 3.0,
+            "LA: 3": 1.0,
+            "LA: 5": 4.0,
+            "SF: 4": 2.0
+        }
+    },
+    "60": {
+        "question": "Which database component is responsible for ensuring the durability of transactions in case of a system failure?",
+        "answer": "Transaction log",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Memory cache": 3.0,
+            "Buffer manager": 5.0,
+            "Data dictionary": 1.0,
+            "Access method": 2.5,
+            "Index": 2.5,
+            "Query optimizer": 1.0
+        }
+    },
+    "61": {
+        "question": "Which type of database stores data in a hierarchical tree-like structure, where each record has a single parent and potentially many children, and is often used in systems with one-to-many relationships?",
+        "answer": "Hierarchical database",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Object-oriented database": 1.0,
+            "Flat-file database": 1.5,
+            "Graph database": 4.0,
+            "Relational database": 4.0,
+            "Network database": 3.0,
+            "NoSQL database": 1.5
+        }
+    },
+    "62": {
+        "question": "Which SQL clause is used to sort the result set of a query in either ascending or descending order?",
+        "answer": "ORDER BY",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "JOIN": 1.0,
+            "GROUP BY": 4.5,
+            "SELECT": 4.0,
+            "WHERE": 3.5,
+            "HAVING": 2.0,
+            "INSERT INTO": 0.0
+        }
+    },
+    "63": {
+        "question": "What is the term for a SQL operation where rows that do not have a match in a specified column are excluded from the result?",
+        "answer": "INNER JOIN",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "OUTER JOIN": 3.5,
+            "UNION": 1.5,
+            "CROSS JOIN": 0.0,
+            "RIGHT JOIN": 3.5,
+            "LEFT JOIN": 5.0,
+            "FULL JOIN": 1.5
+        }
+    },
+    "64": {
+        "question": "What is a primary key in a database table? A primary key is a field (or combination of fields) that uniquely identifies a record in a relational database table. Which of the following best describes the criteria for a primary key?",
+        "answer": "A primary key must be unique for each record and cannot contain null values.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "A primary key is used to enforce foreign key constraints.": 3.5,
+            "A primary key does not need to be unique for each record.": 2.5,
+            "A primary key can duplicate across different tables without any restriction.": 0.5,
+            "A primary key is used to define the data type of a field.": 2.0,
+            "A primary key can contain null values.": 1.5,
+            "A primary key must always be a combination of multiple fields.": 5.0
+        }
+    },
+    "65": {
+        "question": "Which SQL command allows you to retrieve a specified number of records from a database query result?",
+        "answer": "LIMIT",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "GRAB": 1.0,
+            "OUTPUT": 3.0,
+            "GET": 3.0,
+            "FULL": 2.5,
+            "RETRIEVE": 5.0,
+            "REMOVE": 0.5
+        }
+    },
+    "66": {
+        "question": "Which SQL command is used to combine rows from two or more tables, based on a related column between them?",
+        "answer": "JOIN",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "UPDATE": 4.0,
+            "INSERT": 1.0,
+            "SELECT": 5.0,
+            "CREATE": 2.0,
+            "ALTER": 3.0,
+            "DELETE": 0.0
+        }
+    },
+    "67": {
+        "question": "Which SQL clause is used to filter results that appear after an aggregation function, such as COUNT or SUM, has been applied?",
+        "answer": "HAVING",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "ORDER BY": 3.0,
+            "JOIN": 1.0,
+            "GROUP BY": 4.5,
+            "SELECT": 2.0,
+            "WHERE": 4.5,
+            "FROM": 0.0
+        }
+    },
+    "68": {
+        "question": "Which SQL command is used to calculate the average value of a numeric column in a table? Consider a table named *sales* with a column *revenue* listing the revenue amounts of various sales. Which of the following correctly calculates the average revenue?",
+        "answer": "SELECT AVG(revenue) FROM sales;",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "SELECT SUM(revenue) FROM sales;": 3.5,
+            "SELECT MEAN(revenue) FROM sales;": 3.5,
+            "SELECT AVERAGE(revenue) FROM sales;": 5.0,
+            "SELECT revenue FROM sales AVG();": 1.0,
+            "SELECT COUNT(revenue) FROM sales;": 1.5,
+            "SELECT TOTAL(revenue) FROM sales;": 0.5
+        }
+    },
+    "69": {
+        "question": "Which of the following SQL clauses is used to filter records in a result set?",
+        "answer": "WHERE",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "ORDER BY": 3.5,
+            "JOIN": 2.0,
+            "INSERT": 0.5,
+            "GROUP BY": 4.0,
+            "SELECT": 4.5,
+            "INSERT INTO": 0.5
+        }
+    },
+    "70": {
+        "question": "Which SQL keyword is used to filter the result set to include only unique values when selecting a column?",
+        "answer": "DISTINCT",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "ORDER BY": 2.5,
+            "JOIN": 1.0,
+            "INSERT": 0.0,
+            "GROUP BY": 5.0,
+            "WHERE": 4.0,
+            "HAVING": 2.5
+        }
+    },
+    "71": {
+        "question": "Which SQL command is used to remove a table completely from a relational database, including the table structure and all the data stored in it?",
+        "answer": "DROP",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "PURGE": 2.5,
+            "ERASE": 0.0,
+            "TRUNCATE": 4.5,
+            "DELETE": 4.5,
+            "CLEAR": 1.5,
+            "REMOVE": 2.0
+        }
+    },
+    "72": {
+        "question": "Which of the following statements about database transactions is incorrect?",
+        "answer": "Transactions are automatically committed unless explicitly rolled back.",
+        "d_type": "Correct knowledge",
+        "d_scores": {
+            "In some database systems, transactions can be explicitly managed using BEGIN, COMMIT, and ROLLBACK commands.": 2.5,
+            "Durability guarantees that once a transaction has been committed, it will remain so, even in the event of a system failure.": 4.0,
+            "Database systems use transaction logs to ensure the system can recover to a consistent state.": 2.0,
+            "Isolation ensures that concurrently executing transactions do not affect each other.": 3.5,
+            "A transaction typically consists of multiple operations that must all succeed or fail together.": 0.0,
+            "The ACID properties stand for Atomicity, Consistency, Isolation, and Durability.": 3.0
+        }
+    },
+    "73": {
+        "question": "What is a characteristic of a correlated subquery in SQL?",
+        "answer": "It depends on a value from the outer query for each row processed.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "It can only be used in SELECT statements.": 2.5,
+            "It can be executed independently of the outer query.": 1.0,
+            "It always returns a scalar value.": 4.0,
+            "It is always faster than a non-correlated subquery.": 0.0,
+            "It does not need to be re-evaluated for each row of the outer query.": 4.5,
+            "It cannot reference any columns from the outer query.": 3.0
+        }
+    },
+    "74": {
+        "question": "In relational algebra, which operation combines the tuples from two tables and includes duplicates, representing a union of multisets rather than sets?",
+        "answer": "UNION ALL",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "EXCEPT ALL": 1.0,
+            "UNION": 5.0,
+            "INTERSECT": 2.0,
+            "CROSS JOIN": 3.5,
+            "MINUS ALL": 0.0,
+            "INTERSECT ALL": 3.5
+        }
+    },
+    "75": {
+        "question": "In a relational database, which type of SQL clause is used to filter the results of a query to only include rows that meet certain conditions, while executing after aggregation functions have been applied?",
+        "answer": "HAVING clause",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "ORDER BY clause": 1.5,
+            "WHERE clause": 4.5,
+            "JOIN clause": 0.0,
+            "GROUP BY clause": 4.5,
+            "SELECT clause": 3.0,
+            "FROM clause": 1.5
+        }
+    },
+    "76": {
+        "question": "Which of the following statements about indexing in databases is incorrect?",
+        "answer": "Indexes cannot be created on columns with duplicate values.",
+        "d_type": "Correct knowledge",
+        "d_scores": {
+            "Creating an index incurs a time cost during data insertion and updates.": 3.5,
+            "Indexes can be created on multiple columns, which is known as a composite index.": 2.5,
+            "Indexes can improve the speed of data retrieval operations.": 0.5,
+            "Indexes require additional disk space to store.": 3.5,
+            "Unique indexes ensure that no duplicate values are present in a column.": 4.5,
+            "Full-text indexes are used to speed up text searches.": 0.5
+        }
+    },
+    "77": {
+        "question": "Which SQL clause is used to remove duplicate records from the result set of a query?",
+        "answer": "DISTINCT",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "ORDER BY": 2.5,
+            "JOIN": 0.5,
+            "GROUP BY": 5.0,
+            "WHERE": 3.5,
+            "LIMIT": 1.0,
+            "DELETE": 2.5
+        }
+    },
+    "78": {
+        "question": "In SQL databases, which of the following constraints ensures that a column's values are unique across all rows in a table, except for NULL values?",
+        "answer": "UNIQUE",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "NOT NULL": 4.0,
+            "INDEX": 3.0,
+            "FOREIGN KEY": 1.0,
+            "DEFAULT": 0.0,
+            "CHECK": 2.0,
+            "PRIMARY KEY": 5.0
+        }
+    },
+    "79": {
+        "question": "Which of the following clauses is used to define a partition in SQL window functions?",
+        "answer": "PARTITION BY",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "ORDER BY": 3.5,
+            "GROUP BY": 5.0,
+            "CLUSTER BY": 2.5,
+            "AGGREGATE BY": 2.0,
+            "SPLIT BY": 2.0,
+            "DIVIDE BY": 0.0
+        }
+    }
+}

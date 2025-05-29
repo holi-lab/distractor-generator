@@ -1,0 +1,262 @@
+﻿{
+    "80": {
+        "question": "Which of the following SQL operations is used to permanently remove a database view?",
+        "answer": "DROP VIEW view_name;",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "DISCARD VIEW view_name;": 1.5,
+            "TRUNCATE VIEW view_name;": 4.0,
+            "ERASE VIEW view_name;": 0.0,
+            "REMOVE VIEW view_name;": 1.5,
+            "DELETE VIEW view_name;": 5.0,
+            "PURGE VIEW view_name;": 3.0
+        }
+    },
+    "81": {
+        "question": "Which of the following accurately describes the CAP theorem in the context of distributed databases?",
+        "answer": "It states that a distributed database can only guarantee two out of the following three: Consistency, Availability, and Partition Tolerance.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "CAP stands for Consistency, Authentication, and Partitioning, representing the only facets a distributed system can guarantee.": 4.5,
+            "It states that a distributed database can have either Consistency or Availability, but not Partition Tolerance.": 3.0,
+            "The theorem suggests that partition tolerance can be eliminated in favor of increased consistency and availability.": 0.0,
+            "The CAP theorem applies exclusively to non-relational databases and not to relational databases.": 2.5,
+            "It guarantees all three: Consistency, Availability, and Partition Tolerance simultaneously.": 3.0,
+            "It claims that increasing the number of partitions in a database improves consistency and availability.": 2.0
+        }
+    },
+    "82": {
+        "question": "In Mongoose, what is the primary purpose of a schema?",
+        "answer": "To define the structure and data types of documents in a MongoDB collection.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "To handle MongoDB server connection and configuration.": 4.0,
+            "To replicate data across multiple MongoDB databases.": 1.0,
+            "To create a user authentication system in MongoDB.": 2.0,
+            "To manage the performance of MongoDB queries.": 4.5,
+            "To visualize MongoDB data in graphical form.": 0.0,
+            "To control access permissions for MongoDB collections.": 3.5
+        }
+    },
+    "83": {
+        "question": "What is the primary function of the SQL JOIN operation in database management?",
+        "answer": "To combine rows from two or more tables based on a related column between them.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "To index a database table to improve query performance.": 4.5,
+            "To update the values in a specific column of a table.": 3.5,
+            "To create a new database within the database management system.": 0.0,
+            "To modify the structure of the database by adding new tables.": 2.0,
+            "To delete rows from a table based on specific criteria.": 1.0,
+            "To enforce data integrity by applying constraints on tables.": 4.0
+        }
+    },
+    "84": {
+        "question": "Which type of database management system is designed to handle a wide variety of data models and is highly scalable?",
+        "answer": "NoSQL database",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Object-oriented database": 3.5,
+            "Hierarchical database": 1.0,
+            "Graph database": 3.5,
+            "Relational database": 5.0,
+            "Network database": 2.0,
+            "Flat file database": 0.0
+        }
+    },
+    "85": {
+        "question": "Which of the following operations is not typically allowed directly on a database view?",
+        "answer": "Inserting a new row into the view if it does not correspond to an insertable row source in the underlying tables.",
+        "d_type": "Correct knowledge",
+        "d_scores": {
+            "Deleting a row from the view when it aligns with the underlying table constraints": 3.0,
+            "Applying filtering criteria using a WHERE clause on the view": 4.5,
+            "Ordering the results using an ORDER BY clause on the view": 3.5,
+            "Updating a row in the view when the underlying table supports it": 2.0,
+            "Using the view in a join operation": 1.5,
+            "Selecting data from the view": 0.5
+        }
+    },
+    "86": {
+        "question": "Which of the following is a key feature of NoSQL databases like MongoDB?",
+        "answer": "They allow for flexible and dynamic schema designs.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "They offer limited support for horizontal scaling.": 1.0,
+            "They do not scale well with large amounts of data.": 1.5,
+            "They prefer ACID transactions over BASE transactions.": 3.0,
+            "They require complex JOIN operations to query data across different entities.": 2.0,
+            "They use a fixed and rigid schema design.": 4.0,
+            "They only support structured data types, like relational databases.": 3.5
+        }
+    },
+    "87": {
+        "question": "Which of the following best describes the data storage format of MongoDB?",
+        "answer": "It stores data in a flexible, JSON-like format called BSON.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "It stores data in a plain XML format without any compression.": 1.0,
+            "It stores data in binary CSV files for efficient processing.": 2.0,
+            "It stores data using the immutable blockchain structure.": 0.5,
+            "It stores data in a rigid, tabular format similar to SQL databases.": 4.0,
+            "Data is stored in proprietary file formats unique to each document.": 4.5,
+            "It uses a standardized YAML format for all data storage.": 3.0
+        }
+    },
+    "88": {
+        "question": "What is the purpose of using a composite key in a database table?",
+        "answer": "A composite key is used to uniquely identify a record by combining two or more columns, which together ensure uniqueness for each row in a table.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "A composite key is used to randomly generate values for a column in a table.": 1.0,
+            "A composite key is used for optimizing the database's performance by caching frequently accessed rows.": 3.0,
+            "A composite key is used to store backup copies of records in a separate database.": 0.0,
+            "A composite key is used to index a table without ensuring uniqueness.": 4.0,
+            "A composite key is used to automatically detect duplicate rows in any database table.": 4.5,
+            "A composite key is used to encrypt data within a database table.": 2.5
+        }
+    },
+    "89": {
+        "question": "Which of the following statements about indexing in a relational database is correct?",
+        "answer": "Indexes can improve the performance of data retrieval operations but may slow down data modification operations like INSERT, UPDATE, and DELETE.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Indexes are used to store large amounts of data for backup purposes.": 1.0,
+            "Indexes automatically update themselves without impacting data modification speed.": 4.5,
+            "Using more indexes will always reduce the storage space required by the database.": 2.5,
+            "An index can be used to enforce data integrity constraints.": 1.0,
+            "Indexes allow for unlimited simultaneous data retrievals without affecting performance.": 1.5,
+            "Indexes eliminate the need for database normalization.": 4.5
+        }
+    },
+    "90": {
+        "question": "What is the main purpose of using a primary key in a database table?",
+        "answer": "To uniquely identify each record in the table.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "To define the data type of a column.": 2.0,
+            "To automatically generate summary reports from the table.": 0.0,
+            "To create relationships between different tables.": 5.0,
+            "To specify the sort order of the table.": 4.0,
+            "To allow duplicate records in the table.": 3.0,
+            "To minimize the size of the database table.": 1.0
+        }
+    },
+    "91": {
+        "question": "Which statement is true regarding indexed views in SQL?",
+        "answer": "Indexed views improve query performance by physically storing the result set on disk.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "Indexed views are automatically updated without any impact on performance.": 1.0,
+            "Indexed views do not support complex queries involving joins and aggregations.": 2.0,
+            "Indexed views can only be created on a temporary basis and do not persist across sessions.": 4.0,
+            "Indexed views decrease performance as they always require recalculating data on demand.": 2.5,
+            "Indexed views can only be created on a single table, not on multiple tables with joins.": 5.0,
+            "Indexed views do not support the use of aggregate functions like SUM or COUNT.": 0.5
+        }
+    },
+    "92": {
+        "question": "Which SQL query calculates the average math score for students whose English scores are above 90?",
+        "answer": "SELECT AVG(math) FROM score WHERE english > 90;",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "SELECT AVG(math) FROM score WHERE english = 90;": 3.0,
+            "SELECT SUM(math) FROM score WHERE english < 90;": 0.0,
+            "SELECT COUNT(math) FROM score WHERE english > 90;": 1.0,
+            "SELECT AVG(math) FROM score;": 2.0,
+            "SELECT AVG(math) FROM score WHERE math > 90;": 5.0,
+            "SELECT AVG(english) FROM score WHERE english > 90;": 4.0
+        }
+    },
+    "93": {
+        "question": "Consider the sales table. What will the query output when the following SQL statement is executed?\n\n```\nselect department_id, sum(amount) from sales group by department_id;\n```\n\n**Sales Table Structure**\n| transaction_id | product_id | department_id | amount |\n| -------------- | ---------- | ------------- | ------ |\n| 2000 | 5 | 20 | 150.00 |\n| 2001 | 10 | 20 | 200.00 |\n| 2002 | 15 | 30 | 250.00 |\n| 2003 | 10 | 20 | 100.00 |\n| 2004 | 25 | 40 | 50.00 |\n| 2005 | 5 | 30 | 300.00 |\n| 2006 | 25 | 40 | 75.00 |\n\n**Query Result**\n| department_id | sum(amount) |\n| ------------- | ------------ |\n| 20 | X |\n| 30 | Y |\n| 40 | Z |\n\nIdentify the values of X, Y, and Z.",
+        "answer": "X: 450.00, Y: 550.00, Z: 125.00",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "X: 400.00, Y: 525.00, Z: 150.00": 1.5,
+            "X: 475.00, Y: 525.00, Z: 125.00": 1.0,
+            "X: 300.00, Y: 600.00, Z: 125.00": 2.5,
+            "X: 450.00, Y: 550.00, Z: 150.00": 5.0,
+            "X: 450.00, Y: 500.00, Z: 175.00": 2.5,
+            "X: 500.00, Y: 550.00, Z: 100.00": 2.5
+        }
+    },
+    "94": {
+        "question": "Which of the following is a true statement about database transactions?",
+        "answer": "A transaction ensures that a sequence of operations is completed without interruption or failure.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "All operations in a transaction are visible to users immediately.": 3.5,
+            "Transactions in a database are used only to improve performance.": 0.5,
+            "Database transactions do not follow the ACID properties.": 5.0,
+            "A transaction is a single operation that does not depend on other operations.": 3.0,
+            "A database transaction can be interrupted without any consequences.": 2.0,
+            "Database transactions are independent of the underlying database management system.": 1.0
+        }
+    },
+    "95": {
+        "question": "What is the purpose of the UNION operation in SQL?",
+        "answer": "It combines the result sets of two or more SELECT queries, removing duplicate rows.",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "It deletes duplicate rows from a single table.": 3.5,
+            "It creates a new table by combining two existing tables.": 5.0,
+            "It sorts the result set in ascending order.": 0.0,
+            "It filters rows based on specified conditions.": 2.0,
+            "It updates rows in multiple tables simultaneously.": 1.0,
+            "It joins tables based on a common column.": 3.5
+        }
+    },
+    "96": {
+        "question": "Which SQL clause is used to filter records that meet specific conditions after a JOIN operation?",
+        "answer": "WHERE",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "ORDER BY": 3.0,
+            "UPDATE": 1.0,
+            "INSERT": 0.0,
+            "GROUP BY": 3.5,
+            "SELECT": 2.5,
+            "HAVING": 5.0
+        }
+    },
+    "97": {
+        "question": "Which of the following SQL commands is used to remove a specific row from a table?",
+        "answer": "DELETE",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "UPDATE": 4.0,
+            "INSERT": 1.0,
+            "SELECT": 3.0,
+            "CREATE": 0.0,
+            "ALTER": 2.0,
+            "DROP": 5.0
+        }
+    },
+    "98": {
+        "question": "Which SQL clause is used to filter records that fulfill a specified condition after aggregating results with a GROUP BY clause?",
+        "answer": "HAVING",
+        "d_type": "Incorrect knowledge",
+        "d_scores": {
+            "ORDER BY": 1.5,
+            "JOIN": 1.0,
+            "DISTINCT": 4.0,
+            "SELECT": 3.0,
+            "WHERE": 4.5,
+            "LIMIT": 1.0
+        }
+    },
+    "99": {
+        "question": "Which of the following statements about database normalization is NOT true?",
+        "answer": "Normalization aims to increase data redundancy across tables.",
+        "d_type": "Correct knowledge",
+        "d_scores": {
+            "Normalization aims to streamline data retrieval and management.": 1.5,
+            "Normalization typically consists of several stages called normal forms.": 3.5,
+            "Normalization aims to ensure data integrity.": 0.5,
+            "Normalization reduces the chance of data anomalies in database operations.": 2.5,
+            "Normalization involves organizing data into tables and establishing relationships between them.": 2.0,
+            "Normalization helps to minimize data redundancy.": 5.0
+        }
+    }
+}

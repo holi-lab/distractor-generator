@@ -1,0 +1,307 @@
+﻿item_no,question,answer,options,selection_rate
+1555482,The following is a description of coding and programming. Which item is false?,Coding is working under the instructions of a computer.,"{'a': 'Coding and programming are synonyms.', 'b': 'Programming is a set of instructions that direct the operation of a computer.', 'c': 'A programmer is a person who specializes in programming.'}","{'a': 0.24, 'b': 0.09, 'c': 0.09}"
+1555624,Which of the following programming languages is the easiest for beginners to learn?,Python,"{'a': 'C', 'b': 'Java', 'c': 'PHP'}","{'a': 0.02, 'b': 0.01, 'c': 0.01}"
+1557307,Which symbol is used to store a data value in a variable?,=,"{'a': '==', 'b': '+', 'c': '*'}","{'a': 0.02, 'b': 0.01, 'c': 0.01}"
+1557579,Which of the following variable names is incorrect?,my name,"{'a': 'todayDate', 'b': 'school123', 'c': 'toy_story'}","{'a': 0.03, 'b': 0.05, 'c': 0.07}"
+1559409,What are the data types of 30 and '30' respectively?,"Integer, String","{'a': 'Integer, Integer', 'b': 'String, String', 'c': 'String, Integer'}","{'a': 0.01, 'b': 0.02, 'c': 0.02}"
+1559372,What is the type of data received from the keyboard using the input() function?,String,"{'a': 'Integer', 'b': 'Float', 'c': 'Boolean'}","{'a': 0.19, 'b': 0.04, 'c': 0.03}"
+1559327,Which function is used to receive data input from the keyboard?,input(),"{'a': 'print()', 'b': 'int()', 'c': 'str()'}","{'a': 0.07, 'b': 0.02, 'c': 0.02}"
+1555510,Which of the following statements about the Python language is incorrect?,Python is easy to learn but not very performant.,"{'a': 'Python was developed in the 1990s.', 'b': 'Python is one of the most popular programming languages in the world.', 'c': 'Python is very accessible to beginners compared to other programming languages.'}","{'a': 0.09, 'b': 0.08, 'c': 0.07}"
+1556043,Which program is necessary for Python programming practice that means 'Integrated Development and Learning Environment'?,IDLE,"{'a': 'Operating System', 'b': 'Notepad', 'c': 'Internet Explorer'}","{'a': 0.03, 'b': 0.01, 'c': 0.02}"
+1558635,"What is the output when the following commands are executed in the Python shell?
+```python
+>>> a = ""안녕하세요.""
+>>> b = ""반갑습니다!""
+>>> c = a+b
+>>> d = c[7:]
+>>> print(d)
+```",갑습니다!,"{'a': '안녕하세요.반', 'b': '반갑습니다!', 'c': '.반갑습니다!'}","{'a': 0.14, 'b': 0.28, 'c': 0.02}"
+1555702,What is the current version of Python?,3.x.x,"{'a': '1.x.x', 'b': '2.x.x', 'c': '4.x.x'}","{'a': 0.06, 'b': 0.08, 'c': 0.17}"
+1555579,What is the address of the official Python website that provides the Python installer?,http://www.python.org,"{'a': 'http://www.python.net', 'b': 'http://www.python.com', 'c': 'http://www.python.kr'}","{'a': 0.07, 'b': 0.27, 'c': 0.07}"
+1559447,Which option is used to specify a specific string to be inserted between each item when using the input() function?,sep,"{'a': 'end', 'b': '%', 'c': 'string, string'}","{'a': 0.09, 'b': 0.16, 'c': 0.05}"
+1556109,The following is a description of IDLE. Which one is incorrect?,You can draw pictures with Python using the IDLE editor.,"{'a': 'In the Python shell built into IDLE, you can directly enter Python commands.', 'b': 'In the IDLE editor, you can write programs and save them as files.', 'c': 'The file extension of files saved in the IDLE editor is .py.'}","{'a': 0.21, 'b': 0.09, 'c': 0.15}"
+1556155,What is the shortcut key used to load and run a saved program source file in the IDLE editor?,F5,"{'a': 'F10', 'b': 'F12', 'c': 'F1'}","{'a': 0.27, 'b': 0.15, 'c': 0.07}"
+1557409,What data type is used to represent True and False?,Boolean,"{'a': 'Integer', 'b': 'Float', 'c': 'String'}","{'a': 0.05, 'b': 0.05, 'c': 0.11}"
+1558537,What are the results of 10 % 3 and 3 % 10 respectively?,"1, 3","{'a': '3, 3', 'b': '1, 1', 'c': '1, 10'}","{'a': 0.14, 'b': 0.09, 'c': 0.21}"
+1549206,"A note written alongside code to aid human understanding is called a ○○. In Python, it is marked with the ○ symbol!","Comment, #","{'a': 'Memo, @', 'b': 'Tag, #', 'c': 'Tag, @'}","{'a': 0.02, 'b': 0.15, 'c': 0.04}"
+1557144,Which of the following statements about variables in Python is incorrect?,"Once the type of a variable is set, it cannot be changed.","{'a': 'It refers to the location in memory where data is stored.', 'b': 'The type of a variable is determined by the value assigned to it.', 'c': ""The '=' symbol is used to store a value in a variable.""}","{'a': 0.15, 'b': 0.07, 'c': 0.08}"
+1558615,"What is the result of executing the following commands in the Python shell?
+```python
+>>> a = '='*30
+>>> b = '=' * 20
+>>> c = len(a) + len(b)
+>>> print(c)
+```",50,"{'a': '30', 'b': '20', 'c': '100'}","{'a': 0.03, 'b': 0.04, 'c': 0.01}"
+1558571,"What is the output when the following commands are executed in the Python shell?
+```python
+>>> a = 20
+>>> b = 30
+>>> c = 10 - 20 * 30
+>>> c += 1
+>>> d = a + b + c
+>>> print(d)
+```",-539,"{'a': '-541', 'b': '-590', 'c': '-249'}","{'a': 0.2, 'b': 0.08, 'c': 0.11}"
+1558588,Which function is used to find the length of a string?,len(),"{'a': 'int()', 'b': 'str()', 'c': 'input()'}","{'a': 0.02, 'b': 0.03, 'c': 0.03}"
+1548947,"A computer can only understand ○ and ○.
+The way of communicating using only these is called binary.","0, 1","{'a': '1, 10' , 'b': '0, 10', 'c': '0, 2', 'd': '1, 2'}","{'a': 0.01, 'b': 0.01, 'c': 0.01, 'd': 0.01}"
+1549096,"Using ○ as a programming language, a rabbit is ○!","Code, Coding","{'a': 'Coding, Code', 'b': 'Card, Coding'}","{'a': 0.06, 'b': 0}"
+1551410,"You are taking a nap on a warm morning under the cool shade of a tree. Suddenly, a rabbit dressed in a suit appears out of nowhere, frantically looking at its watch and saying:
+""I'm late! I'm going to be late!""
+Seeing this scene, you think:
+""""""
+If pinching your cheek doesn’t hurt, it’s a dream.  
+Then you can keep sleeping.  
+But if your cheek does hurt and you still see the rabbit, follow the rabbit!  
+If the rabbit disappears, it might be a good idea to go home and rest.
+""""""
+Can you turn your thoughts into a programming ""conditional statement"" to share with the computer?
+Fill in the blank with the appropriate option.
+
+if pinching your cheek doesn’t hurt:
+    It’s a dream. Keep sleeping.
+else:
+    Follow the rabbit!
+    if (blank):
+        Go home and rest.",The rabbit is not visible.,"{'a': 'It's not a dream.', 'b': 'The dodo bird talks.', 'c': 'The rabbit is visible.'}","{'a': 0.09, 'b': 0.02, 'c': 0.15}"
+1551512,"Rabbit, Mad Hatter, and Queen of Hearts are each seated in a row at a tea party with different hats and tea preferences.
+Below are six hints about these three individuals. Figure out who likes peppermint tea!
+
+-The person sitting farthest to the right is drinking jasmine tea.
+-The Queen of Hearts is wearing a red felt hat.
+-The Mad Hatter is drinking rooibos tea.
+-The Rabbit is sitting farthest to the left.
+-The Rabbit is sitting next to the person drinking rooibos tea.
+-The person drinking peppermint tea is wearing a floral-patterned hat.",White Rabbit,"{'a': 'Mad Hatter', 'b': 'Queen of Hearts', 'c': 'No answer'}","{'a': 0.02, 'b': 0.15, 'c': 0.75}"
+1551572,"Alice, walking through the forest in search of the White Rabbit, suddenly found herself standing before a three-way fork in the road.
+A signpost at the fork bore the following message:
+
+Welcome, traveler, to the Wonderland Forest.
+Before you lie three paths: Path 1, Path 2, and Path 3.
+Only one of these paths will lead you to where you wish to go.
+Another path will take you to a terrifying, enormous flower field, and the last will lead you to an endless abyss.
+Oh, just the thought of it is dreadful!
+
+Only one of the following choices is correct.
+The correct choice will guide you to the path you desire.
+(For example: If Choice 1 is correct, then take Path 1.)
+
+Choices
+1. The answer is Path 1.
+2. The answer is Path 1 or Path 2.
+3. The answer is Path 2 or Path 3.",Path 3,"{'a': 'Path 1', 'b': 'Path 2'}","{'a': 0.36, 'b': 0.14}"
+1551631,"Which path should Alice take?
+""Confidently choosing her path, Alice found rabbit footprints at the end of the fork in the road.
+But after following the footprints for some distance, she came upon another fork where the footprints disappeared.
+The day is getting darker, and it seems too difficult to turn back now!
+The only clue Alice has is the hint on the signpost.
+Will Alice be able to choose the right path?""
+
+[Signpost at the Fork]
+
+Traveler in Wonderland, beware! A dreadful spell has turned this beautiful garden into a labyrinth.
+There is only one path you can take.
+If you choose any other path, the maze will never end! Oh, just imagining it gives me chills!
+
+There are five entrances, but only one exit.
+You may pass between pillars only if the sum of the adjacent pillars is divisible by 3.
+If you try to pass through impassable pillars, the pillars will trap you forever!!
+
+[Choices]
+
+Entrance A
+Entrance B
+Entrance C
+Entrance D
+Entrance E",Entrance D,"{'a': 'Entrance A', 'b': 'Entrance B', 'c': 'Entrance C', 'd': 'Entrance E'}","{'a': 0.12, 'b':0.05, 'c': 0.08, 'd': 0.14}"
+1551659,"Problem: ""Which of the two knots is made with a single piece of rope?""
+
+The white rabbit, who had been running for a long time, suddenly stopped and looked back, startled. Alice, who he thought had been following him closely, was nowhere to be seen!
+
+He quickly looked around, but Alice was nowhere in sight. So, he decided to call Cheshire and ask for help.
+
+“Cheshire! Do you know where Alice is?”
+
+To the rabbit's question, Cheshire flashed a big grin and, after laughing for a moment, suddenly presented him with a riddle:
+
+https://cdn-api.elice.io/api-attachment/attachment/4041c1554f3b48128823e4ac69d8cdc8/CheshireQuiz_Basic_5.png
+
+“One of these two knots is made with a single piece of rope, while the other is made with two pieces of rope. Can you figure out which knot is made with a single piece of rope? Using tools like pencils or anything else is not allowed! Try to figure it out just by looking!”
+
+The rabbit, who was about to complain about Cheshire’s sudden riddle, quickly got absorbed in the puzzle as soon as he saw it. What a challenge!",Knot 1,"{'a': 'Knot 2', 'b': 'There is no knot made with a single piece of rope!'}","{'a': 0.17, 'b': 0.23}"
+1552043,"""Dear animals! Today, the 100 animals gathered here will compete in a contest. The winner will receive a grand prize,"" said the dodo.
+
+""But Dodo, what kind of contest will it be?"" asked the crab.
+
+""Hmm, good question. Shall we have a flying contest?"" the dodo suggested.
+
+""No, we don’t have wings!"" complained the monkeys, crabs, and many other animals.
+
+""How about a digging contest to see who can hide in a burrow the fastest?"" proposed the mole.
+
+""No, what about a contest to see who can pick mangoes from a tree the fastest?"" replied the monkey.
+
+""I think a contest to see who can hold their breath underwater the longest would be really fun!"" suggested the fish.
+
+As the animals argued for over 30 minutes, becoming increasingly tired, the dodo spoke up again.
+
+""Everyone, I have a very fair proposal!""
+""Here’s what we’ll do: I will assign each of you a random number from 1 to 100, and you will stand in a circle in order. I will give a stick to animal number 1. The animal holding the stick will poke the next animal (number 2), who will then step out of the circle. The stick will be passed to the next animal (number 3). This continues until only one animal is left.""
+
+""Now, number 2, please step out. And number 4 next...""
+
+Who will be the final winner?",73,"{'a': '9', 'b': '41', 'c': '89'}","{'a': 0.1, 'b': 0.13, 'c': 0.26}"
+1552112,"The Cheshire Cat’s Riddle: What is the Answer?
+
+Alice, trapped in a room, discovered a large glass box under a table.
+
+When she opened the box, she found a beautifully decorated cheesecake with raisins spelling out “Eat Me.”
+
+""Alright, let’s give this a try. If eating this cake makes me grow taller, I’ll be able to open the door and leave the room.""
+
+Just then, with a ""pop!"" sound, the Cheshire Cat appeared and spoke to Alice, who was about to take a bite of the cake.
+
+""Oh oh, wait a moment. You must solve my riddle before you can eat this cake! That’s the rule of this room. Now, listen carefully.""
+
+The Cheshire Cat continued speaking, undeterred by Alice’s quiet sigh.
+
+**""You can use boxes of sizes 7, 11, and 17 to order cake. For example, you can order 25 units of cake using two boxes of size 7 and one box of size 11. Now, what is the largest amount of cake that cannot be ordered using these boxes?""
+
+The Cheshire Cat’s riddle left Alice in deep thought.**",37,"{'a': '49', 'b': '69', 'c': '83'}","{'a': 0.14, 'b': 0.19, 'c': 0.24}"
+1925368,"Choose the correct term that matches the given description.
+""It is a programming paradigm based on procedures and writes code procedurally.""",Procedural Programming,"{'a': 'C Language', 'b': 'Ada', 'c': 'FORTRAN'}","{'a': 0.47. b': 0.01, 'c': 0.01}"
+1925369,Choose the correct description of the C++ language.,A language that transformed C into an object-oriented paradigm.,"{'a': 'Passing the attributes of a parent object to a child object.', 'b': 'Abstracted objects in C++.'}","{'a': 0.08, 'b': 0.09}"
+1552201,"Alice found herself walking past the garden of the Queen of Hearts.
+
+The Queen of Hearts was a frightening queen who habitually shouted, “Off with their heads!”
+
+Today, as the Red Queen was enjoying a game of croquet, she became upset and shouted that she would execute her servants and soldiers.
+
+Witnessing this, Alice exclaimed:
+
+""Hey, if you keep mistreating animals like this, I won't stand for it!""
+
+""Oh, is that so? Then let’s see your wits! If you fail to solve the problem I pose, you'll be executed too!""
+
+""Now, there are 1,000 cups of tea. One of them contains poison. If a mouse drinks even a small amount of the poisoned tea, it will die exactly one hour later. To determine with certainty which tea contains poison within an hour, what is the minimum number of mice needed?""
+
+Alice found herself deep in thought.
+
+*Hint: To find the poisoned tea among 4 cups, you need at least 2 mice.",10 mice,"{'a': '8 mice', 'b': '9 mice', 'c': '100 mice', 'd': '1,000 mice'}","{'a': 0.1, 'b': 0.08, 'c': 0.29, 'd': 0.13}"
+1552377,"What is the probability of Absolem selecting the best bathroom using their strategy? (Out of 24 possible permutations, how many times can Absolem choose the best bathroom?)
+
+""Hey! Are you Alice? I’m Absolem!""
+
+After passing a crossroads and chasing the rabbit, Alice was startled by a voice calling her. Turning around, Alice was even more shocked.
+
+It was a hookah-smoking caterpillar calling her!
+
+""Why so stiff? I just called you to ask something,"" said the caterpillar, continuing before Alice could respond.
+
+""I need to use the bathroom, but I’m a picky bug, so I only want to use the cleanest one. There are four bathrooms, and I can choose whether to use or skip each one as I open the door. However, I can’t go back to a bathroom I skipped because the line behind me is too long. So, I’ve decided to follow this strategy to choose the best bathroom.""
+
+The caterpillar confidently explained their strategy:
+1. For the first bathroom, there’s no reference for comparison, so it will always be skipped.
+2. From the second bathroom onward, the caterpillar will immediately choose the first bathroom that is better than the first one.
+3. If the first bathroom was the cleanest of all, the caterpillar will end up selecting the fourth bathroom.
+""Now, with this strategy, what is the probability that I pick the cleanest bathroom? There are 24 possible permutations for the bathrooms!""",11/24 probability,"{'a': '1/2 probability', 'b': '1/3 probability', 'c': '13/25 probability', 'd': '13/24'}","{'a': 0.15, 'b': 0.2, 'c': 0.14, 'd': 0.2}"
+1552672,"What number did Alice call?
+
+""Alice, after escaping from an unpleasant dinner with the Red Queen, started walking again.
+
+After walking for a while, she saw a white palace appear before her eyes.
+
+Tired from walking for so long, Alice decided to ask the palace's owner for help.
+
+But what’s this! The palace was guarded by a giant gatekeeper.
+
+As Alice approached the gatekeeper, he spoke up:
+
+""I am the gatekeeper of this door! Behind it lies a garden with 101 roses! The Queen ordered that only the one who can call the 101st white rose may pass! Whether you go first or I go first, the choice is yours!""
+
+The gatekeeper then began explaining the rules.
+
+Start the game by calling a number between 1 and 10.
+The next person to call a number adds any number from 1 to 10 to the previously called number.
+The person who calls the 101st number wins the white rose.
+After thinking for a moment, Alice confidently called her first number.",2,"{'a': '1', 'b': '3', 'c': '4', 'd': '5', 'e': '6', 'f': '7', 'g': '8', 'h': '9', 'i': '10'}","{'a': 0.26, 'b': 0.05, 'c': 0.06, 'd': 0.04, 'e': 0.07, 'f': 0.08, 'g': 0.03, 'h': 0.05, 'i': 0.2}"
+1552837,"""Alright, there's no time to hesitate. I need to escape this bizarre maze!""
+
+Alice, who accidentally entered Cheshire's maze, pulls herself together and starts moving forward.
+
+After walking through the complicated maze, Alice encounters a three-way fork.
+
+At the fork, she sees a signboard and three strange boxes.
+
+The boxes below contain pumpkin candies, peppermint candies, and a mix of the two, respectively. However, unfortunately, the labels on all three boxes are misplaced. To correctly label the boxes, how many times do you need to open a box at minimum?
+
+Proceed down the path marked with the number of times you need to open the boxes.",1,"{'a': '2', 'b': '3'}","{'a': 0.5, 'b': 0.12}"
+6472158,"Which of the following is the correct code to create an array containing the integers 1, 2, 3, and 4 using NumPy?","np.array([1, 2, 3, 4])","{'a': 'list(range(4))', 'b': 'np.array(1, 2, 3, 4)', 'c': 'np.array([[1, 2],[3, 4]])', 'd': 'np.array([1, 2, 3, 4], dtype=float)'}","{'a': 0.07, 'b': 0.14, 'c': 0.02, 'd': 0.06}"
+1553038,"After a large door opened, Alice saw the Cheshire's castle in the distance.
+
+Alice was delighted and started moving in the direction of the castle.
+
+At the end of the path, Alice came across a fork in the road. There was a signpost, but the writing had faded, making it impossible to determine which path led to the Cheshire's castle.
+
+Fortunately, two cats were sitting side by side at the fork in the road. Interestingly, the cat on the left wore a yellow ribbon, and the cat on the right wore a fancy hat. A sign was posted in front of the two cats.
+
+One of the two cats always tells the truth, and the other always lies.
+
+You may ask only one question to one of the cats.
+
+What question should Alice ask and to whom, to find the correct path to the Cheshire's castle?","Ask either of the cats: ""If I were to ask the other cat which way is the exit, what would they say?""","{'a': 'Ask the cat with the yellow ribbon: ""Is the left path the way to the Cheshire's castle?""', 'b': 'Ask the cat with the fancy hat: ""Is the right path the way to the Cheshire's castle?""', 'c': 'Ask either of the cats: ""Which way is the exit?""'}","{'a': 0.14, 'b': 0.1, 'c': 0.12}"
+1925372,"Select the correct words to fill in the blanks ㉠ and ㉡ in the following C++ program.
+
+cpp
+#include <iostream>
+using ㉠ std;
+int ㉡ (void)
+{
+    cout << ""HELLO"" << endl;
+    return 0;
+}","㉠ : namespace, ㉡ : main","{'a': '㉠ : name, ㉡ : main', 'b': '㉠ : namespace, ㉡ : class'}","{'a': 0.11, 'b': 0.85}"
+1550142,"After modifying a Python program in Notepad++, the process to verify whether the modifications were applied correctly is shown in the diagram. Complete the blank spaces in the correct order.
+
+https://cdn-api.elice.io/api-attachment/attachment/d698cb4d7b9849ada8c7c1b250c3e495/image.png",Save the file with the .py extension,"{'a': 'Click Space', 'b': 'Program Output', 'c': 'Uninstall NppExec'}","{'a': 0.05, 'b': 0.72, 'c': 0.01}"
+1549510,Which of the following statements is incorrect?,"KakaoTalk, which runs on smartphones, is not a computer program.","{'a': 'A program is a collection of instructions designed to perform specific tasks.', 'b': 'Computers process all information using binary (base-2).', 'c': 'Programming languages are understandable to humans.', 'd': 'Source code is a program written in a programming language.'}","{'a': 0.05, 'b': 0.57, 'c': 0.07, 'd': 0.24}"
+1550573,"When predicting the output of the following program, on which line does an error occur?
+print(""안녕하세요""[1])
+print(""안녕하세요""[2])
+print(""안녕하세요""[3])
+print(""안녕하세요""[4])
+print(""안녕하세요""[5])",Line 5,"{'a': 'Line 1', 'b': 'Line 2' , 'c': 'Line 3', 'd': 'Line 4'}","{'a': 0.09, 'b': 0.01, 'c': 0.01, 'd': 0.01}"
+1557341,Which of the following is different in data type?,10,"{'a': '3.5', 'b': '1.38888', 'c': '-23.77'}","{'a': 0, 'b': 0.05, 'c': 0.19}"
+1557483,Which of the following is not a string?,120283,"{'a': '""hello""', 'b': ""The Tortoise and the Hare""', 'c': ""'010-2120-3344'""}","{'a': 0, 'b': 0.03, 'c': 0.03}"
+6472161,"From the array arr, slice the numbers 1, 2, and 3 using the appropriate code.
+arr = np.arange(7)
+Array: [0 1 2 3 4 5 6]",arr[1:4],"{'a': 'arr[1:3]', 'b': 'arr[:4]', 'c': 'arr[:3]'}","{'a': 0.23, 'b': 0.14, 'c': 0.04}"
+1550403,Which of the following statements is incorrect?,Using a cloud Python interpreter requires a separate Python code editor in addition to a web browser.,"{'a': 'The ""Hello World"" program is a program that displays the message ""Hello, World!"" on the screen.', 'b': 'A compiler translates the entire source code at once.', 'c': 'A cloud Python interpreter is a Python translator that can be accessed via the internet.'}","{'a': 0.14, 'b': 0.21, 'c': 0.06}"
+1550596,"Among the following Hello World programs, select the one written in Python.
+Source Code 1
+#include <stdio.h>
+int main() {
+	printf(""Hello, World!"");
+	return 0;
+}
+
+Source Code 2
+public class HelloWorld {
+	public static void main(String[] args) {
+		System.out.println(""Hello, World!"");
+	}
+}
+
+Source Code 3
+print(""Hello, World!"")",Source Code 3,"{'a': 'Source Code 1', 'b': 'Source Code 2'}","{'a': 0, 'b': 0.03}"
+1550461,Which of the following statements about Python is correct?,Python is a programming language created by Guido van Rossum.,"{'a': 'Python's syntax is difficult to learn.', 'b': 'Python is primarily used for educational purposes because it is slow in execution.', 'c': 'Python cannot utilize code written in other programming languages.'}","{'a': 0.12, 'b': 0.09, 'c': 0.13}"
+1550521,Which of the following statements about Python is incorrect?,The file extension for Python source code is .python.,"{'a': 'The installation method for the Python interpreter depends on the computer's operating system.', 'b': 'Machine code refers to programs written in a language that computers can understand.', 'c': 'Translators for source code are generally classified as either compilers or interpreters, depending on how they operate.'}","{'a': 0.29, 'b': 0.18, 'c': 0.11}"
+6472165,"Choose the correct code to transform the array x into x2.
+
+Array x:
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+Array x2:
+[[0, 1, 2, 3, 4]
+ [5, 6, 7, 8, 9]]","x2 = x.reshape((2, 5))","{'a': 'x2 = x.reshape((2, 4))', 'b': 'x2 = x.reshape((3, 4))', 'c': 'x2 = x.reshape((5, 2))', 'd': 'x2 = x.reshape((4, 2))'}","{'a': 0.15, 'b': 0.05, 'c': 0.12, 'd': 0.04}"
+1925376,"Based on the following explanation, choose the correct maximum value for a short type variable.
+""The short type variable occupies 2 bytes in memory, and its maximum value in binary is represented as 01111111 11111111.""
+short sMax = ㉠;","㉠: 32,767","{'a': '㉠: 127', 'b': '㉠: 65,535'}","{'a': None, 'b': None}"

@@ -1,0 +1,602 @@
+﻿{
+    "0": {
+        "question": "The following is a description of coding and programming. Which item is false?",
+        "answer": "Coding is working under the instructions of a computer.",
+        "d_scores": {
+            "Coding involves writing code in various programming languages.": 2.5,
+            "Programming includes tasks such as debugging and testing.": 3.0,
+            "A good programmer must understand algorithms and data structures.": 1.0,
+            "Coding and programming are synonyms.": 5.0,
+            "Programming is a set of instructions that direct the operation of a computer.": 2.5,
+            "A programmer is a person who specializes in programming.": 1.0
+        }
+    },
+    "1": {
+        "question": "Which of the following programming languages is the easiest for beginners to learn?",
+        "answer": "Python",
+        "d_scores": {
+            "C++": 2.0,
+            "Assembly": 1.0,
+            "Haskell": 0.0,
+            "C": 5.0,
+            "Java": 3.0,
+            "PHP": 4.0
+        }
+    },
+    "2": {
+        "question": "Which symbol is used to store a data value in a variable?",
+        "answer": "=",
+        "d_scores": {
+            ":": 3.5,
+            "->": 2.0,
+            "=>": 3.5,
+            "==": 5.0,
+            "+": 0.0,
+            "*": 1.0
+        }
+    },
+    "3": {
+        "question": "Which of the following variable names is incorrect?",
+        "answer": "my name",
+        "d_scores": {
+            "userAge": 0.0,
+            "bookTitle": 2.0,
+            "isValid": 3.5,
+            "todayDate": 1.0,
+            "school123": 3.5,
+            "toy_story": 5.0
+        }
+    },
+    "4": {
+        "question": "What are the data types of 30 and '30' respectively?",
+        "answer": "Integer, String",
+        "d_scores": {
+            "Float, String": 2.0,
+            "Integer, Character": 2.0,
+            "Boolean, String": 0.0,
+            "Integer, Integer": 2.0,
+            "String, String": 4.0,
+            "String, Integer": 5.0
+        }
+    },
+    "5": {
+        "question": "What is the type of data received from the keyboard using the input() function?",
+        "answer": "String",
+        "d_scores": {
+            "List": 5.0,
+            "Dictionary": 2.0,
+            "Tuple": 1.5,
+            "Integer": 4.0,
+            "Float": 2.5,
+            "Boolean": 0.0
+        }
+    },
+    "6": {
+        "question": "Which function is used to receive data input from the keyboard?",
+        "answer": "input()",
+        "d_scores": {
+            "read()": 3.5,
+            "scan()": 2.0,
+            "get()": 3.5,
+            "print()": 5.0,
+            "int()": 0.0,
+            "str()": 1.0
+        }
+    },
+    "7": {
+        "question": "Which of the following statements about the Python language is incorrect?",
+        "answer": "Python is easy to learn but not very performant.",
+        "d_scores": {
+            "Python supports multiple programming paradigms, including procedural, object-oriented, and functional programming.": 4.5,
+            "Python has a large standard library that supports many common programming tasks.": 0.0,
+            "Python is used in a variety of fields, including web development, data science, and artificial intelligence.": 3.0,
+            "Python was developed in the 1990s.": 4.5,
+            "Python is one of the most popular programming languages in the world.": 2.0,
+            "Python is very accessible to beginners compared to other programming languages.": 1.0
+        }
+    },
+    "8": {
+        "question": "Which program is necessary for Python programming practice that means 'Integrated Development and Learning Environment'?",
+        "answer": "IDLE",
+        "d_scores": {
+            "Microsoft Word": 4.0,
+            "Adobe Photoshop": 0.0,
+            "Google Chrome": 3.0,
+            "Operating System": 5.0,
+            "Notepad": 1.0,
+            "Internet Explorer": 2.0
+        }
+    },
+    "9": {
+        "question": "What is the output when the following commands are executed in the Python shell?\n```python\n>>> a = \"\uc548\ub155\ud558\uc138\uc694.\"\n>>> b = \"\ubc18\uac11\uc2b5\ub2c8\ub2e4!\"\n>>> c = a+b\n>>> d = c[7:]\n>>> print(d)\n```",
+        "answer": "\uac11\uc2b5\ub2c8\ub2e4!",
+        "d_scores": {
+            "\uc548\ub155\ud558\uc138\uc694.": 2.0,
+            "\uc548\ub155\ud558\uc138\uc694.\ubc18\uac11": 1.5,
+            "\uc548\ub155\ud558\uc138\uc694.\ubc18\uac11\uc2b5\ub2c8\ub2e4!": 4.5,
+            "\uc548\ub155\ud558\uc138\uc694.\ubc18": 1.5,
+            "\ubc18\uac11\uc2b5\ub2c8\ub2e4!": 4.5,
+            ".\ubc18\uac11\uc2b5\ub2c8\ub2e4!": 1.0
+        }
+    },
+    "10": {
+        "question": "What is the current version of Python?",
+        "answer": "3.x.x",
+        "d_scores": {
+            "5.x.x": 2.5,
+            "6.x.x": 3.0,
+            "7.x.x": 4.0,
+            "1.x.x": 0.0,
+            "2.x.x": 1.5,
+            "4.x.x": 4.0
+        }
+    },
+    "11": {
+        "question": "What is the address of the official Python website that provides the Python installer?",
+        "answer": "http://www.python.org",
+        "d_scores": {
+            "http://www.python.edu": 1.5,
+            "http://www.python.co": 1.0,
+            "http://www.python.info": 2.5,
+            "http://www.python.net": 3.0,
+            "http://www.python.com": 5.0,
+            "http://www.python.kr": 2.0
+        }
+    },
+    "12": {
+        "question": "Which option is used to specify a specific string to be inserted between each item when using the input() function?",
+        "answer": "sep",
+        "d_scores": {
+            "delimiter": 3.5,
+            "join": 2.0,
+            "split": 5.0,
+            "end": 1.0,
+            "%": 3.5,
+            "string, string": 0.0
+        }
+    },
+    "13": {
+        "question": "The following is a description of IDLE. Which one is incorrect?",
+        "answer": "You can draw pictures with Python using the IDLE editor.",
+        "d_scores": {
+            "IDLE provides a debugger to help find and fix errors in your code.": 3.0,
+            "IDLE includes syntax highlighting to make code easier to read.": 1.0,
+            "IDLE allows you to run Python scripts directly from the editor.": 3.5,
+            "In the Python shell built into IDLE, you can directly enter Python commands.": 4.5,
+            "In the IDLE editor, you can write programs and save them as files.": 1.5,
+            "The file extension of files saved in the IDLE editor is .py.": 1.5
+        }
+    },
+    "14": {
+        "question": "What is the shortcut key used to load and run a saved program source file in the IDLE editor?",
+        "answer": "F5",
+        "d_scores": {
+            "Ctrl+R": 5.0,
+            "Alt+F4": 3.0,
+            "Shift+F5": 2.0,
+            "F10": 3.0,
+            "F12": 2.0,
+            "F1": 0.0
+        }
+    },
+    "15": {
+        "question": "What data type is used to represent True and False?",
+        "answer": "Boolean",
+        "d_scores": {
+            "Character": 1.5,
+            "Array": 1.5,
+            "Double": 1.5,
+            "Integer": 3.0,
+            "Float": 2.5,
+            "String": 5.0
+        }
+    },
+    "16": {
+        "question": "What are the results of 10 % 3 and 3 % 10 respectively?",
+        "answer": "1, 3",
+        "d_scores": {
+            "0, 3": 3.0,
+            "2, 3": 1.5,
+            "1, 7": 3.5,
+            "3, 3": 2.5,
+            "1, 1": 1.0,
+            "1, 10": 3.5
+        }
+    },
+    "17": {
+        "question": "A note written alongside code to aid human understanding is called a \u25cb\u25cb. In Python, it is marked with the \u25cb symbol!",
+        "answer": "Comment, #",
+        "d_scores": {
+            "Annotation, @": 3.5,
+            "Remark, $": 1.0,
+            "Note, %": 2.0,
+            "Memo, @": 0.0,
+            "Tag, #": 5.0,
+            "Tag, @": 3.5
+        }
+    },
+    "18": {
+        "question": "Which of the following statements about variables in Python is incorrect?",
+        "answer": "Once the type of a variable is set, it cannot be changed.",
+        "d_scores": {
+            "Variables in Python can store different types of data.": 1.5,
+            "Python supports dynamic typing for variables.": 1.5,
+            "Variables in Python do not need explicit declaration before use.": 3.0,
+            "It refers to the location in memory where data is stored.": 5.0,
+            "The type of a variable is determined by the value assigned to it.": 3.0,
+            "The '=' symbol is used to store a value in a variable.": 1.0
+        }
+    },
+    "19": {
+        "question": "What is the result of executing the following commands in the Python shell?\n```python\n>>> a = '='*30\n>>> b = '=' * 20\n>>> c = len(a) + len(b)\n>>> print(c)\n```",
+        "answer": "50",
+        "d_scores": {
+            "40": 1.0,
+            "60": 2.5,
+            "70": 2.5,
+            "30": 3.5,
+            "20": 2.5,
+            "100": 3.0
+        }
+    },
+    "20": {
+        "question": "Which function is used to find the length of a string?",
+        "answer": "len()",
+        "d_scores": {
+            "size()": 4.0,
+            "count()": 2.5,
+            "length()": 5.0,
+            "int()": 0.0,
+            "str()": 1.5,
+            "input()": 2.0
+        }
+    },
+    "21": {
+        "question": "What is the output when the following commands are executed in the Python shell?\n```python\n>>> a = 20\n>>> b = 30\n>>> c = 10 - 20 * 30\n>>> c += 1\n>>> d = a + b + c\n>>> print(d)\n```",
+        "answer": "-539",
+        "d_scores": {
+            "-600": 3.5,
+            "10": 1.5,
+            "50": 1.5,
+            "-541": 4.0,
+            "-590": 2.5,
+            "-249": 2.0
+        }
+    },
+    "22": {
+        "question": "A computer can only understand \u25cb and \u25cb.\nThe way of communicating using only these is called binary.",
+        "answer": "0, 1",
+        "d_scores": {
+            "0, 5": 1.5,
+            "1, 3": 0.0,
+            "0, 10": 4.0,
+            "1, 2": 6.0,
+            "1, 10": 3.0,
+            "0, 2": 5.0,
+            "2, 8": 1.5
+        }
+    },
+    "23": {
+        "question": "Using \u25cb as a programming language, a rabbit is \u25cb!",
+        "answer": "Code, Coding",
+        "d_scores": {
+            "Programming, Program": 3.0,
+            "Computation, Compute": 1.0,
+            "Coding, Code": 4.0,
+            "Card, Coding": 0.0,
+            "Decoding, Decode": 2.0
+        }
+    },
+    "24": {
+        "question": "You are taking a nap on a warm morning under the cool shade of a tree. Suddenly, a rabbit dressed in a suit appears out of nowhere, frantically looking at its watch and saying:\n\"I'm late! I'm going to be late!\"\nSeeing this scene, you think:\n\"\"\"\nIf pinching your cheek doesn\u2019t hurt, it\u2019s a dream.  \nThen you can keep sleeping.  \nBut if your cheek does hurt and you still see the rabbit, follow the rabbit!  \nIf the rabbit disappears, it might be a good idea to go home and rest.\n\"\"\"\nCan you turn your thoughts into a programming \"conditional statement\" to share with the computer?\nFill in the blank with the appropriate option.\n\nif pinching your cheek doesn\u2019t hurt:\n    It\u2019s a dream. Keep sleeping.\nelse:\n    Follow the rabbit!\n    if (blank):\n        Go home and rest.",
+        "answer": "The rabbit is not visible.",
+        "d_scores": {
+            "The rabbit is visible.": 4.5,
+            "The rabbit speaks another language.": 1.0,
+            "The dodo bird talks.": 0.0,
+            "You can't see anything around you.": 2.5,
+            "Pinching your cheek hurts.": 4.5,
+            "It is not a dream.": 2.5
+        }
+    },
+    "25": {
+        "question": "Rabbit, Mad Hatter, and Queen of Hearts are each seated in a row at a tea party with different hats and tea preferences.\nBelow are six hints about these three individuals. Figure out who likes peppermint tea!\n\n-The person sitting farthest to the right is drinking jasmine tea.\n-The Queen of Hearts is wearing a red felt hat.\n-The Mad Hatter is drinking rooibos tea.\n-The Rabbit is sitting farthest to the left.\n-The Rabbit is sitting next to the person drinking rooibos tea.\n-The person drinking peppermint tea is wearing a floral-patterned hat.",
+        "answer": "White Rabbit",
+        "d_scores": {
+            "Tweedledee": 1.0,
+            "No answer": 2.0,
+            "Alice": 3.5,
+            "Queen of Hearts": 3.5,
+            "March Hare": 2.0,
+            "Mad Hatter": 3.0
+        }
+    },
+    "26": {
+        "question": "Alice, walking through the forest in search of the White Rabbit, suddenly found herself standing before a three-way fork in the road.\nA signpost at the fork bore the following message:\n\nWelcome, traveler, to the Wonderland Forest.\nBefore you lie three paths: Path 1, Path 2, and Path 3.\nOnly one of these paths will lead you to where you wish to go.\nAnother path will take you to a terrifying, enormous flower field, and the last will lead you to an endless abyss.\nOh, just the thought of it is dreadful!\n\nOnly one of the following choices is correct.\nThe correct choice will guide you to the path you desire.\n(For example: If Choice 1 is correct, then take Path 1.)\n\nChoices\n1. The answer is Path 1.\n2. The answer is Path 1 or Path 2.\n3. The answer is Path 2 or Path 3.",
+        "answer": "Path 3",
+        "d_scores": {
+            "The answer is none of the paths.": 2.0,
+            "The answer is Path 2.": 1.5,
+            "The answer is Path 1 and Path 3.": 3.0,
+            "Path 2": 1.0,
+            "Path 1": 2.5
+        }
+    },
+    "27": {
+        "question": "Which path should Alice take?\n\"Confidently choosing her path, Alice found rabbit footprints at the end of the fork in the road.\nBut after following the footprints for some distance, she came upon another fork where the footprints disappeared.\nThe day is getting darker, and it seems too difficult to turn back now!\nThe only clue Alice has is the hint on the signpost.\nWill Alice be able to choose the right path?\"\n\n[Signpost at the Fork]\n\nTraveler in Wonderland, beware! A dreadful spell has turned this beautiful garden into a labyrinth.\nThere is only one path you can take.\nIf you choose any other path, the maze will never end! Oh, just imagining it gives me chills!\n\nThere are five entrances, but only one exit.\nYou may pass between pillars only if the sum of the adjacent pillars is divisible by 3.\nIf you try to pass through impassable pillars, the pillars will trap you forever!!\n\n[Choices]\n\nEntrance A\nEntrance B\nEntrance C\nEntrance D\nEntrance E",
+        "answer": "Entrance D",
+        "d_scores": {
+            "Entrance B": 0.0,
+            "Entrance C": 1.0,
+            "Entrance A": 2.0,
+            "Entrance E": 3.0
+        }
+    },
+    "28": {
+        "question": "Problem: \"Which of the two knots is made with a single piece of rope?\"\n\nThe white rabbit, who had been running for a long time, suddenly stopped and looked back, startled. Alice, who he thought had been following him closely, was nowhere to be seen!\n\nHe quickly looked around, but Alice was nowhere in sight. So, he decided to call Cheshire and ask for help.\n\n\u201cCheshire! Do you know where Alice is?\u201d\n\nTo the rabbit's question, Cheshire flashed a big grin and, after laughing for a moment, suddenly presented him with a riddle:\n\nhttps://cdn-api.elice.io/api-attachment/attachment/4041c1554f3b48128823e4ac69d8cdc8/CheshireQuiz_Basic_5.png\n\n\u201cOne of these two knots is made with a single piece of rope, while the other is made with two pieces of rope. Can you figure out which knot is made with a single piece of rope? Using tools like pencils or anything else is not allowed! Try to figure it out just by looking!\u201d\n\nThe rabbit, who was about to complain about Cheshire\u2019s sudden riddle, quickly got absorbed in the puzzle as soon as he saw it. What a challenge!",
+        "answer": "Knot 1",
+        "d_scores": {
+            "Knot 1 is just an illusion and not actually tied!": 1.5,
+            "Both knots are made with two pieces of rope!": 4.0,
+            "There is no knot made with a single piece of rope!": 2.5,
+            "Neither of these is a knot!": 0.0,
+            "Knot 2": 2.0
+        }
+    },
+    "29": {
+        "question": "\"Dear animals! Today, the 100 animals gathered here will compete in a contest. The winner will receive a grand prize,\" said the dodo.\n\n\"But Dodo, what kind of contest will it be?\" asked the crab.\n\n\"Hmm, good question. Shall we have a flying contest?\" the dodo suggested.\n\n\"No, we don\u2019t have wings!\" complained the monkeys, crabs, and many other animals.\n\n\"How about a digging contest to see who can hide in a burrow the fastest?\" proposed the mole.\n\n\"No, what about a contest to see who can pick mangoes from a tree the fastest?\" replied the monkey.\n\n\"I think a contest to see who can hold their breath underwater the longest would be really fun!\" suggested the fish.\n\nAs the animals argued for over 30 minutes, becoming increasingly tired, the dodo spoke up again.\n\n\"Everyone, I have a very fair proposal!\"\n\"Here\u2019s what we\u2019ll do: I will assign each of you a random number from 1 to 100, and you will stand in a circle in order. I will give a stick to animal number 1. The animal holding the stick will poke the next animal (number 2), who will then step out of the circle. The stick will be passed to the next animal (number 3). This continues until only one animal is left.\"\n\n\"Now, number 2, please step out. And number 4 next...\"\n\nWho will be the final winner?",
+        "answer": "73",
+        "d_scores": {
+            "65": 3.0,
+            "41": 1.5,
+            "89": 4.0,
+            "54": 1.5,
+            "9": 0.0
+        }
+    },
+    "30": {
+        "question": "Choose the correct term that matches the given description.\n\"It is a programming paradigm based on procedures and writes code procedurally.\"",
+        "answer": "Procedural Programming",
+        "d_scores": {
+            "C Language": 4.0,
+            "FORTRAN": 3.0,
+            "Object-Oriented Programming": 5.0,
+            "Functional Programming": 2.0,
+            "Logic Programming": 1.0,
+            "Ada": 0.0
+        }
+    },
+    "31": {
+        "question": "Choose the correct description of the C++ language.",
+        "answer": "A language that transformed C into an object-oriented paradigm.",
+        "d_scores": {
+            "A language that replaced C instead of building on it.": 2.5,
+            "Passing the attributes of a parent object to a child object.": 1.5,
+            "A scripting language used mainly for web development.": 2.0,
+            "A language designed solely for functional programming.": 0.5,
+            "Abstracted objects in C++.": 3.5
+        }
+    },
+    "32": {
+        "question": "Alice found herself walking past the garden of the Queen of Hearts.\n\nThe Queen of Hearts was a frightening queen who habitually shouted, \u201cOff with their heads!\u201d\n\nToday, as the Red Queen was enjoying a game of croquet, she became upset and shouted that she would execute her servants and soldiers.\n\nWitnessing this, Alice exclaimed:\n\n\"Hey, if you keep mistreating animals like this, I won't stand for it!\"\n\n\"Oh, is that so? Then let\u2019s see your wits! If you fail to solve the problem I pose, you'll be executed too!\"\n\n\"Now, there are 1,000 cups of tea. One of them contains poison. If a mouse drinks even a small amount of the poisoned tea, it will die exactly one hour later. To determine with certainty which tea contains poison within an hour, what is the minimum number of mice needed?\"\n\nAlice found herself deep in thought.\n\n*Hint: To find the poisoned tea among 4 cups, you need at least 2 mice.",
+        "answer": "10 mice",
+        "d_scores": {
+            "5 mice": 0.0,
+            "100 mice": 4.0,
+            "9 mice": 1.0,
+            "8 mice": 2.0,
+            "1,000 mice": 3.0
+        }
+    },
+    "33": {
+        "question": "What is the probability of Absolem selecting the best bathroom using their strategy? (Out of 24 possible permutations, how many times can Absolem choose the best bathroom?)\n\n\"Hey! Are you Alice? I\u2019m Absolem!\"\n\nAfter passing a crossroads and chasing the rabbit, Alice was startled by a voice calling her. Turning around, Alice was even more shocked.\n\nIt was a hookah-smoking caterpillar calling her!\n\n\"Why so stiff? I just called you to ask something,\" said the caterpillar, continuing before Alice could respond.\n\n\"I need to use the bathroom, but I\u2019m a picky bug, so I only want to use the cleanest one. There are four bathrooms, and I can choose whether to use or skip each one as I open the door. However, I can\u2019t go back to a bathroom I skipped because the line behind me is too long. So, I\u2019ve decided to follow this strategy to choose the best bathroom.\"\n\nThe caterpillar confidently explained their strategy:\n1. For the first bathroom, there\u2019s no reference for comparison, so it will always be skipped.\n2. From the second bathroom onward, the caterpillar will immediately choose the first bathroom that is better than the first one.\n3. If the first bathroom was the cleanest of all, the caterpillar will end up selecting the fourth bathroom.\n\"Now, with this strategy, what is the probability that I pick the cleanest bathroom? There are 24 possible permutations for the bathrooms!\"",
+        "answer": "11/24 probability",
+        "d_scores": {
+            "1/3 probability": 3.5,
+            "5/18 probability": 1.0,
+            "7/24 probability": 2.5,
+            "3/12 probability": 1.5,
+            "13/25 probability": 3.0,
+            "1/2 probability": 3.5,
+            "13/24": 6.0
+        }
+    },
+    "34": {
+        "question": "\"Alright, there's no time to hesitate. I need to escape this bizarre maze!\"\n\nAlice, who accidentally entered Cheshire's maze, pulls herself together and starts moving forward.\n\nAfter walking through the complicated maze, Alice encounters a three-way fork.\n\nAt the fork, she sees a signboard and three strange boxes.\n\nThe boxes below contain pumpkin candies, peppermint candies, and a mix of the two, respectively. However, unfortunately, the labels on all three boxes are misplaced. To correctly label the boxes, how many times do you need to open a box at minimum?\n\nProceed down the path marked with the number of times you need to open the boxes.",
+        "answer": "1",
+        "d_scores": {
+            "3": 2.0,
+            "5": 2.0,
+            "6": 3.5,
+            "2": 1.5,
+            "4": 1.0
+        }
+    },
+    "35": {
+        "question": "Which of the following is the correct code to create an array containing the integers 1, 2, 3, and 4 using NumPy?",
+        "answer": "np.array([1, 2, 3, 4])",
+        "d_scores": {
+            "np.array([1, 2, 3, 4], dtype=float)": 2.0,
+            "np.array{1, 2, 3, 4}": 2.0,
+            "list(range(4))": 2.0,
+            "np.array([[1, 2],[3, 4]])": 0.0,
+            "np.array(1, 2, 3, 4)": 4.0
+        }
+    },
+    "36": {
+        "question": "After a large door opened, Alice saw the Cheshire's castle in the distance.\n\nAlice was delighted and started moving in the direction of the castle.\n\nAt the end of the path, Alice came across a fork in the road. There was a signpost, but the writing had faded, making it impossible to determine which path led to the Cheshire's castle.\n\nFortunately, two cats were sitting side by side at the fork in the road. Interestingly, the cat on the left wore a yellow ribbon, and the cat on the right wore a fancy hat. A sign was posted in front of the two cats.\n\nOne of the two cats always tells the truth, and the other always lies.\n\nYou may ask only one question to one of the cats.\n\nWhat question should Alice ask and to whom, to find the correct path to the Cheshire's castle?",
+        "answer": "Ask either of the cats: \"If I were to ask the other cat which way is the exit, what would they say?\"",
+        "d_scores": {
+            "Ask either of the cats: \"Which way is the exit?": 3.0,
+            "Ask the cat with the yellow ribbon: \"Which path do you prefer?\"": 1.0,
+            "Ask the cat with the yellow ribbon: \"Is the left path the way to the Cheshire's castle?\"": 5.0,
+            "Ask the cat with the fancy hat: \"If you never lie, point to the correct path.\"": 2.0,
+            "Ask either of the cats: \"Can you tell the truth about the right path?\"": 1.0,
+            "Ask the cat with the fancy hat: \"Is the right path the way to the Cheshire's castle?\"": 3.0
+        }
+    },
+    "37": {
+        "question": "Select the correct words to fill in the blanks \u3260 and \u3261 in the following C++ program.\n\ncpp\n#include <iostream>\nusing \u3260 std;\nint \u3261 (void)\n{\n    cout << \"HELLO\" << endl;\n    return 0;\n}",
+        "answer": "\u3260 : namespace, \u3261 : main",
+        "d_scores": {
+            "\u3260 : space, \u3261 : void": 3.0,
+            "\u3260 : name, \u3261 : main": 1.0,
+            "\u3260 : global, \u3261 : function": 0.5,
+            "\u3260 : local, \u3261 : main": 2.5,
+            "\u3260 : namespace, \u3261 : class": 3.0
+        }
+    },
+    "38": {
+        "question": "After modifying a Python program in Notepad++, the process to verify whether the modifications were applied correctly is shown in the diagram. Complete the blank spaces in the correct order.\n\nhttps://cdn-api.elice.io/api-attachment/attachment/d698cb4d7b9849ada8c7c1b250c3e495/image.png",
+        "answer": "Save the file with the .py extension",
+        "d_scores": {
+            "Open the file in a web browser": 3.0,
+            "Uninstall NppExec": 1.0,
+            "Click Space": 2.0,
+            "Rename the file to .txt": 5.0,
+            "Program Output": 4.0,
+            "Delete the file": 0.0
+        }
+    },
+    "39": {
+        "question": "Which of the following statements is incorrect?",
+        "answer": "KakaoTalk, which runs on smartphones, is not a computer program.",
+        "d_scores": {
+            "Programming languages are understandable to humans.": 1.5,
+            "Computers process all information using binary (base-2).": 5.0,
+            "Smartphone applications, including KakaoTalk, are considered to be computer programs.": 2.5,
+            "Source code is a program written in a programming language.": 2.0,
+            "Software applications on smartphones operate as computer programs to perform various tasks.": 4.0,
+            "A program is a collection of instructions designed to perform specific tasks.": 0.0
+        }
+    },
+    "40": {
+        "question": "When predicting the output of the following program, on which line does an error occur?\nprint(\"\uc548\ub155\ud558\uc138\uc694\"[1])\nprint(\"\uc548\ub155\ud558\uc138\uc694\"[2])\nprint(\"\uc548\ub155\ud558\uc138\uc694\"[3])\nprint(\"\uc548\ub155\ud558\uc138\uc694\"[4])\nprint(\"\uc548\ub155\ud558\uc138\uc694\"[5])",
+        "answer": "Line 5",
+        "d_scores": {
+            "Line 3": 0.0,
+            "Line 2": 0.0,
+            "Line 4": 0.0,
+            "Line 1": 1.5
+        }
+    },
+    "41": {
+        "question": "From the array arr, slice the numbers 1, 2, and 3 using the appropriate code.\narr = np.arange(7)\nArray: [0 1 2 3 4 5 6]",
+        "answer": "arr[1:4]",
+        "d_scores": {
+            "arr[1:3]": 2.5,
+            "arr[:3]": 2.0,
+            "arr[:4]": 4.0,
+            "arr[3:6]": 1.0,
+            "arr[0:3]": 3.0,
+            "arr[2:5]": 2.5
+        }
+    },
+    "42": {
+        "question": "Which of the following statements is incorrect?",
+        "answer": "Using a cloud Python interpreter requires a separate Python code editor in addition to a web browser.",
+        "d_scores": {
+            "A cloud Python interpreter allows you to run Python code without installing Python locally.": 2.5,
+            "A cloud Python interpreter is a Python translator that can be accessed via the internet.": 1.5,
+            "Python is a high-level, interpreted programming language.": 0.0,
+            "An interpreter translates code line-by-line as it is executed.": 5.0,
+            "The \"Hello World\" program is a program that displays the message \"Hello, World!\" on the screen.": 2.0,
+            "A compiler translates the entire source code at once.": 4.0
+        }
+    },
+    "43": {
+        "question": "Among the following Hello World programs, select the one written in Python.\nSource Code 1\n#include <stdio.h>\nint main() {\n\tprintf(\"Hello, World!\");\n\treturn 0;\n}\n\nSource Code 2\npublic class HelloWorld {\n\tpublic static void main(String[] args) {\n\t\tSystem.out.println(\"Hello, World!\");\n\t}\n}\n\nSource Code 3\nprint(\"Hello, World!\")",
+        "answer": "Source Code 3",
+        "d_scores": {
+            "Source Code 1": 0.0,
+            "Source Code 2": 1.0
+        }
+    },
+    "44": {
+        "question": "Which of the following statements about Python is correct?",
+        "answer": "Python is a programming language created by Guido van Rossum.",
+        "d_scores": {
+            "Python is not suitable for developing web applications.": 2.5,
+            "Python's syntax is difficult to learn.": 1.5,
+            "Python is primarily used for educational purposes because it is slow in execution.": 0.5,
+            "Python cannot run on multiple operating systems.": 2.5,
+            "Python is a proprietary software that requires a paid license for usage.": 4.0,
+            "Python cannot utilize code written in other programming languages.": 4.0
+        }
+    },
+    "45": {
+        "question": "Which of the following statements about Python is incorrect?",
+        "answer": "The file extension for Python source code is .python.",
+        "d_scores": {
+            "Machine code refers to programs written in a language that computers can understand.": 2.5,
+            "Translators for source code are generally classified as either compilers or interpreters, depending on how they operate.": 1.5,
+            "The installation method for the Python interpreter depends on the computer's operating system.": 4.5,
+            "Python supports multiple programming paradigms, including procedural, object-oriented, and functional programming.": 4.5,
+            "The Python Package Index (PyPI) is a repository of software for the Python programming language.": 2.0,
+            "Python was created by Guido van Rossum and first released in 1991.": 0.0
+        }
+    },
+    "46": {
+        "question": "Choose the correct code to transform the array x into x2.\n\nArray x:\n[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]\n\nArray x2:\n[[0, 1, 2, 3, 4]\n [5, 6, 7, 8, 9]]",
+        "answer": "x2 = x.reshape((2, 5))",
+        "d_scores": {
+            "x2 = x.reshape((2, 6))": 6.0,
+            "x2 = x.reshape((4, 2))": 2.0,
+            "x2 = x.reshape((5, 2))": 4.0,
+            "x2 = x.reshape((2, 4))": 5.0,
+            "x2 = x.reshape((1, 10))": 1.0,
+            "x2 = x.reshape((10, 1))": 0.0,
+            "x2 = x.reshape((3, 4))": 3.0
+        }
+    },
+    "47": {
+        "question": "The Cheshire Cat’s Riddle: What is the Answer? Alice, trapped in a room, discovered a large glass box under a table. When she opened the box, she found a beautifully decorated cheesecake with raisins spelling out 'Eat Me.' 'Alright, let’s give this a try. If eating this cake makes me grow taller, I’ll be able to open the door and leave the room.' Just then, with a 'pop!' sound, the Cheshire Cat appeared and spoke to Alice, who was about to take a bite of the cake. 'Oh oh, wait a moment. You must solve my riddle before you can eat this cake! That’s the rule of this room. Now, listen carefully.' The Cheshire Cat continued speaking, undeterred by Alice’s quiet sigh. **'You can use boxes of sizes 7, 11, and 17 to order cake. For example, you can order 25 units of cake using two boxes of size 7 and one box of size 11. Now, what is the largest amount of cake that cannot be ordered using these boxes?' The Cheshire Cat’s riddle left Alice in deep thought.**",
+        "answer": "37",
+        "d_scores": {
+            "49": 0.0,
+            "69": 1.0,
+            "83": 2.0
+        }
+    },
+    "48": {
+        "question": "What number did Alice call? Alice, after escaping from an unpleasant dinner with the Red Queen, started walking again. After walking for a while, she saw a white palace appear before her eyes. Tired from walking for so long, Alice decided to ask the palace's owner for help. But what’s this! The palace was guarded by a giant gatekeeper. As Alice approached the gatekeeper, he spoke up: 'I am the gatekeeper of this door! Behind it lies a garden with 101 roses! The Queen ordered that only the one who can call the 101st white rose may pass! Whether you go first or I go first, the choice is yours!' The gatekeeper then began explaining the rules. Start the game by calling a number between 1 and 10. The next person to call a number adds any number from 1 to 10 to the previously called number. The person who calls the 101st number wins the white rose. After thinking for a moment, Alice confidently called her first number.",
+        "answer": "2",
+        "d_scores": {
+            "1": 8.0,
+            "3": 4.0,
+            "4": 5.0,
+            "5": 2.0,
+            "6": 6.0,
+            "7": 7.0,
+            "8": 1.0,
+            "9": 4.0,
+            "10": 0.0
+        }
+    },
+    "49": {
+        "question": "Based on the following explanation, choose the correct maximum value for a short type variable. 'The short type variable occupies 2 bytes in memory, and its maximum value in binary is represented as 01111111 11111111.' short sMax = ㉠;",
+        "answer": "㉠: 32,767",
+        "d_scores": {
+            "㉠: 127": 0.0,
+            "㉠: 65,535": 0.0
+        }
+    },
+    "50": {
+        "question": "Which of the following is different in data type?",
+        "answer": "10",
+        "d_scores": {
+            "3.5": 0.0,
+            "1.38888": 1.0,
+            "-23.77": 2.0
+        }
+    },
+    "51": {
+        "question": "Which of the following is not a string?",
+        "answer": "120283",
+        "d_scores": {
+            "'hello'": 0.0,
+            "'The Tortoise and the Hare'": 1.0,
+            "'010-2120-3344'": 1.0
+        }
+    }
+}
