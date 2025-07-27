@@ -6,7 +6,7 @@
 </p>
 
 
-**📄Paper**: [Arxiv](https://arxiv.org/abs/2501.13125)       
+**📄Paper**: [ACL](https://aclanthology.org/2025.acl-long.1154/)       
 
 ---
 
@@ -145,6 +145,36 @@ The pairwise ranker is loaded for inference and generates the following output:
 - `d_list`: list of distractors
 - `d_reasoning`: reasoning results from the pairwise ranker
 - `d_scores`: scores from each model
+
+---
+
+## Citation
+
+### ACL
+Yooseop Lee, Suin Kim, and Yohan Jo. 2025. [Generating Plausible Distractors for Multiple-Choice Questions via Student Choice Prediction](https://aclanthology.org/2025.acl-long.1154/). In Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 23669–23692, Vienna, Austria. Association for Computational Linguistics.
+
+### BibTeX
+```
+@inproceedings{lee-etal-2025-generating-plausible,
+    title = "Generating Plausible Distractors for Multiple-Choice Questions via Student Choice Prediction",
+    author = "Lee, Yooseop  and
+      Kim, Suin  and
+      Jo, Yohan",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.1154/",
+    pages = "23669--23692",
+    ISBN = "979-8-89176-251-0",
+    abstract = "In designing multiple-choice questions (MCQs) in education, creating plausible distractors is crucial for identifying students' misconceptions and gaps in knowledge and accurately assessing their understanding. However, prior studies on distractor generation have not paid sufficient attention to enhancing the difficulty of distractors, resulting in reduced effectiveness of MCQs. This study presents a pipeline for training a model to generate distractors that are more likely to be selected by students. First, we train a pairwise ranker to reason about students' misconceptions and assess the relative plausibility of two distractors. Using this model, we create a dataset of pairwise distractor ranks and then train a distractor generator via Direct Preference Optimization (DPO) to generate more plausible distractors. Experiments on computer science subjects (Python, DB, MLDL) demonstrate that our pairwise ranker effectively identifies students' potential misunderstandings and achieves ranking accuracy comparable to human experts. Furthermore, our distractor generator outperforms several baselines in generating plausible distractors and produces questions with a higher item discrimination index (DI)."
+}
+```
 
 ---
 
